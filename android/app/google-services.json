@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850443119816",
+    "project_id": "cysterease",
+    "storage_bucket": "cysterease.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850443119816:android:36c27b87483e4c347289fd",
+        "android_client_info": {
+          "package_name": "com.example.cysterease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOqDwvJz76xeoE5WX6TrgwchHbMyyVKUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
