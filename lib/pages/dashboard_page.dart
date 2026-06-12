@@ -4,6 +4,7 @@ import 'package:cysterease/pages/sleep_tracker.dart';
 import 'package:cysterease/pages/stress_management.dart';
 import 'package:cysterease/pages/diet_rules.dart';
 import 'package:cysterease/pages/workout_detail.dart';
+import 'package:cysterease/pages/periods_tracker.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -24,10 +25,8 @@ class _DashboardPageState extends State<DashboardPage> {
     _scrollController.addListener(() {
       if (_scrollController.position.pixels >=
           _scrollController.position.maxScrollExtent - 50) {
-        // Hide button near the end
         setState(() => _showMoveButton = false);
       } else {
-        // Show button again if user scrolls back
         setState(() => _showMoveButton = true);
       }
     });
@@ -137,43 +136,55 @@ class _DashboardPageState extends State<DashboardPage> {
                         );
                       },
                     ),
+                    // 🩸 NEW: Period Tracker Card
+                    _DashboardCard(
+                      imageAsset: 'assets/images/periods.png',
+                      title: 'Period Tracker',
+                      subtitle: 'Track your cycle & symptoms',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const PeriodTrackerPage()),
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
 
               const SizedBox(height: 10),
 
-              // 🔹 Move Button (scrolls the list)
-              // 🔹 Move Button (scrolls the list)
-if (_showMoveButton)
-  Align(
-    alignment: Alignment.centerRight,
-    child: ElevatedButton.icon(
-      onPressed: _scrollNext,
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.deepPurple,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(25),
-        ),
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-      ),
-      icon: const Icon(
-        Icons.arrow_forward_rounded,
-        color: Colors.white,
-        size: 22, // Bold and clear arrow
-      ),
-      label: const Text(
-        "Move",
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: 15,
-          fontWeight: FontWeight.bold,
-          letterSpacing: 0.5,
-        ),
-      ),
-    ),
-  ),
-
+              // 🔹 Move Button
+              if (_showMoveButton)
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: ElevatedButton.icon(
+                    onPressed: _scrollNext,
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(25),
+                      ),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 20, vertical: 10),
+                    ),
+                    icon: const Icon(
+                      Icons.arrow_forward_rounded,
+                      color: Colors.white,
+                      size: 22,
+                    ),
+                    label: const Text(
+                      "Move",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 0.5,
+                      ),
+                    ),
+                  ),
+                ),
 
               const SizedBox(height: 20),
 
@@ -335,7 +346,3 @@ class _ArticleCard extends StatelessWidget {
     );
   }
 }
-
-
-
-
