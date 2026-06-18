@@ -11,234 +11,317 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
   int selectedDay = 0;
 
   final List<Map<String, dynamic>> mealPlan = [
+    // ─────────────────────────────────────────
+    // DAY 1
+    // ─────────────────────────────────────────
     {
       "day": "Day 1",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "2 boiled eggs with whole wheat toast and avocado",
-          "image": "assets/images/boiledeggs.jpg",
-          "benefits": "High in protein and choline for hormonal balance.",
-          "calories": "280 kcal"
+          "food":
+              "2 whole eggs scrambled with onion, tomato & curry leaves + 2 small whole wheat dosas + 1 glass warm jeera water",
+          "image": "assets/images/egg_dosa.jpg",
+          "benefits":
+              "Eggs provide complete protein and choline for hormonal balance; whole wheat dosas give slow-release energy to prevent blood sugar spikes common in PCOS.",
+          "calories": "~355 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Grilled chicken breast, brown rice, steamed broccoli",
-          "image": "assets/images/grilledchicken.jpg",
-          "benefits": "Lean protein, low carb, aids weight loss.",
-          "calories": "450 kcal"
+          "food":
+              "Brown rice (½ cup) + Drumstick (murungakkai) sambar + Vazhaithandu (banana stem) kootu + plain curd",
+          "image": "assets/images/brown_rice_sambar.jpg",
+          "benefits":
+              "Banana stem is a natural diuretic rich in fiber that reduces PCOS-driven water retention; drumstick pods supply zinc and iron for ovarian health.",
+          "calories": "~490 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Egg white omelette with mushrooms",
-          "image": "assets/images/eggwhite.jpg",
-          "benefits": "Low-calorie protein source, supports muscle maintenance.",
-          "calories": "120 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Moong dal (pasiparuppu) sundal with grated coconut + 1 boiled egg + squeeze of lemon",
+          "image": "assets/images/moong_sundal_egg.jpg",
+          "benefits":
+              "Boiled egg's vitamin D activates progesterone receptors; moong dal's resistant starch stabilises blood sugar and curbs mid-afternoon cravings.",
+          "calories": "~195 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Baked salmon with lemon, mixed vegetables, olive oil",
-          "image": "assets/images/salmon.jpg",
-          "benefits": "Rich in omega-3, supports metabolism and heart health.",
-          "calories": "350 kcal"
+          "food":
+              "Ragi mudde (2 nos) + Keerai masiyal (spinach mash with garlic) + 1 egg curry (light gravy) + clear rasam",
+          "image": "assets/images/ragi_keerai_egg.jpg",
+          "benefits":
+              "Ragi's low glycemic index promotes overnight satiety; spinach iron + egg B12 together combat the anemia frequently seen in PCOS women.",
+          "calories": "~365 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 2
+    // ─────────────────────────────────────────
     {
       "day": "Day 2",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Egg scramble with cheese, spinach, and whole grain bread",
-          "image": "assets/images/eggscramble.jpg",
-          "benefits": "High protein, iron-rich, supports hormonal health.",
-          "calories": "320 kcal"
+          "food":
+              "Idli (3 nos) + egg bhurji (2 eggs scrambled with tomato & onion) + sambar + 1 tsp ground flax seeds sprinkled",
+          "image": "assets/images/idli_egg_bhurji.jpg",
+          "benefits":
+              "Fermented idli improves gut microbiome health; flax seeds provide lignans that directly reduce excess estrogen levels driving PCOS symptoms.",
+          "calories": "~370 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Turkey meatballs, quinoa, cucumber salad with olive oil dressing",
-          "image": "assets/images/turkey.jpg",
-          "benefits": "Lean protein, complete amino acids, aids satiety.",
-          "calories": "480 kcal"
+          "food":
+              "Thinai (foxtail millet) rice + Poricha kootu (mixed veg + coconut + cumin) + Mor kuzhambu (buttermilk curry) + raw cucumber salad",
+          "image": "assets/images/millet_rice_kootu.jpg",
+          "benefits":
+              "Foxtail millet has a low glycemic index and is rich in iron — both critical for managing the insulin resistance at the root of PCOS.",
+          "calories": "~450 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Hard-boiled eggs with sea salt and pepper",
-          "image": "assets/images/hardboiled.jpg",
-          "benefits": "Portable protein, supports stable blood sugar.",
-          "calories": "155 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "1 hard-boiled egg + roasted peanuts (small handful) + 1 cup spearmint green tea (no sugar)",
+          "image": "assets/images/egg_peanuts_tea.jpg",
+          "benefits":
+              "Spearmint tea is clinically proven to reduce free testosterone in PCOS women; peanuts provide healthy monounsaturated fats for hormone synthesis.",
+          "calories": "~190 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Grilled cod with roasted sweet potato and asparagus",
-          "image": "assets/images/cod.jpg",
-          "benefits": "Lean protein, low-GI carbs, supports digestion.",
-          "calories": "380 kcal"
+          "food":
+              "Pesarattu (green moong dal dosa, 2 nos) + 1-egg side omelette with curry leaves + ginger-mint chutney + vegetable soup",
+          "image": "assets/images/pesarattu_egg.jpg",
+          "benefits":
+              "Moong dal is high in folate supporting ovarian health; egg's B6 is critical for progesterone production in the luteal phase.",
+          "calories": "~375 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 3
+    // ─────────────────────────────────────────
     {
       "day": "Day 3",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Vegetable frittata with 3 eggs and bell peppers",
-          "image": "assets/images/frittata.jpg",
-          "benefits": "Loaded with nutrients, supports sustained energy.",
-          "calories": "240 kcal"
+          "food":
+              "Oats adai (mixed lentil + oat dosa, 2 nos) + 2 scrambled eggs with turmeric & pepper + tomato-coriander chutney",
+          "image": "assets/images/oats_adai_egg.jpg",
+          "benefits":
+              "Turmeric's curcumin has potent anti-inflammatory action that directly eases PCOS-related inflammation; oats' beta-glucan lowers LDL cholesterol.",
+          "calories": "~340 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Shrimp stir-fry with brown rice and mixed vegetables",
-          "image": "assets/images/shrimp.jpg",
-          "benefits": "Low-calorie protein, iodine for thyroid health.",
-          "calories": "420 kcal"
+          "food":
+              "Varagu (kodo millet) rice + Kathirikkai (brinjal) gothsu + Toor dal paruppu + 1 boiled egg side + plain curd",
+          "image": "assets/images/kodo_millet_gothsu.jpg",
+          "benefits":
+              "Kodo millet's phytochemicals lower cholesterol and blood sugar; egg alongside dal creates a complete amino acid profile for muscle preservation.",
+          "calories": "~480 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Egg white pudding with almonds",
-          "image": "assets/images/pudding.jpg",
-          "benefits": "High protein, low-fat, satisfying.",
-          "calories": "140 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Chia seed pudding (1 tbsp chia + coconut milk) + 1 boiled egg + roasted pumpkin seeds (1 tbsp)",
+          "image": "assets/images/chia_egg_snack.jpg",
+          "benefits":
+              "Pumpkin seeds are the richest plant source of zinc, directly suppressing ovarian androgen production; chia omega-3 reduces follicular inflammation.",
+          "calories": "~210 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Grilled chicken thighs with cauliflower rice and garlic sauce",
-          "image": "assets/images/chickthighs.jpg",
-          "benefits": "Rich in B vitamins, supports energy metabolism.",
-          "calories": "360 kcal"
+          "food":
+              "Palak egg masala (2 eggs in spinach gravy, light oil) + 2 small whole wheat phulkas + small cucumber raita",
+          "image": "assets/images/palak_egg_curry.jpg",
+          "benefits":
+              "Spinach folate and egg choline together support the methylation cycle critical for healthy hormonal signalling and ovarian function.",
+          "calories": "~395 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 4
+    // ─────────────────────────────────────────
     {
       "day": "Day 4",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Egg and cheese breakfast sandwich on whole wheat",
-          "image": "assets/images/eggsandwich.jpg",
-          "benefits": "Balanced nutrition, sustained energy release.",
-          "calories": "300 kcal"
+          "food":
+              "Kuthiraivali (barnyard millet) pongal with ghee, pepper & cumin + 2-egg side omelette with onion + warm jeera water",
+          "image": "assets/images/millet_pongal_egg.jpg",
+          "benefits":
+              "Barnyard millet is gluten-free and low glycemic; ghee provides fat-soluble vitamins A, D, E, K needed for progesterone and estrogen synthesis.",
+          "calories": "~360 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Baked chicken breast with wild rice and steamed green beans",
-          "image": "assets/images/wildrice.jpg",
-          "benefits": "High protein, fiber-rich, promotes fullness.",
-          "calories": "460 kcal"
+          "food":
+              "Brown rice (½ cup) + Pavakkai (bitter gourd) pitlai + Murungai keerai (drumstick leaves) stir fry + 1 boiled egg + buttermilk",
+          "image": "assets/images/bitter_gourd_egg_rice.jpg",
+          "benefits":
+              "Bitter gourd is clinically proven to improve insulin sensitivity — the root cause of PCOS weight gain; drumstick leaves add iron and calcium.",
+          "calories": "~465 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Boiled eggs with celery sticks and hummus",
-          "image": "assets/images/eggsnack.jpg",
-          "benefits": "Portable, nutrient-dense, low-calorie.",
-          "calories": "180 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Sprouted horse gram (kollu) sundal with onion, tomato & coriander + 1 boiled egg white",
+          "image": "assets/images/kollu_sundal_egg.jpg",
+          "benefits":
+              "Horse gram is thermogenic — it supports fat burning; egg white adds fat-free complete protein to keep the snack calorie-light and satisfying.",
+          "calories": "~178 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Pan-seared tuna with roasted vegetables and olive oil",
-          "image": "assets/images/tuna.jpg",
-          "benefits": "Omega-3 rich, supports metabolic health.",
-          "calories": "340 kcal"
+          "food":
+              "Egg keerai (spinach egg stir fry, 2 eggs) + Ragi adai (2 nos) + clear kollu (horse gram) rasam + small bowl plain curd",
+          "image": "assets/images/egg_keerai_ragi.jpg",
+          "benefits":
+              "Ragi's calcium and iron with keerai's folate and egg's B12 address the three biggest micronutrient deficiencies in PCOS women.",
+          "calories": "~355 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 5
+    // ─────────────────────────────────────────
     {
       "day": "Day 5",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "3-egg omelette with mushrooms, onions, and tomatoes",
-          "image": "assets/images/omelette.jpg",
-          "benefits": "High protein, loaded with antioxidants.",
-          "calories": "260 kcal"
+          "food":
+              "Kambu (pearl millet) dosa (2 nos) + 2-egg bhurji with grated carrot & curry leaves + kadala (black chickpea) chutney",
+          "image": "assets/images/kambu_dosa_egg.jpg",
+          "benefits":
+              "Pearl millet is highest in magnesium among millets — magnesium deficiency worsens PCOS; egg bhurji adds complete protein without extra carbs.",
+          "calories": "~350 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Grilled turkey breast, brown rice, steamed broccoli and carrots",
-          "image": "assets/images/turkeybreast.jpg",
-          "benefits": "Lean protein, low fat, supports muscle recovery.",
-          "calories": "440 kcal"
+          "food":
+              "Samai (little millet) rice + Avarakkai (broad beans) kootu + Egg masala (1 egg, light gravy) + Tomato rasam + small curd",
+          "image": "assets/images/little_millet_egg.jpg",
+          "benefits":
+              "Little millet's phosphorus and B vitamins support metabolism; broad beans are rich in plant protein that complements egg's animal protein.",
+          "calories": "~465 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Egg protein shake with Greek yogurt and berries",
-          "image": "assets/images/proteinshakeegg.jpg",
-          "benefits": "High protein, probiotic-rich, low sugar.",
-          "calories": "160 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Roasted makhana (fox nuts, 1 cup) + 1 hard-boiled egg + 1 cup cinnamon herbal tea (no sugar)",
+          "image": "assets/images/makhana_egg_tea.jpg",
+          "benefits":
+              "Cinnamon is proven to improve menstrual regularity and insulin resistance in PCOS; makhana is low-calorie and high in magnesium.",
+          "calories": "~185 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Baked salmon with quinoa and roasted Brussels sprouts",
-          "image": "assets/images/salmonquinoa.jpg",
-          "benefits": "Complete protein, omega-3, supports hormonal balance.",
-          "calories": "420 kcal"
+          "food":
+              "Vendakkai (okra) sambar + 2 whole wheat egg dosas (1 egg in batter) + raw onion-tomato chutney + small bowl curd",
+          "image": "assets/images/okra_sambar_egg_dosa.jpg",
+          "benefits":
+              "Okra is rich in soluble fiber and chromium that directly reduces the insulin resistance driving PCOS; egg dosa boosts protein density.",
+          "calories": "~372 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 6
+    // ─────────────────────────────────────────
     {
       "day": "Day 6",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Boiled eggs with whole wheat toast, butter, and herbs",
-          "image": "assets/images/toasteggs.jpg",
-          "benefits": "Simple, nutrient-dense, supports steady energy.",
-          "calories": "280 kcal"
+          "food":
+              "Methi (fenugreek) sprouted dosa (2 nos) + 2-egg white omelette with spinach & pepper + coconut chutney + warm turmeric milk",
+          "image": "assets/images/methi_dosa_egg.jpg",
+          "benefits":
+              "Sprouted fenugreek seeds contain diosgenin that mimics progesterone activity; turmeric milk reduces systemic inflammation linked to PCOS.",
+          "calories": "~365 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Grilled chicken breast, barley, steamed vegetables with lemon",
-          "image": "assets/images/barleyrice.jpg",
-          "benefits": "Complete nutrition, fiber-rich, aids digestion.",
-          "calories": "450 kcal"
+          "food":
+              "Brown rice (½ cup) + Vazha poo (banana flower) egg stir fry (1 egg) + Manathakkali keerai (black nightshade leaves) poriyal + Tomato rasam",
+          "image": "assets/images/vazha_poo_egg_rice.jpg",
+          "benefits":
+              "Banana flower regulates menstrual cycles and provides iron; manathakkali keerai reduces ovarian inflammation and supports liver hormone detox.",
+          "calories": "~475 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Scrambled eggs with spinach and feta cheese",
-          "image": "assets/images/spinacheggs.jpg",
-          "benefits": "Iron-rich, calcium-rich, supports bone health.",
-          "calories": "200 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Mixed sprouts chaat (moong + chickpea sprouts + tomato, onion, lemon, cumin) + 1 boiled egg",
+          "image": "assets/images/sprouts_egg_chaat.jpg",
+          "benefits":
+              "Sprouting increases bioavailability of zinc and folate; egg's complete protein paired with sprouts' plant protein creates a full amino acid snack.",
+          "calories": "~198 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Baked white fish with sweet potato and steamed asparagus",
-          "image": "assets/images/whitefish.jpg",
-          "benefits": "Low-calorie protein, essential minerals, supports detox.",
-          "calories": "360 kcal"
+          "food":
+              "Agathi keerai (hummingbird tree leaves) poriyal + 1 egg kootu (egg + mixed veg) + Toor dal + 1 whole wheat phulka + clear rasam",
+          "image": "assets/images/agathi_egg_dal.jpg",
+          "benefits":
+              "Agathi keerai has calcium, iron, and phytoestrogens used in traditional medicine for hormonal balance; egg adds B12 for nerve and hormone health.",
+          "calories": "~380 kcal"
         },
       ]
     },
+
+    // ─────────────────────────────────────────
+    // DAY 7
+    // ─────────────────────────────────────────
     {
       "day": "Day 7",
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Egg white scramble with bell peppers and low-fat cheese",
-          "image": "assets/images/eggwhitebellpepper.jpg",
-          "benefits": "Low calorie, high protein, aids weight loss.",
-          "calories": "180 kcal"
+          "food":
+              "2-egg vegetable uttapam (with carrot, onion, tomato, coriander) + coconut chutney + sambar + 1 glass warm jeera water",
+          "image": "assets/images/egg_uttapam.jpg",
+          "benefits":
+              "Egg-topped uttapam combines fermented carbs with complete protein for a balanced, hormone-stabilising start; jeera water improves insulin sensitivity.",
+          "calories": "~360 kcal"
         },
         {
           "type": "Lunch 🥗",
-          "food": "Grilled chicken with farro, roasted root vegetables",
-          "image": "assets/images/farro.jpg",
-          "benefits": "Protein-rich, complex carbs, sustains energy.",
-          "calories": "480 kcal"
+          "food":
+              "Thinai (foxtail millet) bisibelabath with mixed vegetables + 1 boiled egg side + papad + small cucumber raita",
+          "image": "assets/images/millet_bisibelebath_egg.jpg",
+          "benefits":
+              "A one-pot millet + lentil meal provides a complete amino acid profile with low glycemic load; egg adds vitamin D for insulin receptor activation.",
+          "calories": "~478 kcal"
         },
         {
-          "type": "Snack ☕",
-          "food": "Boiled eggs with herbs and sea salt",
-          "image": "assets/images/herbseggs.jpg",
-          "benefits": "Antioxidant-rich, supports metabolism.",
-          "calories": "155 kcal"
+          "type": "Snack 🥜",
+          "food":
+              "Chia seed + coconut milk mini pudding + 1 boiled egg + 2-3 pieces fresh coconut + roasted pumpkin seeds",
+          "image": "assets/images/chia_egg_coconut.jpg",
+          "benefits":
+              "Chia omega-3 and egg DHA together maximise anti-inflammatory support for PCOS ovaries; coconut's medium-chain fats support progesterone production.",
+          "calories": "~215 kcal"
         },
         {
           "type": "Dinner 🍛",
-          "food": "Grilled lamb with mint, quinoa, and roasted vegetables",
-          "image": "assets/images/lamb.jpg",
-          "benefits": "Rich in iron and B vitamins, supports energy.",
-          "calories": "420 kcal"
+          "food":
+              "Pesarattu (2 moong dal dosas) + 1-egg keerai (spinach) omelette + Kollu (horse gram) rasam + small plain curd bowl",
+          "image": "assets/images/pesarattu_egg_keerai.jpg",
+          "benefits":
+              "A light, protein-rich dinner combining plant and egg protein promotes overnight fat burning while horse gram rasam is thermogenic and reduces water retention.",
+          "calories": "~372 kcal"
         },
       ]
     },
@@ -247,18 +330,49 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber[50],
+      backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        title: const Text("7-Day Weight Loss (Egg & Chicken)",
-            style: TextStyle(color: Colors.white, fontSize: 18)),
-        backgroundColor: Colors.amber[700],
+        title: const Text(
+          "7-Day Weight Loss (Eggitarian)",
+          style: TextStyle(color: Colors.white, fontSize: 18),
+        ),
+        backgroundColor: Colors.deepPurple,
         centerTitle: true,
       ),
       body: Column(
         children: [
+          // ── Info Banner ───────────────────────────────
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.fromLTRB(14, 12, 14, 0),
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+            decoration: BoxDecoration(
+              color: Colors.deepPurple.shade50,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: Colors.deepPurple.shade200),
+            ),
+            child: Row(
+              children: [
+                Icon(Icons.info_outline,
+                    color: Colors.deepPurple.shade700, size: 20),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    "Tamil eggitarian meals · No meat/fish · PCOS-friendly · Low GI · Anti-inflammatory",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.deepPurple.shade800,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
           const SizedBox(height: 10),
 
-          // 🔹 Horizontal Scrollable Day Selector
+          // ── Horizontal Day Selector ───────────────────
           SizedBox(
             height: 50,
             child: ListView.builder(
@@ -272,24 +386,37 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
                   child: AnimatedContainer(
                     duration: const Duration(milliseconds: 250),
                     margin: const EdgeInsets.symmetric(horizontal: 6),
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 18, vertical: 10),
                     decoration: BoxDecoration(
-                      color: isSelected ? Colors.amber[700] : Colors.white,
+                      color: isSelected ? Colors.deepPurple : Colors.white,
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(
                         color: isSelected
-                            ? Colors.amber[700]!
-                            : Colors.amber.shade200,
+                            ? Colors.deepPurple
+                            : Colors.deepPurple.shade200,
                       ),
+                      boxShadow: isSelected
+                          ? [
+                              BoxShadow(
+                                color: Colors.deepPurple.withOpacity(0.35),
+                                blurRadius: 6,
+                                offset: const Offset(0, 3),
+                              )
+                            ]
+                          : [],
                     ),
                     child: Center(
                       child: Text(
                         mealPlan[index]['day'],
                         style: TextStyle(
-                          color: isSelected ? Colors.white : Colors.amber[800],
-                          fontWeight:
-                              isSelected ? FontWeight.bold : FontWeight.w500,
+                          color: isSelected
+                              ? Colors.white
+                              : Colors.deepPurple[800],
+                          fontWeight: isSelected
+                              ? FontWeight.bold
+                              : FontWeight.w500,
+                          fontSize: 13,
                         ),
                       ),
                     ),
@@ -299,9 +426,9 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
             ),
           ),
 
-          const SizedBox(height: 10),
+          const SizedBox(height: 8),
 
-          // 🍽️ Meal Cards for Selected Day
+          // ── Meal Cards ────────────────────────────────
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(horizontal: 14),
@@ -319,12 +446,19 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(meal['type'],
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
-                                color: Colors.amber[700])),
+                        // Meal Type Label
+                        Text(
+                          meal['type'],
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                            color: Colors.deepPurple,
+                          ),
+                        ),
+
                         const SizedBox(height: 8),
+
+                        // Food Image with fallback
                         ClipRRect(
                           borderRadius: BorderRadius.circular(14),
                           child: Image.asset(
@@ -332,21 +466,82 @@ class _WeightLossEggPageState extends State<WeightLossEggPage> {
                             height: 160,
                             width: double.infinity,
                             fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) =>
+                                Container(
+                              height: 160,
+                              width: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Colors.deepPurple.shade50,
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              child: Icon(
+                                Icons.restaurant,
+                                size: 60,
+                                color: Colors.deepPurple.shade200,
+                              ),
+                            ),
                           ),
                         ),
+
                         const SizedBox(height: 10),
-                        Text(meal['food'],
+
+                        // Food Name
+                        Text(
+                          meal['food'],
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                            height: 1.4,
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Calories Badge
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.deepPurple,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            "🔥 ${meal['calories']}",
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.w600)),
-                        const SizedBox(height: 6),
-                        Text(meal['benefits'],
-                            style: const TextStyle(
-                                color: Colors.black87, fontSize: 14)),
-                        const SizedBox(height: 6),
-                        Text("Calories: ${meal['calories']}",
-                            style: TextStyle(
-                                color: Colors.amber[700],
-                                fontWeight: FontWeight.w600)),
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 13,
+                            ),
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Divider
+                        Divider(
+                            color: Colors.deepPurple.shade100, height: 1),
+
+                        const SizedBox(height: 8),
+
+                        // Benefits
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.favorite,
+                                color: Colors.deepPurple, size: 16),
+                            const SizedBox(width: 6),
+                            Expanded(
+                              child: Text(
+                                meal['benefits'],
+                                style: const TextStyle(
+                                  color: Colors.black87,
+                                  fontSize: 13,
+                                  height: 1.5,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),

@@ -162,7 +162,7 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
         },
         {
           "type": "Snack ☕",
-          "food": "Plain Greek yogurt,topped with fruit for sweetness",
+          "food": "Plain Greek yogurt, topped with fruit for sweetness",
           "image": "assets/images/yogurt.jpg",
           "benefits": "High protein, probiotic-rich, boosts gut health",
           "calories": "180 kcal"
@@ -249,16 +249,47 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        title: const Text("7-Day Weight Loss (Vegetarian)",
-            style: TextStyle(color: Colors.white, fontSize: 18)),
+        title: const Text(
+          "7-Day Weight Loss (Vegetarian)",
+          style: TextStyle(color: Colors.white, fontSize: 18),
+        ),
         backgroundColor: Colors.deepPurple,
         centerTitle: true,
       ),
       body: Column(
         children: [
+          // ── Info Banner ───────────────────────────────
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.fromLTRB(14, 12, 14, 0),
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+            decoration: BoxDecoration(
+              color: Colors.deepPurple.shade50,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: Colors.deepPurple.shade200),
+            ),
+            child: Row(
+              children: [
+                Icon(Icons.info_outline,
+                    color: Colors.deepPurple.shade700, size: 20),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    "Pure vegetarian meals · PCOS-friendly · Low GI · Anti-inflammatory",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.deepPurple.shade800,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
           const SizedBox(height: 10),
 
-          // 🔹 Horizontal Scrollable Day Selector
+          // ── Horizontal Day Selector ───────────────────
           SizedBox(
             height: 50,
             child: ListView.builder(
@@ -272,8 +303,8 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
                   child: AnimatedContainer(
                     duration: const Duration(milliseconds: 250),
                     margin: const EdgeInsets.symmetric(horizontal: 6),
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 18, vertical: 10),
                     decoration: BoxDecoration(
                       color: isSelected ? Colors.deepPurple : Colors.white,
                       borderRadius: BorderRadius.circular(30),
@@ -282,15 +313,27 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
                             ? Colors.deepPurple
                             : Colors.deepPurple.shade200,
                       ),
+                      boxShadow: isSelected
+                          ? [
+                              BoxShadow(
+                                color: Colors.deepPurple.withOpacity(0.35),
+                                blurRadius: 6,
+                                offset: const Offset(0, 3),
+                              )
+                            ]
+                          : [],
                     ),
                     child: Center(
                       child: Text(
                         mealPlan[index]['day'],
                         style: TextStyle(
-                          color:
-                              isSelected ? Colors.white : Colors.deepPurple[800],
-                          fontWeight:
-                              isSelected ? FontWeight.bold : FontWeight.w500,
+                          color: isSelected
+                              ? Colors.white
+                              : Colors.deepPurple[800],
+                          fontWeight: isSelected
+                              ? FontWeight.bold
+                              : FontWeight.w500,
+                          fontSize: 13,
                         ),
                       ),
                     ),
@@ -300,9 +343,9 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
             ),
           ),
 
-          const SizedBox(height: 10),
+          const SizedBox(height: 8),
 
-          // 🍽️ Meal Cards for Selected Day
+          // ── Meal Cards ────────────────────────────────
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(horizontal: 14),
@@ -320,12 +363,19 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(meal['type'],
-                            style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
-                                color: Colors.deepPurple)),
+                        // Meal Type Label
+                        Text(
+                          meal['type'],
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                            color: Colors.deepPurple,
+                          ),
+                        ),
+
                         const SizedBox(height: 8),
+
+                        // Food Image
                         ClipRRect(
                           borderRadius: BorderRadius.circular(14),
                           child: Image.asset(
@@ -333,21 +383,82 @@ class _WeightLossVegPageState extends State<WeightLossVegPage> {
                             height: 160,
                             width: double.infinity,
                             fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) =>
+                                Container(
+                              height: 160,
+                              width: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Colors.deepPurple.shade50,
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              child: Icon(
+                                Icons.restaurant,
+                                size: 60,
+                                color: Colors.deepPurple.shade200,
+                              ),
+                            ),
                           ),
                         ),
+
                         const SizedBox(height: 10),
-                        Text(meal['food'],
+
+                        // Food Name
+                        Text(
+                          meal['food'],
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                            height: 1.4,
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Calories Badge
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.deepPurple,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            "🔥 ${meal['calories']}",
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.w600)),
-                        const SizedBox(height: 6),
-                        Text(meal['benefits'],
-                            style: const TextStyle(
-                                color: Colors.black87, fontSize: 14)),
-                        const SizedBox(height: 6),
-                        Text("Calories: ${meal['calories']}",
-                            style: const TextStyle(
-                                color: Colors.deepPurple,
-                                fontWeight: FontWeight.w600)),
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 13,
+                            ),
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Divider
+                        Divider(
+                            color: Colors.deepPurple.shade100, height: 1),
+
+                        const SizedBox(height: 8),
+
+                        // Benefits
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.favorite,
+                                color: Colors.deepPurple, size: 16),
+                            const SizedBox(width: 6),
+                            Expanded(
+                              child: Text(
+                                meal['benefits'],
+                                style: const TextStyle(
+                                  color: Colors.black87,
+                                  fontSize: 13,
+                                  height: 1.5,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),

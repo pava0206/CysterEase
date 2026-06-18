@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'dart:ui';
+import 'package:flutter/material.dart';
 import 'login.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -12,7 +12,7 @@ class WelcomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // 🌈 Gradient background
+          // Gradient background
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -27,7 +27,7 @@ class WelcomePage extends StatelessWidget {
             ),
           ),
 
-          // ✨ Glow orbs
+          // Glow orbs
           Positioned(
             top: -size.width * 0.4,
             right: -size.width * 0.2,
@@ -39,11 +39,12 @@ class WelcomePage extends StatelessWidget {
             child: _buildGlowOrb(Colors.purple.withOpacity(0.2)),
           ),
 
-          // 🌸 Glass area
+          // Glass card
           Center(
             child: SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 40),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 28, vertical: 40),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(40),
                   child: BackdropFilter(
@@ -70,27 +71,27 @@ class WelcomePage extends StatelessWidget {
                         children: [
                           const SizedBox(height: 25),
 
-                          // 🩵 Logo
+                          // Logo
                           Hero(
-                            tag: "app_logo",
+                            tag: 'app_logo',
                             child: Image.asset(
-                              "assets/images/logo.png",
+                              'assets/images/logo.png',
                               height: size.height * 0.12,
                             ),
                           ),
 
                           const SizedBox(height: 10),
 
-                          // 🖼️ Illustration — bigger + rounded + fully visible
+                          // Illustration
                           Container(
                             margin: const EdgeInsets.symmetric(
                                 horizontal: 20, vertical: 15),
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(35), // smoother round
+                              borderRadius: BorderRadius.circular(35),
                               boxShadow: [
                                 BoxShadow(
-                                  color:
-                                      Colors.deepPurpleAccent.withOpacity(0.25),
+                                  color: Colors.deepPurpleAccent
+                                      .withOpacity(0.25),
                                   blurRadius: 20,
                                   offset: const Offset(0, 8),
                                 ),
@@ -99,11 +100,11 @@ class WelcomePage extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(35),
                               child: SizedBox(
-                                width: size.width * 0.85, // wider image
-                                height: size.height * 0.32, // taller image
+                                width: size.width * 0.85,
+                                height: size.height * 0.32,
                                 child: Image.asset(
-                                  "assets/images/wecome.jpeg",
-                                  fit: BoxFit.contain, // show full image
+                                  'assets/images/wecome.jpeg',
+                                  fit: BoxFit.contain,
                                 ),
                               ),
                             ),
@@ -111,9 +112,8 @@ class WelcomePage extends StatelessWidget {
 
                           const SizedBox(height: 25),
 
-                          // App Name
                           const Text(
-                            "CysterEase",
+                            'CysterEase',
                             style: TextStyle(
                               fontSize: 40,
                               fontWeight: FontWeight.bold,
@@ -125,7 +125,6 @@ class WelcomePage extends StatelessWidget {
 
                           const SizedBox(height: 8),
 
-                          // Tagline
                           Text(
                             'Your PCOD & PCOS Care Companion',
                             style: TextStyle(
@@ -139,16 +138,16 @@ class WelcomePage extends StatelessWidget {
 
                           const SizedBox(height: 16),
 
-                          // Description
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 25),
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 25),
                             child: Text(
-                              "Balance your body 🌿\nBalance your life 💜\nTrack your diet, workouts, sleep, and stress — effortlessly.",
+                              'Balance your body 🌿\nBalance your life 💜\nTrack your diet, workouts, sleep, and stress — effortlessly.',
                               style: TextStyle(
                                 fontSize: 15.5,
                                 height: 1.6,
-                                color: Colors.deepPurple.shade900
-                                    .withOpacity(0.85),
+                                color:
+                                    Colors.deepPurple.shade900.withOpacity(0.85),
                               ),
                               textAlign: TextAlign.center,
                             ),
@@ -156,7 +155,7 @@ class WelcomePage extends StatelessWidget {
 
                           const SizedBox(height: 40),
 
-                          // 🌟 Glowing “Start Journey” button
+                          // CTA button
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(40),
@@ -182,14 +181,14 @@ class WelcomePage extends StatelessWidget {
                                 Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const LoginPage()),
+                                      builder: (_) => const LoginPage()),
                                 );
                               },
-                              child: Row(
+                              child: const Row(
                                 mainAxisSize: MainAxisSize.min,
-                                children: const [
+                                children: [
                                   Text(
-                                    "Start Your Journey",
+                                    'Start Your Journey',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 19,
@@ -197,7 +196,7 @@ class WelcomePage extends StatelessWidget {
                                       letterSpacing: 0.8,
                                     ),
                                   ),
-                                  SizedBox(width:10),
+                                  SizedBox(width: 10),
                                   Icon(Icons.arrow_forward_rounded,
                                       color: Colors.white),
                                 ],
@@ -219,7 +218,6 @@ class WelcomePage extends StatelessWidget {
     );
   }
 
-  // 🌕 Helper: glowing orb
   Widget _buildGlowOrb(Color color) {
     return Container(
       height: 300,

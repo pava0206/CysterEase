@@ -132,7 +132,67 @@ flutter:
     - assets/images/yoga.png
     - assets/images/strength.png
     - assets/images/periods.png
-    
+    - assets/images/egg_dosa.jpg
+    - assets/images/brown_rice_sambar.jpg
+    - assets/images/egg_dosa.jpg
+    - assets/images/brown_rice_sambar.jpg
+    - assets/images/moong_sundal_egg.jpg
+    - assets/images/ragi_keerai_egg.jpg
+    - assets/images/idli_egg_bhurji.jpg
+    - assets/images/millet_rice_kootu.jpg
+    - assets/images/egg_peanuts_tea.jpg
+    - assets/images/pesarattu_egg.jpg
+    - assets/images/oats_adai_egg.jpg
+    - assets/images/kodo_millet_gothsu.jpg
+    - assets/images/chia_egg_snack.jpg
+    - assets/images/palak_egg_curry.jpg
+    - assets/images/millet_pongal_egg.jpg
+    - assets/images/bitter_gourd_egg_rice.jpg
+    - assets/images/kollu_sundal_egg.jpg
+    - assets/images/egg_keerai_ragi.jpg
+    - assets/images/kambu_dosa_egg.jpg
+    - assets/images/little_millet_egg.jpg
+    - assets/images/makhana_egg_tea.jpg
+    - assets/images/okra_sambar_egg_dosa.jpg
+    - assets/images/methi_dosa_egg.jpg
+    - assets/images/vazha_poo_egg_rice.jpg
+    - assets/images/sprouts_egg_chaat.jpg
+    - assets/images/agathi_egg_dal.jpg
+    - assets/images/egg_uttapam.jpg
+    - assets/images/millet_bisibelebath_egg.jpg
+    - assets/images/chia_egg_coconut.jpg
+    - assets/images/pesarattu_egg_keerai.jpg
+    - assets/images/keema.jpg
+    - assets/images/tandoori.jpg
+    - assets/images/shrimp.jpg
+    - assets/images/fishfry.jpg
+    - assets/images/chickenspin.jpg
+    - assets/images/mutton.jpg
+    - assets/images/kebab.jpg
+    - assets/images/pomfret.jpg
+    - assets/images/sausage.jpg
+    - assets/images/buttarchicken.jpg
+    - assets/images/grilledchicken.jpg
+    - assets/images/salmon.jpg
+    - assets/images/roti.jpg
+    - assets/images/crab.jpg
+    - assets/images/wings.jpg
+    - assets/images/tuna.jpg
+    - assets/images/dhaba.jpg
+    - assets/images/mustardfish.jpg
+    - assets/images/chicken.jpg
+    - assets/images/herbchicken.jpg
+    - assets/images/prawn.jpg
+    - assets/images/tikka.jpg
+    - assets/images/pakora.jpg
+    - assets/images/lambmint.jpg
+    - assets/images/dhokla.jpg
+    - assets/images/spicedchicken.jpg
+    - assets/images/meatballs.jpg
+    - assets/images/whitefish.jpg
+    # The following image assets were removed from the list because the files
+    # do not exist in the repository. Add them back if/when the files are
+    # created at the specified paths.
 
      
   #   - images/a_dot_ham.jpeg

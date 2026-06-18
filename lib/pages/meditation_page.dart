@@ -1,7 +1,20 @@
+// lib/pages/meditation_page.dart
+//
+// REWRITE: the calm breathing-circle experience now doubles as a gentle
+// rhythm game. The circle still expands/contracts exactly as before for
+// inhale/hold/exhale — nothing about the calming visual changes. What's
+// new: during inhale/exhale, the user taps a "Follow" button in rhythm
+// with the circle's growth. Tapping at the right moments builds an
+// accuracy score, which becomes XP/coins at the end. Users who just want
+// to breathe without playing can ignore the tap prompt entirely — scoring
+// only counts taps that happen, it never penalizes inaction harshly.
+
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'dart:async';
-import 'dart:math';
+import 'stress_service.dart';
+import 'mood_checkin.dart';
+import 'stress_management.dart' show showActivityReward;
 
 class MeditationPage extends StatefulWidget {
   const MeditationPage({super.key});
@@ -30,6 +43,19 @@ class _MeditationPageState extends State<MeditationPage>
   int _currentStep = 0; // 0 = inhale, 1 = hold, 2 = exhale
   String _timerText = "02:00";
 
+  int? _moodBefore;
+
+  // ── Rhythm scoring ──────────────────────────────────────────────────
+  // Each breathing phase has a "sweet spot" window near its midpoint.
+  // A tap landing inside that window scores high; outside scores lower.
+  // We never punish *not* tapping — score is purely additive.
+  int _rhythmHits = 0;
+  int _rhythmAttempts = 0;
+  int _scoreTotal = 0; // sum of per-tap accuracy (0-100 each)
+  bool _canTapNow = false;
+  DateTime? _phaseStartTime;
+  int _currentPhaseDuration = 4;
+
   @override
   void initState() {
     super.initState();
@@ -44,6 +70,15 @@ class _MeditationPageState extends State<MeditationPage>
     _sizeAnim = Tween<double>(begin: 150, end: 250).animate(
       CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
     );
+
+    _promptBeforeMood();
+  }
+
+  Future<void> _promptBeforeMood() async {
+    await Future.delayed(const Duration(milliseconds: 400));
+    if (!mounted) return;
+    final mood = await showMoodPicker(context, prompt: 'How are you feeling right now?');
+    if (mounted) setState(() => _moodBefore = mood);
   }
 
   @override
@@ -60,20 +95,49 @@ class _MeditationPageState extends State<MeditationPage>
       _isPaused = false;
       _remainingSeconds = totalSessionSeconds;
       _timerText = _formatTime(_remainingSeconds);
+      _rhythmHits = 0;
+      _rhythmAttempts = 0;
+      _scoreTotal = 0;
     });
     _runBreathingCycle();
     _startTimer();
   }
 
-  void _stopSession() {
+  Future<void> _stopSession({bool completed = false}) async {
     _controller.reset();
     _timer?.cancel();
     setState(() {
       _sessionRunning = false;
       _isPaused = false;
       _currentStep = 0;
+      _canTapNow = false;
       _timerText = _formatTime(totalSessionSeconds);
     });
+
+    if (completed) {
+      await _finishSession();
+    }
+  }
+
+  Future<void> _finishSession() async {
+    final accuracy = _scoreTotal == 0 || _rhythmAttempts == 0
+        ? 50 // baseline score for pure-breathing sessions with no taps
+        : (_scoreTotal / _rhythmAttempts).round();
+
+    final moodAfter = await showMoodPicker(context, prompt: 'How do you feel now?');
+    if (moodAfter != null && _moodBefore != null) {
+      await StressService.instance.logMood(
+        moodBefore: _moodBefore!,
+        moodAfter: moodAfter,
+        activity: 'Breathing Journey',
+      );
+    }
+
+    final result = await StressService.instance.completeBreathingSession(
+      accuracyScore: accuracy,
+    );
+    if (!mounted) return;
+    await showActivityReward(context, result);
   }
 
   void _togglePauseResume() {
@@ -89,21 +153,95 @@ class _MeditationPageState extends State<MeditationPage>
 
   void _runBreathingCycle() async {
     while (_sessionRunning && !_isPaused) {
-      setState(() => _currentStep = 0);
+      setState(() {
+        _currentStep = 0;
+        _currentPhaseDuration = inhaleDuration;
+      });
+      _armRhythmWindow(inhaleDuration);
       await _controller.animateTo(1,
           duration: Duration(seconds: inhaleDuration),
           curve: Curves.easeInOut);
+      _canTapNow = false;
 
       if (!_sessionRunning || _isPaused) return;
       setState(() => _currentStep = 1);
       await Future.delayed(Duration(seconds: holdDuration));
 
       if (!_sessionRunning || _isPaused) return;
-      setState(() => _currentStep = 2);
+      setState(() {
+        _currentStep = 2;
+        _currentPhaseDuration = exhaleDuration;
+      });
+      _armRhythmWindow(exhaleDuration);
       await _controller.animateBack(0,
           duration: Duration(seconds: exhaleDuration),
           curve: Curves.easeInOut);
+      _canTapNow = false;
     }
+  }
+
+  /// Opens the tappable window for the current phase. The "ideal" tap
+  /// moment is the midpoint of the phase — tapping exactly there scores
+  /// 100, tapering off toward the edges.
+  void _armRhythmWindow(int durationSeconds) {
+    _phaseStartTime = DateTime.now();
+    setState(() => _canTapNow = true);
+  }
+
+  void _onRhythmTap() {
+    if (!_canTapNow || _phaseStartTime == null) return;
+    final elapsed = DateTime.now().difference(_phaseStartTime!).inMilliseconds;
+    final phaseMs = _currentPhaseDuration * 1000;
+    final midpoint = phaseMs / 2;
+    final distance = (elapsed - midpoint).abs();
+    // Score 100 at the midpoint, tapering to ~20 at the edges.
+    final accuracy = (100 - (distance / midpoint) * 80).clamp(20, 100).round();
+
+    setState(() {
+      _rhythmAttempts++;
+      _scoreTotal += accuracy;
+      if (accuracy >= 70) _rhythmHits++;
+      _canTapNow = false; // one scored tap per phase
+    });
+
+    _showTapFeedback(accuracy);
+  }
+
+  void _showTapFeedback(int accuracy) {
+    final label = accuracy >= 90
+        ? 'Perfect!'
+        : accuracy >= 70
+            ? 'Great'
+            : accuracy >= 50
+                ? 'Good'
+                : 'Okay';
+    final overlay = Overlay.of(context);
+    final entry = OverlayEntry(
+      builder: (context) => Positioned(
+        top: 140,
+        left: 0,
+        right: 0,
+        child: Center(
+          child: AnimatedOpacity(
+            opacity: 1,
+            duration: const Duration(milliseconds: 200),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              decoration: BoxDecoration(
+                color: Colors.deepPurple.withOpacity(0.9),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                '$label +$accuracy',
+                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    overlay.insert(entry);
+    Future.delayed(const Duration(milliseconds: 700), () => entry.remove());
   }
 
   void _startTimer() {
@@ -116,7 +254,7 @@ class _MeditationPageState extends State<MeditationPage>
         });
       } else {
         timer.cancel();
-        _stopSession();
+        _stopSession(completed: true);
       }
     });
   }
@@ -177,7 +315,7 @@ class _MeditationPageState extends State<MeditationPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('2-Min Meditation'),
+        title: const Text('Breathing Journey'),
         backgroundColor: Colors.deepPurple,
         actions: [
           IconButton(
@@ -204,6 +342,19 @@ class _MeditationPageState extends State<MeditationPage>
                     fontWeight: FontWeight.bold,
                     color: Colors.deepPurple,
                     letterSpacing: 0.6,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: Colors.deepPurple.withOpacity(0.08),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    'Tap "Follow" in rhythm with the circle for bonus points — or just breathe, no pressure 🌿',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 12, color: Colors.deepPurple.shade400),
                   ),
                 ),
                 const SizedBox(height: 14),
@@ -286,55 +437,78 @@ class _MeditationPageState extends State<MeditationPage>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    AnimatedBuilder(
-                      animation: _sizeAnim,
-                      builder: (context, child) {
-                        double circleSize = _sizeAnim.value;
-                        if (_currentStep == 1) circleSize = 240;
+                    if (_sessionRunning)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 12),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.bolt_rounded, color: Colors.amber.shade700, size: 18),
+                            const SizedBox(width: 4),
+                            Text(
+                              'Score: $_scoreTotal',
+                              style: TextStyle(
+                                  color: Colors.deepPurple.shade700,
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 14),
+                            ),
+                          ],
+                        ),
+                      ),
+                    GestureDetector(
+                      onTap: _canTapNow ? _onRhythmTap : null,
+                      child: AnimatedBuilder(
+                        animation: _sizeAnim,
+                        builder: (context, child) {
+                          double circleSize = _sizeAnim.value;
+                          if (_currentStep == 1) circleSize = 240;
 
-                        return AnimatedContainer(
-                          duration: const Duration(milliseconds: 500),
-                          height: circleSize,
-                          width: circleSize,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            gradient: LinearGradient(
-                              colors: [
-                                Colors.deepPurpleAccent.shade100,
-                                Colors.deepPurple.shade400
+                          return AnimatedContainer(
+                            duration: const Duration(milliseconds: 500),
+                            height: circleSize,
+                            width: circleSize,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              gradient: LinearGradient(
+                                colors: _canTapNow
+                                    ? [Colors.amber.shade200, Colors.deepPurple.shade400]
+                                    : [
+                                        Colors.deepPurpleAccent.shade100,
+                                        Colors.deepPurple.shade400
+                                      ],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.deepPurple.withOpacity(0.4),
+                                  blurRadius: 25,
+                                  spreadRadius: 6,
+                                  offset: const Offset(0, 8),
+                                ),
                               ],
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight,
                             ),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.deepPurple.withOpacity(0.4),
-                                blurRadius: 25,
-                                spreadRadius: 6,
-                                offset: const Offset(0, 8),
-                              ),
-                            ],
-                          ),
-                          child: Center(
-                            child: Text(
-                              _sessionRunning
-                                  ? (_currentStep == 0
-                                      ? 'Inhale 🌬️'
-                                      : (_currentStep == 1
-                                          ? 'Hold ✨'
-                                          : 'Exhale 🌿'))
-                                  : 'Ready 🧘‍♀️',
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 26,
-                                fontWeight: FontWeight.w800,
-                                letterSpacing: 0.5,
+                            child: Center(
+                              child: Text(
+                                _sessionRunning
+                                    ? (_currentStep == 0
+                                        ? (_canTapNow ? 'Follow 👆' : 'Inhale 🌬️')
+                                        : (_currentStep == 1
+                                            ? 'Hold ✨'
+                                            : (_canTapNow ? 'Follow 👆' : 'Exhale 🌿')))
+                                    : 'Ready 🧘‍♀️',
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 26,
+                                  fontWeight: FontWeight.w800,
+                                  letterSpacing: 0.5,
+                                ),
                               ),
                             ),
-                          ),
-                        );
-                      },
+                          );
+                        },
+                      ),
                     ),
                     const SizedBox(height: 35),
                     Text(
@@ -371,11 +545,11 @@ class _MeditationPageState extends State<MeditationPage>
                           ),
                           const SizedBox(width: 12),
                           OutlinedButton.icon(
-                            onPressed: _stopSession,
+                            onPressed: () => _stopSession(completed: true),
                             icon: const Icon(
                                 Icons.stop, color: Colors.deepPurpleAccent),
                             label: const Text(
-                              'Stop',
+                              'Finish',
                               style: TextStyle(color: Colors.deepPurpleAccent),
                             ),
                             style: OutlinedButton.styleFrom(

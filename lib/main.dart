@@ -20,10 +20,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
       title: 'CysterEase',
 
-      // ✅ Prevents zoomed/overflow UI issues
+      // Prevents zoomed/overflow UI issues
       builder: (context, child) {
         return MediaQuery(
           data: MediaQuery.of(context).copyWith(
@@ -35,7 +34,6 @@ class MyApp extends StatelessWidget {
 
       theme: ThemeData(
         useMaterial3: true,
-
         fontFamily: 'Poppins',
 
         colorScheme: ColorScheme.fromSeed(
@@ -54,9 +52,7 @@ class MyApp extends StatelessWidget {
             fontSize: 22,
             fontWeight: FontWeight.bold,
           ),
-          iconTheme: IconThemeData(
-            color: Color(0xFF8B5CF6),
-          ),
+          iconTheme: IconThemeData(color: Color(0xFF8B5CF6)),
         ),
 
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -68,42 +64,27 @@ class MyApp extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(18),
             ),
-            padding: const EdgeInsets.symmetric(
-              horizontal: 20,
-              vertical: 16,
-            ),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
           ),
         ),
 
         inputDecorationTheme: InputDecorationTheme(
           filled: true,
           fillColor: Colors.white,
-
-          contentPadding: const EdgeInsets.symmetric(
-            horizontal: 18,
-            vertical: 16,
-          ),
-
-          hintStyle: const TextStyle(
-            color: Color(0xFF9E8FB2),
-          ),
-
+          contentPadding:
+              const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+          hintStyle: const TextStyle(color: Color(0xFF9E8FB2)),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(18),
             borderSide: BorderSide.none,
           ),
-
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(18),
             borderSide: BorderSide.none,
           ),
-
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(18),
-            borderSide: const BorderSide(
-              color: Color(0xFF8B5CF6),
-              width: 1.5,
-            ),
+            borderSide: const BorderSide(color: Color(0xFF8B5CF6), width: 1.5),
           ),
         ),
 

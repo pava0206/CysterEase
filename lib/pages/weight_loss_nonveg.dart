@@ -115,8 +115,8 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
       "meals": [
         {
           "type": "Breakfast 🍳",
-          "food": "Chicken and vegetable biryani (brown rice, reduced oil)",
-          "image": "assets/images/biryani.jpg",
+          "food": "Chicken pepper gravy and 2 whole wheat rotis",
+          "image": "assets/images/roti.jpg",
           "benefits": "Complete nutrition, aromatic spices support digestion.",
           "calories": "420 kcal"
         },
@@ -162,8 +162,8 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
         },
         {
           "type": "Snack ☕",
-          "food": "Duck breast slices with ginger sauce",
-          "image": "assets/images/duck.jpg",
+          "food": "Chicken breast slices with ginger sauce",
+          "image": "assets/images/chicken.jpg",
           "benefits": "Iron-rich, supports energy and hormone production.",
           "calories": "150 kcal"
         },
@@ -247,18 +247,49 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[50],
+      backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        title: const Text("7-Day Weight Loss (Non-Vegetarian)",
-            style: TextStyle(color: Colors.white, fontSize: 18)),
-        backgroundColor: Colors.red[700],
+        title: const Text(
+          "7-Day Weight Loss (Non-Vegetarian)",
+          style: TextStyle(color: Colors.white, fontSize: 18),
+        ),
+        backgroundColor: Colors.deepPurple,
         centerTitle: true,
       ),
       body: Column(
         children: [
+          // ── Info Banner ───────────────────────────────
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.fromLTRB(14, 12, 14, 0),
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+            decoration: BoxDecoration(
+              color: Colors.deepPurple.shade50,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: Colors.deepPurple.shade200),
+            ),
+            child: Row(
+              children: [
+                Icon(Icons.info_outline,
+                    color: Colors.deepPurple.shade700, size: 20),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    "High-protein non-veg meals · PCOS-friendly · Low GI · Anti-inflammatory",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.deepPurple.shade800,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
           const SizedBox(height: 10),
 
-          // 🔹 Horizontal Scrollable Day Selector
+          // ── Horizontal Day Selector ───────────────────
           SizedBox(
             height: 50,
             child: ListView.builder(
@@ -272,24 +303,37 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
                   child: AnimatedContainer(
                     duration: const Duration(milliseconds: 250),
                     margin: const EdgeInsets.symmetric(horizontal: 6),
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 18, vertical: 10),
                     decoration: BoxDecoration(
-                      color: isSelected ? Colors.red[700] : Colors.white,
+                      color: isSelected ? Colors.deepPurple : Colors.white,
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(
                         color: isSelected
-                            ? Colors.red[700]!
-                            : Colors.red.shade200,
+                            ? Colors.deepPurple
+                            : Colors.deepPurple.shade200,
                       ),
+                      boxShadow: isSelected
+                          ? [
+                              BoxShadow(
+                                color: Colors.deepPurple.withOpacity(0.35),
+                                blurRadius: 6,
+                                offset: const Offset(0, 3),
+                              )
+                            ]
+                          : [],
                     ),
                     child: Center(
                       child: Text(
                         mealPlan[index]['day'],
                         style: TextStyle(
-                          color: isSelected ? Colors.white : Colors.red[800],
-                          fontWeight:
-                              isSelected ? FontWeight.bold : FontWeight.w500,
+                          color: isSelected
+                              ? Colors.white
+                              : Colors.deepPurple[800],
+                          fontWeight: isSelected
+                              ? FontWeight.bold
+                              : FontWeight.w500,
+                          fontSize: 13,
                         ),
                       ),
                     ),
@@ -299,9 +343,9 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
             ),
           ),
 
-          const SizedBox(height: 10),
+          const SizedBox(height: 8),
 
-          // 🍽️ Meal Cards for Selected Day
+          // ── Meal Cards ────────────────────────────────
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(horizontal: 14),
@@ -319,12 +363,19 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(meal['type'],
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
-                                color: Colors.red[700])),
+                        // Meal Type Label
+                        Text(
+                          meal['type'],
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                            color: Colors.deepPurple,
+                          ),
+                        ),
+
                         const SizedBox(height: 8),
+
+                        // Food Image with fallback
                         ClipRRect(
                           borderRadius: BorderRadius.circular(14),
                           child: Image.asset(
@@ -332,21 +383,81 @@ class _WeightLossNonvegPageState extends State<WeightLossNonvegPage> {
                             height: 160,
                             width: double.infinity,
                             fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) =>
+                                Container(
+                              height: 160,
+                              width: double.infinity,
+                              decoration: BoxDecoration(
+                                color: Colors.deepPurple.shade50,
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              child: Icon(
+                                Icons.restaurant,
+                                size: 60,
+                                color: Colors.deepPurple.shade200,
+                              ),
+                            ),
                           ),
                         ),
+
                         const SizedBox(height: 10),
-                        Text(meal['food'],
+
+                        // Food Name
+                        Text(
+                          meal['food'],
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                            height: 1.4,
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Calories Badge
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.deepPurple,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            "🔥 ${meal['calories']}",
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.w600)),
-                        const SizedBox(height: 6),
-                        Text(meal['benefits'],
-                            style: const TextStyle(
-                                color: Colors.black87, fontSize: 14)),
-                        const SizedBox(height: 6),
-                        Text("Calories: ${meal['calories']}",
-                            style: TextStyle(
-                                color: Colors.red[700],
-                                fontWeight: FontWeight.w600)),
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 13,
+                            ),
+                          ),
+                        ),
+
+                        const SizedBox(height: 8),
+
+                        // Divider
+                        Divider(color: Colors.deepPurple.shade100, height: 1),
+
+                        const SizedBox(height: 8),
+
+                        // Benefits
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.favorite,
+                                color: Colors.deepPurple, size: 16),
+                            const SizedBox(width: 6),
+                            Expanded(
+                              child: Text(
+                                meal['benefits'],
+                                style: const TextStyle(
+                                  color: Colors.black87,
+                                  fontSize: 13,
+                                  height: 1.5,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),

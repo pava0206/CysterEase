@@ -1,5 +1,16 @@
+// lib/pages/affirmations_page.dart
+//
+// MODIFIED: visual design unchanged, but now wired into the progress
+// system. Before-mood is asked on entry; after viewing a few affirmations
+// the user can "claim" their session reward, logging the mood shift and
+// granting XP/coins. Only unlockedAffirmations count are shown — more
+// unlock as the user levels up.
+
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'stress_service.dart';
+import 'mood_checkin.dart';
+import 'stress_management.dart' show showActivityReward;
 
 class AffirmationsPage extends StatefulWidget {
   const AffirmationsPage({super.key});
@@ -31,7 +42,7 @@ class _AffirmationsPageState extends State<AffirmationsPage>
     "I am growing and going at my own pace.",
     "I am held and supported by those who love me.",
     "I am in charge of how I feel and I choose happiness.",
-    "I am listening and open to the universe’s messages.",
+    "I am listening and open to the universe's messages.",
     "I am loved and worthy.",
     "I am more than my circumstances dictate.",
     "I am open to healing.",
@@ -40,7 +51,7 @@ class _AffirmationsPageState extends State<AffirmationsPage>
     "I am proof enough of who I am and what I deserve.",
     "I am responsible for myself, and I start there.",
     "I am safe and surrounded by love and support.",
-    "I am still learning — it’s okay to make mistakes.",
+    "I am still learning — it's okay to make mistakes.",
     "I am understood and my perspective matters.",
     "I am valued and helpful.",
     "I am well-rested and excited for the day.",
@@ -55,7 +66,10 @@ class _AffirmationsPageState extends State<AffirmationsPage>
   ];
 
   int _currentIndex = 0;
+  int _viewedCount = 0;
   final Random _random = Random();
+  int? _moodBefore;
+  int _unlockedCount = 6;
 
   late AnimationController _controller;
   late Animation<double> _fadeAnimation;
@@ -70,21 +84,59 @@ class _AffirmationsPageState extends State<AffirmationsPage>
     _scaleAnimation =
         Tween<double>(begin: 0.97, end: 1.0).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutBack));
     _controller.forward();
+    _viewedCount = 1;
+    _loadUnlockState();
+    _promptBeforeMood();
+  }
+
+  Future<void> _loadUnlockState() async {
+    final progress = await StressService.instance.getProgress();
+    if (!mounted) return;
+    setState(() {
+      _unlockedCount = progress.unlockedAffirmations.clamp(1, _affirmations.length);
+      if (_currentIndex >= _unlockedCount) _currentIndex = 0;
+    });
+  }
+
+  Future<void> _promptBeforeMood() async {
+    await Future.delayed(const Duration(milliseconds: 400));
+    if (!mounted) return;
+    final mood = await showMoodPicker(context, prompt: 'How are you feeling right now?');
+    if (mounted) setState(() => _moodBefore = mood);
   }
 
   void _changeAffirmation(int newIndex) {
     _controller.reverse().then((_) {
       setState(() {
         _currentIndex = newIndex;
+        _viewedCount++;
       });
       _controller.forward();
     });
   }
 
-  void _showNext() => _changeAffirmation((_currentIndex + 1) % _affirmations.length);
+  void _showNext() => _changeAffirmation((_currentIndex + 1) % _unlockedCount);
   void _showPrevious() =>
-      _changeAffirmation((_currentIndex - 1 + _affirmations.length) % _affirmations.length);
-  void _showRandom() => _changeAffirmation(_random.nextInt(_affirmations.length));
+      _changeAffirmation((_currentIndex - 1 + _unlockedCount) % _unlockedCount);
+  void _showRandom() => _changeAffirmation(_random.nextInt(_unlockedCount));
+
+  Future<void> _finishSession() async {
+    final moodAfter = await showMoodPicker(context, prompt: 'How do you feel now?');
+    if (moodAfter != null && _moodBefore != null) {
+      await StressService.instance.logMood(
+        moodBefore: _moodBefore!,
+        moodAfter: moodAfter,
+        activity: 'Affirmations',
+      );
+    }
+    final result = await StressService.instance.completeActivity(
+      xpReward: 15,
+      coinReward: 8,
+    );
+    if (!mounted) return;
+    await showActivityReward(context, result);
+    if (mounted) Navigator.of(context).pop();
+  }
 
   @override
   void dispose() {
@@ -94,6 +146,8 @@ class _AffirmationsPageState extends State<AffirmationsPage>
 
   @override
   Widget build(BuildContext context) {
+    final locked = _affirmations.length - _unlockedCount;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Positive Affirmations"),
@@ -120,15 +174,37 @@ class _AffirmationsPageState extends State<AffirmationsPage>
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
             child: Column(
               children: [
-                const SizedBox(height: 10),
+                if (locked > 0)
+                  Container(
+                    margin: const EdgeInsets.only(bottom: 14),
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.6),
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(Icons.lock_outline_rounded,
+                            size: 14, color: Colors.deepPurple.shade400),
+                        const SizedBox(width: 6),
+                        Text(
+                          '$locked more affirmations unlock as you level up',
+                          style: TextStyle(
+                              fontSize: 11.5,
+                              color: Colors.deepPurple.shade600,
+                              fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ),
 
-                // 🌸 Animated Illustration
                 FadeTransition(
                   opacity: _fadeAnimation,
                   child: ScaleTransition(
                     scale: _scaleAnimation,
                     child: Container(
-                      height: 230,
+                      height: 200,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(24),
@@ -149,9 +225,8 @@ class _AffirmationsPageState extends State<AffirmationsPage>
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 24),
 
-                // ✨ Affirmation Card
                 Expanded(
                   child: FadeTransition(
                     opacity: _fadeAnimation,
@@ -187,9 +262,8 @@ class _AffirmationsPageState extends State<AffirmationsPage>
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 24),
 
-                // 🌿 Navigation Buttons
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -213,6 +287,22 @@ class _AffirmationsPageState extends State<AffirmationsPage>
                     ),
                   ],
                 ),
+                const SizedBox(height: 14),
+                if (_viewedCount >= 3)
+                  TextButton.icon(
+                    onPressed: _finishSession,
+                    icon: const Icon(Icons.check_circle_outline, color: Colors.deepPurple),
+                    label: Text(
+                      "I'm done — claim reward",
+                      style: TextStyle(
+                          color: Colors.deepPurple.shade700, fontWeight: FontWeight.w700),
+                    ),
+                  )
+                else
+                  Text(
+                    'View ${3 - _viewedCount} more to unlock your reward',
+                    style: TextStyle(color: Colors.deepPurple.shade300, fontSize: 12),
+                  ),
               ],
             ),
           ),
