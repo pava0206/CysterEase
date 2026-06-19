@@ -1,0 +1,2091 @@
+{
+  "goal": "weight_loss",
+  "dietType": "vegetarian",
+  "plans": {
+    "college_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Vegetable Oats Upma",
+            "ingredients": ["Oats", "Carrot", "Beans", "Onion", "Mustard seeds", "Curry leaves"],
+            "calories": 280,
+            "benefit": "High fibre oats stabilise blood sugar and reduce insulin spikes.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Rolled oats", "swap": "Broken wheat (daliya)"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana with Lemon",
+            "ingredients": ["Roasted chana", "Lemon juice", "Black salt", "Chilli powder"],
+            "calories": 120,
+            "benefit": "Protein-rich chickpeas curb mid-morning hunger and balance insulin.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Dal Rice with Cucumber Salad",
+            "ingredients": ["Toor dal", "Rice", "Cucumber", "Tomato", "Onion", "Lemon"],
+            "calories": 420,
+            "benefit": "Dal and rice provide complete protein and sustained energy.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Brown rice", "swap": "Regular rice (smaller portion)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Banana with Peanuts",
+            "ingredients": ["Banana", "Peanuts"],
+            "calories": 160,
+            "benefit": "Natural potassium and healthy fats support hormonal function.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Sambar with Idli",
+            "ingredients": ["Idli rice batter", "Toor dal", "Drumstick", "Tomato", "Tamarind", "Sambar powder"],
+            "calories": 320,
+            "benefit": "Fermented idli supports gut microbiome health crucial for PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1300,
+        "waterReminder": "Drink 8–10 glasses of water today. Start with a glass of warm water in the morning.",
+        "dailyTip": "Eating protein at every meal reduces androgen-driven cravings common in PCOS."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Porridge with Jaggery",
+            "ingredients": ["Ragi flour", "Milk", "Jaggery", "Cardamom"],
+            "calories": 260,
+            "benefit": "Ragi is the richest plant source of calcium, vital for PCOS bone health.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Milk", "swap": "Water with a pinch of salt (savoury version)"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Guava",
+            "ingredients": ["Fresh guava"],
+            "calories": 70,
+            "benefit": "Vitamin C in guava improves iron absorption and reduces oxidative stress.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rajma Chawal with Onion Salad",
+            "ingredients": ["Rajma", "Rice", "Onion", "Tomato", "Ginger", "Garlic", "Cumin"],
+            "calories": 460,
+            "benefit": "Kidney beans are high in fibre that regulates blood sugar after meals.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Sprouts Chaat",
+            "ingredients": ["Moong sprouts", "Onion", "Tomato", "Lemon", "Cumin powder"],
+            "calories": 110,
+            "benefit": "Sprouting multiplies zinc and folate content essential for ovarian health.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Spinach Dal",
+            "ingredients": ["Whole wheat flour", "Toor dal", "Spinach", "Garlic", "Cumin", "Turmeric"],
+            "calories": 380,
+            "benefit": "Spinach iron and dal protein together address anaemia common in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1280,
+        "waterReminder": "Carry a water bottle to college. Aim for a glass every 2 hours.",
+        "dailyTip": "Avoid sugary energy drinks between classes — they spike insulin dramatically."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Moong Dal Chilla",
+            "ingredients": ["Moong dal", "Onion", "Green chilli", "Coriander", "Cumin"],
+            "calories": 270,
+            "benefit": "Moong dal is rich in folate supporting egg quality and hormonal balance.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Buttermilk",
+            "ingredients": ["Curd", "Water", "Salt", "Curry leaves", "Ginger"],
+            "calories": 50,
+            "benefit": "Probiotic buttermilk improves gut health, reducing PCOS-linked inflammation.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Greek yogurt", "swap": "Homemade curd"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Millet Rice with Sambar and Poriyal",
+            "ingredients": ["Foxtail millet", "Toor dal", "Drumstick", "Beans", "Coconut", "Tomato"],
+            "calories": 440,
+            "benefit": "Foxtail millet has a very low glycaemic index ideal for PCOS insulin management.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Quinoa", "swap": "Foxtail millet (thinai)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Peanut Sundal",
+            "ingredients": ["Boiled peanuts", "Mustard seeds", "Curry leaves", "Coconut", "Green chilli"],
+            "calories": 130,
+            "benefit": "Peanuts provide magnesium that reduces PCOS-related cortisol spikes.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almonds", "swap": "Peanuts"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vegetable Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Carrot", "Beans", "Turmeric", "Ghee", "Cumin"],
+            "calories": 350,
+            "benefit": "One-pot khichdi is easy to digest overnight and prevents morning bloating.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1240,
+        "waterReminder": "Drink a glass of water before each meal to improve digestion and reduce overeating.",
+        "dailyTip": "Adding turmeric to your meals daily reduces systemic PCOS inflammation."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Coconut Chutney",
+            "ingredients": ["Idli batter", "Coconut", "Green chilli", "Ginger", "Mustard seeds"],
+            "calories": 250,
+            "benefit": "Fermented idli feeds good gut bacteria, reducing PCOS hormonal imbalance.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Makhana",
+            "ingredients": ["Fox nuts (makhana)", "Ghee", "Rock salt", "Turmeric"],
+            "calories": 110,
+            "benefit": "Makhana is low glycaemic and rich in magnesium to reduce insulin resistance.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chole with Brown Rice",
+            "ingredients": ["Chickpeas", "Brown rice", "Onion", "Tomato", "Ginger", "Garlic", "Chole masala"],
+            "calories": 480,
+            "benefit": "Chickpeas are the highest fibre legume supporting sustained insulin control.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Brown rice", "swap": "Small portion regular rice"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Coconut Water",
+            "ingredients": ["Fresh coconut water"],
+            "calories": 45,
+            "benefit": "Electrolytes in coconut water reduce PCOS-linked water retention.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Mixed Vegetable Sabzi",
+            "ingredients": ["Whole wheat flour", "Potato", "Carrot", "Peas", "Onion", "Tomato", "Cumin", "Coriander"],
+            "calories": 370,
+            "benefit": "Fibre-rich vegetables slow glucose absorption protecting insulin sensitivity.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1255,
+        "waterReminder": "Replace one sugary drink today with plain water or nimbu pani without sugar.",
+        "dailyTip": "Eating chickpeas 3 times a week has been shown to improve PCOS symptoms within 4 weeks."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Paneer Bhurji with Toast",
+            "ingredients": ["Paneer", "Onion", "Tomato", "Capsicum", "Turmeric", "Whole wheat bread"],
+            "calories": 320,
+            "benefit": "Paneer's casein protein gives slow, sustained energy avoiding blood sugar crashes.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Paneer", "swap": "Crumbled tofu or scrambled egg (eggetarian)"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Apple",
+            "ingredients": ["Apple"],
+            "calories": 80,
+            "benefit": "Quercetin in apples reduces testosterone activity in PCOS.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Dal Tadka with Rice and Salad",
+            "ingredients": ["Toor dal", "Rice", "Ghee", "Mustard", "Cumin", "Garlic", "Tomato", "Cucumber"],
+            "calories": 430,
+            "benefit": "Garlic tadka in dal improves insulin sensitivity and reduces LDL cholesterol.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Sundal with Coconut",
+            "ingredients": ["Boiled chickpeas or peanuts", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 140,
+            "benefit": "Traditional sundal is PCOS-perfect — high protein, high fibre, no sugar.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Dosa with Tomato Chutney",
+            "ingredients": ["Ragi flour", "Rice flour", "Onion", "Cumin", "Tomato", "Garlic", "Coconut"],
+            "calories": 290,
+            "benefit": "Ragi is the best grain for PCOS — low GI, high calcium, high fibre.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1260,
+        "waterReminder": "Drink jeera water (cumin water) today — boil 1 tsp cumin in 2 glasses of water.",
+        "dailyTip": "Paneer at breakfast reduces mid-day cravings by keeping you full 4–5 hours."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Poha with Peanuts",
+            "ingredients": ["Poha (flattened rice)", "Peanuts", "Onion", "Mustard seeds", "Curry leaves", "Turmeric", "Lemon"],
+            "calories": 300,
+            "benefit": "Poha with peanuts provides iron and protein for PCOS energy management.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Homemade curd", "Ground flax seeds", "Pinch of jaggery"],
+            "calories": 100,
+            "benefit": "Flax lignans reduce excess oestrogen, directly managing PCOS hormone levels.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kadhi Chawal",
+            "ingredients": ["Besan (gram flour)", "Curd", "Rice", "Mustard", "Cumin", "Curry leaves", "Ginger"],
+            "calories": 410,
+            "benefit": "Besan kadhi is probiotic-rich and high in protein for hormone regulation.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Corn",
+            "ingredients": ["Sweet corn", "Lemon", "Chilli powder", "Rock salt"],
+            "calories": 120,
+            "benefit": "Corn fibre slows digestion, preventing the evening blood sugar spike.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Paneer with 1 Chapati",
+            "ingredients": ["Spinach", "Paneer", "Onion", "Tomato", "Ginger", "Garlic", "Whole wheat flour"],
+            "calories": 390,
+            "benefit": "Spinach's folate and paneer's protein support progesterone production.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1320,
+        "waterReminder": "Drink water with a few mint leaves today — it has mild anti-androgen properties.",
+        "dailyTip": "One tablespoon of ground flax seeds daily for 3 months significantly reduces PCOS testosterone."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Adai Dosa with Coconut Chutney",
+            "ingredients": ["Rice", "Toor dal", "Chana dal", "Urad dal", "Red chilli", "Curry leaves", "Coconut"],
+            "calories": 290,
+            "benefit": "Multi-lentil adai provides complete protein supporting ovarian function.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Papaya Slices",
+            "ingredients": ["Ripe papaya"],
+            "calories": 65,
+            "benefit": "Papaya's papain enzyme reduces PCOS-associated digestive bloating.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Sambar Rice with Beans Poriyal",
+            "ingredients": ["Rice", "Toor dal", "Mixed vegetables", "Tamarind", "Sambar powder", "Beans", "Coconut", "Mustard"],
+            "calories": 450,
+            "benefit": "Tamarind in sambar is rich in tartaric acid that aids digestion and metabolism.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Mixed Nuts (Small Handful)",
+            "ingredients": ["Peanuts", "Roasted chana", "Sunflower seeds"],
+            "calories": 150,
+            "benefit": "Zinc in seeds directly suppresses ovarian androgen production.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almonds and walnuts", "swap": "Peanuts and roasted chana"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Soup with Chapati",
+            "ingredients": ["Yellow moong dal", "Ginger", "Turmeric", "Cumin", "Ghee", "Whole wheat flour"],
+            "calories": 330,
+            "benefit": "Light moong dal dinner is easy to digest and prevents overnight fat storage.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1285,
+        "waterReminder": "End your week strong — drink 10 glasses today and note how you feel.",
+        "dailyTip": "Consistency over 7 days resets your gut microbiome, which is the first step to PCOS improvement."
+      }
+    ],
+    "hostel_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Mess Sambar",
+            "ingredients": ["Idli (from mess)", "Sambar", "Coconut chutney"],
+            "calories": 240,
+            "benefit": "Fermented idli supports gut bacteria that regulate PCOS hormones.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana (packet from canteen)"],
+            "calories": 110,
+            "benefit": "High protein snack that controls pre-lunch hunger without spiking insulin.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Dal Rice with Vegetables",
+            "ingredients": ["Rice", "Dal", "Sabzi (mess)", "Salad (if available)"],
+            "calories": 430,
+            "benefit": "Dal and rice provide complete amino acids for hormone production.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Banana",
+            "ingredients": ["Banana (canteen)"],
+            "calories": 90,
+            "benefit": "Bananas provide potassium and B6 vital for progesterone regulation.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Chapati with Dal",
+            "ingredients": ["Chapati (mess)", "Dal", "Sabzi"],
+            "calories": 360,
+            "benefit": "Whole wheat chapati fibre slows glucose absorption overnight.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1230,
+        "waterReminder": "Keep a water bottle filled in your room. Drink before every meal.",
+        "dailyTip": "Skip the mess sweet dish — jaggery-based alternatives are far better for PCOS."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats with Banana (Room-made)",
+            "ingredients": ["Instant oats", "Banana", "Water or milk", "Pinch of cinnamon"],
+            "calories": 270,
+            "benefit": "Cinnamon with oats is clinically proven to reduce PCOS insulin resistance.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Peanut Butter on Bread",
+            "ingredients": ["Whole wheat bread", "Peanut butter"],
+            "calories": 200,
+            "benefit": "Peanut butter provides monounsaturated fats essential for hormone synthesis.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almond butter", "swap": "Peanut butter"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Rajma or Chole with Rice",
+            "ingredients": ["Rajma or chole (mess)", "Rice", "Onion salad"],
+            "calories": 460,
+            "benefit": "Kidney beans lower post-meal blood sugar better than most other legumes.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Sprouts (Soaked Overnight)",
+            "ingredients": ["Moong (soaked overnight)", "Lemon", "Salt"],
+            "calories": 90,
+            "benefit": "Sprouts quadruple the zinc content of regular moong — key for PCOS ovaries.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice",
+            "ingredients": ["Rice (mess)", "Curd", "Mustard seeds", "Curry leaves", "Green chilli"],
+            "calories": 310,
+            "benefit": "Probiotic curd rice improves gut microbiome essential for hormonal balance.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1330,
+        "waterReminder": "Soak moong in a small container tonight for tomorrow's sprout snack.",
+        "dailyTip": "Eating curd daily reduces PCOS-linked gut inflammation within 2 weeks."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Upma from Mess or Instant Oats",
+            "ingredients": ["Upma (mess) or oats", "Vegetables", "Mustard", "Curry leaves"],
+            "calories": 260,
+            "benefit": "Semolina upma provides steady energy preventing the mid-morning crash.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Peanuts",
+            "ingredients": ["Roasted peanuts", "Rock salt"],
+            "calories": 130,
+            "benefit": "Peanuts contain resveratrol which reduces PCOS ovarian cysts.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Sambar Rice with Poriyal",
+            "ingredients": ["Rice", "Sambar", "Vegetable poriyal (mess)"],
+            "calories": 440,
+            "benefit": "Sambar vegetables provide the fibre needed for proper hormone detoxification.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Guava or Seasonal Fruit",
+            "ingredients": ["Guava or papaya or banana"],
+            "calories": 70,
+            "benefit": "Seasonal fruits provide antioxidants that reduce PCOS oxidative stress.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Khichdi or Dal Chawal from Mess",
+            "ingredients": ["Rice", "Dal", "Ghee (optional)"],
+            "calories": 350,
+            "benefit": "Simple dal-rice dinner is easy to digest and prevents night-time insulin spikes.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1250,
+        "waterReminder": "Fill your bottle with water after dinner and finish it before sleeping.",
+        "dailyTip": "Sitting down while eating (not scrolling phone) improves digestion and reduces bloating."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Bread with Peanut Butter and Banana",
+            "ingredients": ["Whole wheat bread", "Peanut butter", "Banana"],
+            "calories": 310,
+            "benefit": "This combination gives slow, sustained energy without blood sugar spikes.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Buttermilk (Canteen)",
+            "ingredients": ["Buttermilk (plain)"],
+            "calories": 40,
+            "benefit": "Buttermilk probiotics balance the gut hormones driving PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Paneer Sabzi with Chapati",
+            "ingredients": ["Paneer curry (mess)", "Chapati", "Salad"],
+            "calories": 480,
+            "benefit": "Paneer at lunch reduces afternoon cravings by stabilising blood sugar.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Corn from Canteen",
+            "ingredients": ["Boiled corn", "Lemon", "Salt"],
+            "calories": 100,
+            "benefit": "Corn's resistant starch feeds good gut bacteria without spiking insulin.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice with Pickle",
+            "ingredients": ["Rice", "Curd", "Carrot pickle", "Mustard", "Curry leaves"],
+            "calories": 320,
+            "benefit": "Fermented curd with pickle provides two sources of probiotics for gut repair.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1250,
+        "waterReminder": "Drink one glass of warm water first thing tomorrow morning before breakfast.",
+        "dailyTip": "Sleeping before midnight significantly improves PCOS hormone regulation — cortisol drops after 10 PM."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Dosa from Mess",
+            "ingredients": ["Dosa (mess)", "Sambar", "Coconut chutney"],
+            "calories": 250,
+            "benefit": "Fermented dosa batter provides natural probiotics for gut-hormone balance.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Seed Curd",
+            "ingredients": ["Curd", "Ground flax seeds", "Salt"],
+            "calories": 95,
+            "benefit": "Flax seed lignans are the most potent natural anti-androgen available.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Lemon Rice or Tamarind Rice",
+            "ingredients": ["Rice", "Lemon or tamarind", "Peanuts", "Mustard", "Curry leaves"],
+            "calories": 400,
+            "benefit": "Peanuts in lemon rice add protein and healthy fats to an otherwise carb-heavy meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Mixed Seeds Packet",
+            "ingredients": ["Pumpkin seeds", "Sunflower seeds", "Roasted chana"],
+            "calories": 140,
+            "benefit": "Pumpkin seeds contain zinc which reduces testosterone production in PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Dal Chapati",
+            "ingredients": ["Dal", "Chapati", "Sabzi (any)"],
+            "calories": 370,
+            "benefit": "Dal protein at dinner supports overnight muscle repair and fat burning.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1255,
+        "waterReminder": "Avoid caffeinated drinks after 4 PM — they disrupt the sleep hormones that control PCOS.",
+        "dailyTip": "Carrying seeds in a small pouch is the cheapest PCOS supplement you can have."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pongal from Mess",
+            "ingredients": ["Pongal (mess)", "Sambar", "Chutney"],
+            "calories": 300,
+            "benefit": "Rice-lentil pongal provides complete protein for hormonal building blocks.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Apple or Pear",
+            "ingredients": ["Apple or pear"],
+            "calories": 75,
+            "benefit": "Pectin fibre in apples slows glucose absorption reducing insulin spikes.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Chole or Kadala Curry with Rice",
+            "ingredients": ["Chickpea curry (mess)", "Rice", "Salad"],
+            "calories": 460,
+            "benefit": "Chickpea fibre feeds gut bacteria that regulate the oestrogen-testosterone ratio.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Instant Oats Cup",
+            "ingredients": ["Instant oats", "Hot water", "Salt or jaggery"],
+            "calories": 120,
+            "benefit": "Oat beta-glucan is uniquely effective at lowering the LDL elevated in PCOS.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Roti Sabzi",
+            "ingredients": ["Roti (mess)", "Sabzi", "Dal"],
+            "calories": 360,
+            "benefit": "Ending the day with dal ensures adequate protein for overnight hormonal repair.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1315,
+        "waterReminder": "Drink water instead of juice or cooldrinks at the mess — saves calories and money.",
+        "dailyTip": "Hostel food is workable for PCOS — it's about what you add (seeds, curd) not just what you avoid."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Bread Omelette (Veg) — Besan Cheela",
+            "ingredients": ["Besan (gram flour)", "Onion", "Tomato", "Green chilli", "Coriander", "Cumin"],
+            "calories": 270,
+            "benefit": "Besan is high in chromium which directly reduces insulin resistance.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana with Jaggery Piece",
+            "ingredients": ["Roasted chana", "Small piece of jaggery"],
+            "calories": 130,
+            "benefit": "Jaggery iron + chana protein is a traditional anaemia remedy for PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Biryani (Vegetable) — Small Portion",
+            "ingredients": ["Vegetable biryani (mess)", "Raita"],
+            "calories": 450,
+            "benefit": "Biryani spices (whole garam masala) have anti-inflammatory effects for PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Weekly flax+curd habit is the most evidence-backed PCOS hormone intervention.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Khichdi with Ghee",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Turmeric", "Cumin"],
+            "calories": 340,
+            "benefit": "Ghee's butyrate heals gut lining — critical for PCOS hormonal absorption.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1285,
+        "waterReminder": "Great week! Plan your water intake and meals for next week tonight.",
+        "dailyTip": "7 days of consistent low-GI eating begins to visibly reduce PCOS bloating."
+      }
+    ],
+    "office_worker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Overnight Oats",
+            "ingredients": ["Rolled oats", "Curd", "Chia or flax seeds", "Banana", "Honey"],
+            "calories": 310,
+            "benefit": "Overnight oats require zero morning time and stabilise blood sugar all morning.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"},
+              {"original": "Greek yogurt", "swap": "Homemade curd"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Makhana",
+            "ingredients": ["Fox nuts", "Rock salt", "Ghee"],
+            "calories": 110,
+            "benefit": "Desk-friendly snack — high magnesium reduces PCOS stress hormones.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Dal Rice Lunchbox with Salad",
+            "ingredients": ["Toor dal", "Rice", "Cucumber", "Tomato", "Lemon", "Onion"],
+            "calories": 440,
+            "benefit": "Classic dal rice is the most balanced PCOS lunch available anywhere in India.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Peanut Chikki (1 piece) or Peanuts",
+            "ingredients": ["Peanuts", "Jaggery"],
+            "calories": 130,
+            "benefit": "Jaggery iron + peanut protein at 4 PM prevents the post-work binge eating.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Sabzi and Curd",
+            "ingredients": ["Whole wheat flour", "Potato", "Peas", "Onion", "Curd"],
+            "calories": 380,
+            "benefit": "Curd at dinner provides probiotics that repair hormone-regulating gut bacteria.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1370,
+        "waterReminder": "Set a phone reminder every 2 hours to drink water at your desk.",
+        "dailyTip": "Prepping overnight oats the night before saves 15 minutes every morning."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Peanut Chutney",
+            "ingredients": ["Idli batter", "Peanuts", "Green chilli", "Garlic", "Salt"],
+            "calories": 280,
+            "benefit": "Fermented idli + peanut chutney is a complete, fast, PCOS-ideal breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Mixed Seeds (Office Desk Snack)",
+            "ingredients": ["Pumpkin seeds", "Sunflower seeds", "Flax seeds"],
+            "calories": 120,
+            "benefit": "Seed cycling at the desk is the most practical PCOS hormone support routine.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rajma Chapati Lunchbox",
+            "ingredients": ["Rajma", "Whole wheat chapati", "Onion", "Tomato"],
+            "calories": 460,
+            "benefit": "Rajma wraps in chapati are lunchbox-friendly and supremely filling.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Buttermilk from Canteen",
+            "ingredients": ["Buttermilk (plain)"],
+            "calories": 40,
+            "benefit": "Post-lunch buttermilk at 4 PM improves afternoon digestion and reduces bloating.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Soup with Toast",
+            "ingredients": ["Yellow moong dal", "Ginger", "Cumin", "Turmeric", "Whole wheat bread"],
+            "calories": 310,
+            "benefit": "Light dinner after a long work day prevents overnight fat storage.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1210,
+        "waterReminder": "Keep a large 1-litre bottle visible on your desk — you'll drink it without thinking.",
+        "dailyTip": "A 10-minute post-lunch walk at the office dramatically lowers post-meal blood sugar."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Dosa with Coconut Chutney",
+            "ingredients": ["Ragi flour", "Rice flour", "Onion", "Cumin", "Coconut", "Green chilli"],
+            "calories": 280,
+            "benefit": "Ragi dosa is the ideal office breakfast — quick to make and high in calcium.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Apple",
+            "ingredients": ["Apple"],
+            "calories": 80,
+            "benefit": "Quercetin in apples taken mid-morning reduces PCOS-linked adrenal stress.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Curd Rice with Mango Pickle (Lunchbox)",
+            "ingredients": ["Rice", "Curd", "Mango pickle", "Mustard", "Curry leaves"],
+            "calories": 370,
+            "benefit": "Curd rice is the most gut-friendly summer office lunch for PCOS management.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana", "Chilli powder", "Lemon"],
+            "calories": 110,
+            "benefit": "Chromium in chickpeas directly improves insulin receptor function.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vegetable Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Carrot", "Beans", "Turmeric", "Ghee"],
+            "calories": 350,
+            "benefit": "One-pot khichdi is the perfect tired-evening meal — minimal prep, maximum nutrition.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1190,
+        "waterReminder": "Drink a glass before you leave the office — commute dehydrates you.",
+        "dailyTip": "Curd rice the night before tastes even better next day — make extra for tomorrow's lunch."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Besan Chilla with Curd",
+            "ingredients": ["Besan", "Onion", "Tomato", "Green chilli", "Coriander", "Curd"],
+            "calories": 300,
+            "benefit": "Chromium-rich besan chilla directly reduces the insulin resistance driving PCOS.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sprouts",
+            "ingredients": ["Moong sprouts", "Lemon", "Salt"],
+            "calories": 80,
+            "benefit": "Sprouted moong at the desk provides sustained energy without any processing.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chapati with Palak Dal (Lunchbox)",
+            "ingredients": ["Whole wheat chapati", "Toor dal", "Spinach", "Garlic", "Cumin"],
+            "calories": 430,
+            "benefit": "Spinach iron combats the anaemia that worsens PCOS fatigue.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Coconut Water",
+            "ingredients": ["Coconut water"],
+            "calories": 45,
+            "benefit": "Post-work coconut water rehydrates and reduces PCOS-related cortisol.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Sambar with Idli",
+            "ingredients": ["Idli batter", "Toor dal", "Mixed vegetables", "Tamarind", "Sambar powder"],
+            "calories": 320,
+            "benefit": "Light idli-sambar dinner after a long day aids digestion without taxing the gut.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1175,
+        "waterReminder": "Try infusing your water with cucumber and mint — it makes drinking easier.",
+        "dailyTip": "Prepping dal the evening before saves 10 minutes every busy office morning."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Poha with Peanuts and Lemon",
+            "ingredients": ["Poha", "Peanuts", "Onion", "Mustard", "Turmeric", "Lemon"],
+            "calories": 310,
+            "benefit": "Quick-to-make poha with peanuts hits protein, fibre and iron for a PCOS breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Guava",
+            "ingredients": ["Guava"],
+            "calories": 70,
+            "benefit": "Vitamin C in guava boosts iron absorption critical for PCOS-related fatigue.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Office Canteen: Dal, Sabzi, Rice or Chapati",
+            "ingredients": ["Dal", "Sabzi", "Rice or chapati"],
+            "calories": 430,
+            "benefit": "Canteen dal-rice is your best PCOS option — skip the fried items.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Murmura (Puffed Rice) Chaat",
+            "ingredients": ["Puffed rice", "Onion", "Tomato", "Lemon", "Coriander"],
+            "calories": 95,
+            "benefit": "Light murmura chaat prevents the post-work junk food craving.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Paneer Bhurji with 1 Chapati",
+            "ingredients": ["Paneer", "Onion", "Tomato", "Capsicum", "Turmeric", "Whole wheat flour"],
+            "calories": 370,
+            "benefit": "Friday night paneer bhurji replenishes protein after the work week.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1275,
+        "waterReminder": "End the work week by tracking — did you drink 8 glasses today?",
+        "dailyTip": "Saying no to Friday office cake is one of the highest-impact PCOS decisions you can make."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Moong Dal Chilla with Mint Chutney",
+            "ingredients": ["Moong dal", "Onion", "Green chilli", "Coriander", "Mint", "Green chilli"],
+            "calories": 270,
+            "benefit": "Mint in chutney reduces PCOS-linked androgens — a delicious phytomedicine.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 100,
+            "benefit": "Weekend flax+curd habit anchors the week's hormone management routine.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Vegetable Pulao with Raita",
+            "ingredients": ["Basmati rice", "Mixed vegetables", "Whole spices", "Curd", "Cucumber"],
+            "calories": 450,
+            "benefit": "Weekend pulao with homemade raita is a nourishing PCOS-friendly meal.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Peanuts with Tea",
+            "ingredients": ["Peanuts", "Spearmint or ginger tea (no sugar)"],
+            "calories": 150,
+            "benefit": "Spearmint tea is clinically proven to reduce PCOS testosterone levels.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Paneer with Roti",
+            "ingredients": ["Spinach", "Paneer", "Onion", "Tomato", "Ginger", "Garlic", "Whole wheat flour"],
+            "calories": 390,
+            "benefit": "Spinach folate + paneer calcium support the hormonal cycle of PCOS management.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1360,
+        "waterReminder": "Weekend water goal: 10 glasses — easier when you're relaxed at home.",
+        "dailyTip": "Use Saturdays to prep 2 days of dal and chapati dough — saves huge effort on Monday."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats Dosa with Tomato Chutney",
+            "ingredients": ["Rolled oats", "Semolina", "Curd", "Tomato", "Garlic", "Coconut"],
+            "calories": 290,
+            "benefit": "Oats dosa combines the GI benefit of oats with the probiotic benefit of fermented curd.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Seasonal Fruit",
+            "ingredients": ["Papaya or guava or banana"],
+            "calories": 75,
+            "benefit": "Seasonal fruit provides rotating antioxidants for comprehensive PCOS cell protection.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Sambar Rice with Papad",
+            "ingredients": ["Rice", "Sambar", "Papad", "Salad"],
+            "calories": 430,
+            "benefit": "Sunday sambar with homemade vegetables is the ultimate PCOS nutritional reset.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Sundal",
+            "ingredients": ["Boiled chickpeas or peanuts", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 140,
+            "benefit": "Traditional Sunday sundal is perfectly timed to prepare hormones for the week.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Light Rasam Rice",
+            "ingredients": ["Rice", "Tomato rasam", "Pepper", "Cumin", "Garlic", "Tamarind"],
+            "calories": 300,
+            "benefit": "Light Sunday rasam rice primes digestion for the coming work week.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1235,
+        "waterReminder": "Prepare tomorrow's overnight oats and water bottle before sleeping.",
+        "dailyTip": "One full week done. PCOS improvement is cumulative — every consistent week compounds."
+      }
+    ],
+    "homemaker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Adai Dosa with Avial",
+            "ingredients": ["Rice", "Toor dal", "Chana dal", "Urad dal", "Red chilli", "Mixed vegetables", "Coconut", "Curd"],
+            "calories": 380,
+            "benefit": "Multi-dal adai with avial provides complete protein and fibre for all-morning satiety.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Coconut Water with Flax Seeds",
+            "ingredients": ["Coconut water", "Ground flax seeds"],
+            "calories": 90,
+            "benefit": "Flax lignans in coconut water act as gentle anti-androgens throughout the day.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Full Tamil Meals — Sambar, Rasam, Kootu, Rice",
+            "ingredients": ["Rice", "Toor dal", "Drumstick sambar", "Tomato rasam", "Beans kootu", "Papad"],
+            "calories": 560,
+            "benefit": "Traditional Tamil thali is nutritionally near-perfect for PCOS management.",
+            "prepTimeMinutes": 45,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Murungakkai Kanji (Drumstick Leaves Porridge)",
+            "ingredients": ["Drumstick leaves", "Rice", "Salt", "Cumin"],
+            "calories": 120,
+            "benefit": "Drumstick leaves have the highest iron and folate of any South Indian vegetable.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Paneer Curry",
+            "ingredients": ["Whole wheat flour", "Paneer", "Onion", "Tomato", "Ginger", "Garlic", "Spices"],
+            "calories": 430,
+            "benefit": "Paneer's protein at dinner supports overnight metabolic recovery for PCOS.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1580,
+        "waterReminder": "Drink a glass of warm water with lemon first thing in the morning today.",
+        "dailyTip": "Traditional Tamil cooking is inherently PCOS-friendly — tamarind, drumstick and curry leaves are all therapeutic."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Mudde with Keerai Masiyal",
+            "ingredients": ["Ragi flour", "Water", "Salt", "Spinach", "Garlic", "Onion", "Cumin"],
+            "calories": 320,
+            "benefit": "Ragi mudde's low GI with iron-rich keerai directly addresses PCOS anaemia.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sprouts Sundal",
+            "ingredients": ["Moong sprouts", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 110,
+            "benefit": "Home-sprouted moong eaten fresh maximises zinc and folate bioavailability.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Millet Sambar Rice with Vazhaithandu Kootu",
+            "ingredients": ["Foxtail millet", "Toor dal", "Banana stem", "Sambar powder", "Tamarind", "Coconut"],
+            "calories": 520,
+            "benefit": "Banana stem (vazhaithandu) is a proven natural remedy for PCOS-related water retention.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Homemade Peanut Chikki",
+            "ingredients": ["Peanuts", "Jaggery"],
+            "calories": 140,
+            "benefit": "Homemade peanut-jaggery chikki provides iron, protein and natural sweetness.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Khichdi with Ghee",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Turmeric", "Cumin", "Ginger"],
+            "calories": 370,
+            "benefit": "Ghee's butyric acid heals gut lining, improving hormone absorption in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1460,
+        "waterReminder": "Drink a cup of jeera water after lunch — it aids digestion and reduces bloating.",
+        "dailyTip": "Cooking banana stem once a week provides extraordinary PCOS nutritional benefits."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pesarattu with Ginger Chutney",
+            "ingredients": ["Green moong dal", "Rice", "Ginger", "Green chilli", "Onion", "Cumin"],
+            "calories": 300,
+            "benefit": "Whole moong dal pesarattu provides 15g protein per serving for hormonal repair.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Curd with Amla",
+            "ingredients": ["Curd", "Amla (gooseberry)", "Pinch of rock salt"],
+            "calories": 80,
+            "benefit": "Amla is the richest natural source of Vitamin C, reducing PCOS oxidative stress.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Pavakkai (Bitter Gourd) Pitlai with Rice",
+            "ingredients": ["Bitter gourd", "Toor dal", "Tamarind", "Coconut", "Coriander seeds", "Rice"],
+            "calories": 480,
+            "benefit": "Bitter gourd pitlai is clinically validated to improve insulin sensitivity in PCOS.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Murungai Keerai Adai",
+            "ingredients": ["Drumstick leaves", "Rice", "Lentil batter", "Onion"],
+            "calories": 160,
+            "benefit": "Drumstick-leaf adai in the evening adds iron and folate at the most absorbable time.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Rasam with Rice and Papad",
+            "ingredients": ["Tomato rasam", "Rice", "Pepper", "Cumin", "Garlic", "Tamarind", "Papad"],
+            "calories": 310,
+            "benefit": "Pepper and garlic rasam is thermogenic — it accelerates PCOS-related fat metabolism.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1330,
+        "waterReminder": "Soak fenugreek seeds in a glass of water overnight and drink on empty stomach tomorrow.",
+        "dailyTip": "Bitter gourd twice a week is one of the most evidence-based PCOS dietary interventions."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Paratha with Curd",
+            "ingredients": ["Whole wheat flour", "Fenugreek leaves", "Onion", "Spices", "Curd"],
+            "calories": 360,
+            "benefit": "Fenugreek (methi) contains diosgenin, a proven PCOS hormone modulator.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sundal (Karamani or Chickpea)",
+            "ingredients": ["Cowpea or chickpeas", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 130,
+            "benefit": "Traditional mid-morning sundal fuels domestic work without spiking insulin.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Keerai Kootu with Rice and Sambar",
+            "ingredients": ["Spinach or keerai", "Toor dal", "Coconut", "Cumin", "Rice", "Sambar"],
+            "calories": 500,
+            "benefit": "Iron from greens, protein from dal and the GI benefit of sambar — complete PCOS nutrition.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Banana Flower Vadai",
+            "ingredients": ["Banana flower", "Chana dal", "Onion", "Fennel", "Red chilli"],
+            "calories": 170,
+            "benefit": "Banana flower is traditionally used to regulate menstrual cycles in South India.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Dal Makhani (Light)",
+            "ingredients": ["Whole wheat flour", "Rajma", "Urad dal", "Tomato", "Onion", "Spices"],
+            "calories": 430,
+            "benefit": "Rajma-urad dal combination has the highest fibre of any dal preparation for PCOS.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1590,
+        "waterReminder": "Drink the overnight fenugreek water today — it reduces PCOS insulin resistance.",
+        "dailyTip": "Fenugreek leaves in your paratha 2–3 times a week provides sustained hormonal benefit."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kollu (Horse Gram) Dosa with Tomato Chutney",
+            "ingredients": ["Horse gram", "Rice", "Urad dal", "Tomato", "Garlic", "Red chilli"],
+            "calories": 290,
+            "benefit": "Horse gram is thermogenic — it directly supports PCOS fat metabolism.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Turmeric Milk",
+            "ingredients": ["Warm milk", "Turmeric", "Black pepper", "Honey"],
+            "calories": 130,
+            "benefit": "Curcumin in turmeric milk has the strongest anti-inflammatory effect for PCOS.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kollu Rasam Rice with Poriyal",
+            "ingredients": ["Horse gram", "Tomato", "Pepper", "Cumin", "Garlic", "Rice", "Mixed vegetables", "Coconut"],
+            "calories": 490,
+            "benefit": "Horse gram rasam is traditionally prescribed for PCOS weight management.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Pumpkin Seeds",
+            "ingredients": ["Pumpkin seeds", "Rock salt", "Lemon"],
+            "calories": 110,
+            "benefit": "Pumpkin seeds are the best natural zinc source for suppressing PCOS androgens.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vendakkai (Okra) Sambar with Idli",
+            "ingredients": ["Okra", "Toor dal", "Tamarind", "Sambar powder", "Idli batter"],
+            "calories": 350,
+            "benefit": "Okra's soluble fibre and chromium reduce insulin resistance overnight.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1370,
+        "waterReminder": "Drink coriander seed water today — it supports thyroid function commonly affected in PCOS.",
+        "dailyTip": "Horse gram (kollu) twice a week is a deeply underrated PCOS superfood."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kambu (Pearl Millet) Dosa with Coconut Chutney",
+            "ingredients": ["Pearl millet flour", "Rice flour", "Urad dal", "Coconut", "Green chilli", "Ginger"],
+            "calories": 310,
+            "benefit": "Pearl millet has the highest magnesium of all Indian grains — critical for PCOS.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Fresh Coconut Pieces",
+            "ingredients": ["Fresh coconut"],
+            "calories": 100,
+            "benefit": "Coconut's lauric acid supports hormone synthesis and reduces PCOS inflammation.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mor Kuzhambu with Rice and Beans Poriyal",
+            "ingredients": ["Curd", "Coconut", "Green chilli", "Ginger", "Rice", "Beans", "Mustard"],
+            "calories": 480,
+            "benefit": "Probiotic mor kuzhambu is uniquely South Indian and ideal for gut-hormone balance.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Avarakkai (Broad Beans) Sundal",
+            "ingredients": ["Broad beans", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 130,
+            "benefit": "Broad beans provide plant protein and folate for ovarian cell health.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Adai with Keerai Masiyal",
+            "ingredients": ["Ragi flour", "Urad dal", "Spinach", "Garlic", "Cumin", "Onion"],
+            "calories": 340,
+            "benefit": "Ragi calcium + keerai iron + garlic anti-androgen effects create a PCOS triple benefit.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1360,
+        "waterReminder": "Drink a glass of warm water with fenugreek seeds before sleep tonight.",
+        "dailyTip": "Pearl millet dosa is easier to make than wheat dosa and far better for PCOS insulin levels."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Samai (Little Millet) Pongal",
+            "ingredients": ["Little millet", "Moong dal", "Ghee", "Pepper", "Cumin", "Ginger"],
+            "calories": 330,
+            "benefit": "Little millet pongal's phosphorus and B vitamins support PCOS cellular metabolism.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Papaya with Flax Seeds",
+            "ingredients": ["Ripe papaya", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Papaya enzymes + flax lignans together improve PCOS hormonal detoxification.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Puli Kuzhambu with Rice, Kootu, Rasam",
+            "ingredients": ["Tamarind", "Tomato", "Small onions", "Mixed vegetables", "Rice", "Dal kootu", "Tomato rasam"],
+            "calories": 540,
+            "benefit": "Traditional tamarind kuzhambu with full meals is the most complete PCOS nutritional reset.",
+            "prepTimeMinutes": 50,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Kollu (Horse Gram) Sundal",
+            "ingredients": ["Horse gram", "Coconut", "Mustard", "Curry leaves"],
+            "calories": 130,
+            "benefit": "Weekly horse gram sundal builds the thermogenic habit that supports PCOS weight loss.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Venn Pongal with Sambar",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Pepper", "Cumin", "Cashews", "Sambar"],
+            "calories": 390,
+            "benefit": "Comforting Sunday venn pongal nourishes without taxing digestion before the week.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1485,
+        "waterReminder": "End the week: 10 glasses today and prep fenugreek water for tomorrow morning.",
+        "dailyTip": "Traditional South Indian cooking is a complete PCOS dietary system — trust it."
+      }
+    ],
+    "living_alone": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Vegetable Oats Upma",
+            "ingredients": ["Oats", "Carrot", "Beans", "Onion", "Mustard seeds", "Curry leaves"],
+            "calories": 280,
+            "benefit": "High in fibre to improve insulin sensitivity.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Rolled oats", "swap": "Broken wheat (daliya)"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana", "Lemon", "Black salt"],
+            "calories": 120,
+            "benefit": "Chromium-rich chana directly addresses the insulin resistance root cause of PCOS.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Boiled Peanut Sundal, Radish Sambar, Carrot Poriyal with Rice",
+            "ingredients": ["Peanuts", "Radish", "Toor dal", "Carrot", "Coconut", "Rice"],
+            "calories": 480,
+            "benefit": "Low-GI combination with high fibre and protein.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Green Tea with Almonds",
+            "ingredients": ["Green tea", "Peanuts or roasted chana"],
+            "calories": 120,
+            "benefit": "Green tea reduces insulin resistance; peanuts prevent snack hunger.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almonds", "swap": "Peanuts"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Cucumber Raita with Roti",
+            "ingredients": ["Curd", "Cucumber", "Cumin", "Coconut flakes", "Whole wheat flour"],
+            "calories": 280,
+            "benefit": "Manages blood sugar overnight and reduces PCOS-linked inflammation.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1280,
+        "waterReminder": "Drink 8–10 glasses of water today. Start your morning with warm water.",
+        "dailyTip": "Eating protein at every meal reduces androgen-driven cravings common in PCOS."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pesarattu with Peanut Chutney",
+            "ingredients": ["Green moong dal", "Rice", "Peanuts", "Green chilli", "Ginger", "Onion"],
+            "calories": 320,
+            "benefit": "High in protein and healthy fats for hormone balance.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Makhana",
+            "ingredients": ["Makhana", "Ghee", "Rock salt"],
+            "calories": 110,
+            "benefit": "Rich in protein and antioxidants for PCOS cellular health.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Soyabean Sundal, Banana Flower Kootu, Rice",
+            "ingredients": ["Soyabean", "Banana flower", "Coconut", "Toor dal", "Rice"],
+            "calories": 500,
+            "benefit": "Rich in plant protein and fibre, regulates oestrogen through phytoestrogens.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Curd", "Ground flax seeds", "Coconut flakes"],
+            "calories": 115,
+            "benefit": "Flax lignans are clinically proven to reduce testosterone in PCOS.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Dal Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Cumin", "Turmeric"],
+            "calories": 310,
+            "benefit": "Easy one-pot dinner with complete protein — less waste, minimal cooking.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1355,
+        "waterReminder": "Drink water before every meal — reduces appetite and improves PCOS digestion.",
+        "dailyTip": "Curd daily for 2 weeks reduces the gut inflammation that drives PCOS symptoms."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Paneer Bhurji",
+            "ingredients": ["Paneer", "Onion", "Tomato", "Capsicum", "Turmeric", "Coriander"],
+            "calories": 250,
+            "benefit": "High in protein and calcium for hormonal and bone health.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Coconut Water",
+            "ingredients": ["Fresh coconut water"],
+            "calories": 45,
+            "benefit": "Electrolytes reduce PCOS-linked water retention and bloating.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Cowpea Sundal, Avarai Sambar, Beans Poriyal, Rice",
+            "ingredients": ["Cowpea", "Broad beans", "Toor dal", "Beans", "Coconut", "Rice"],
+            "calories": 460,
+            "benefit": "Rich in fibre and plant protein for sustained energy.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana", "Lemon", "Chilli powder"],
+            "calories": 110,
+            "benefit": "Provides quick energy and prevents the evening binge eating.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fenugreek and Bottle Gourd Curry with Rice",
+            "ingredients": ["Fenugreek leaves", "Bottle gourd", "Toor dal", "Roasted gram", "Rice"],
+            "calories": 300,
+            "benefit": "Supports digestion and balances blood sugar overnight.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1165,
+        "waterReminder": "Drink a glass of water with every meal. Aim for 3 litres today.",
+        "dailyTip": "Adding turmeric to your cooking daily reduces PCOS inflammation significantly."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Tofu Bhurji with Chickpeas",
+            "ingredients": ["Tofu", "Chickpeas (boiled)", "Onion", "Tomato", "Turmeric", "Cumin"],
+            "calories": 280,
+            "benefit": "Tofu phytoestrogens help balance oestrogen levels naturally in PCOS.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Tofu", "swap": "Paneer (same preparation)"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Green Tea",
+            "ingredients": ["Green tea (no sugar)"],
+            "calories": 0,
+            "benefit": "Catechins in green tea improve insulin sensitivity in PCOS women.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rajma Sundal, Banana Stem Sambar, Beans Poriyal, Rice",
+            "ingredients": ["Rajma", "Banana stem", "Beans", "Toor dal", "Rice"],
+            "calories": 490,
+            "benefit": "Banana stem reduces water retention; rajma fibre controls blood sugar.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Seeds Mix",
+            "ingredients": ["Pumpkin seeds", "Sunflower seeds", "Roasted chana"],
+            "calories": 140,
+            "benefit": "Zinc from seeds suppresses excess androgen production in PCOS ovaries.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Mixed nuts pack", "swap": "Homemade seeds mix"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice",
+            "ingredients": ["Rice", "Curd", "Mustard", "Curry leaves", "Green chilli"],
+            "calories": 280,
+            "benefit": "Probiotic curd rice is the ideal light dinner for PCOS gut health.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1190,
+        "waterReminder": "Replace one tea or coffee today with warm lemon water.",
+        "dailyTip": "Pumpkin seeds daily for one month measurably reduces PCOS testosterone levels."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Low-Carb Chapati with Curd and Peas Masala",
+            "ingredients": ["Whole wheat flour", "Curd", "Green peas", "Onion", "Cumin", "Coriander"],
+            "calories": 380,
+            "benefit": "High protein low carb combination manages the insulin elevation central to PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Guava",
+            "ingredients": ["Fresh guava"],
+            "calories": 70,
+            "benefit": "Vitamin C in guava increases iron absorption critical for PCOS anaemia.",
+            "prepTimeMinutes": 1,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chickpea Sundal, Keerai Kootu, Cabbage Poriyal, Rice",
+            "ingredients": ["Chickpeas", "Spinach", "Toor dal", "Cabbage", "Coconut", "Rice"],
+            "calories": 490,
+            "benefit": "High in fibre and protein, supports digestion and blood sugar balance.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Curd with Seasonal Fruit",
+            "ingredients": ["Curd", "Banana or papaya"],
+            "calories": 140,
+            "benefit": "Probiotic curd with fruit fibre is a complete gut-hormone repair snack.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Greek yogurt", "swap": "Homemade curd"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Paneer Tawa Fry with Roti",
+            "ingredients": ["Paneer", "Capsicum", "Onion", "Whole wheat flour", "Spices"],
+            "calories": 380,
+            "benefit": "Protein-rich dinner prevents the overnight hunger that leads to PCOS binge eating.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1460,
+        "waterReminder": "Drink jeera water today — boil 1 tsp cumin in 2 cups of water, cool and drink.",
+        "dailyTip": "Cooking for one is a PCOS advantage — you control every ingredient."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Vendhaya Keerai Chapati with Curd",
+            "ingredients": ["Whole wheat flour", "Fenugreek leaves", "Onion", "Spices", "Curd", "Peanut chutney"],
+            "calories": 360,
+            "benefit": "Fenugreek leaves boost metabolism and support menstrual cycle regulation.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sprouts Chaat",
+            "ingredients": ["Moong sprouts", "Tomato", "Onion", "Lemon", "Cumin powder"],
+            "calories": 100,
+            "benefit": "Sprouted moong at mid-morning fuels the day without raising blood sugar.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Pacha Payaru Sundal, Chow Chow Sambar, Capsicum Poriyal, Rice",
+            "ingredients": ["Green moong", "Chow chow (chayote)", "Capsicum", "Rice", "Toor dal"],
+            "calories": 470,
+            "benefit": "Protein and fibre rich lunch that supports digestion and immunity.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Apple with Peanut Butter",
+            "ingredients": ["Apple", "Peanut butter"],
+            "calories": 220,
+            "benefit": "Pectin in apple + healthy fats in peanut butter extend satiety for 3 hours.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almond butter", "swap": "Peanut butter"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Coconut Flour Upma with Curd",
+            "ingredients": ["Semolina or oats", "Vegetables", "Mustard", "Curry leaves", "Curd"],
+            "calories": 340,
+            "benefit": "Fibre-rich upma with probiotic curd supports gut-hormone repair overnight.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1490,
+        "waterReminder": "Drink mint-infused water today — spearmint reduces PCOS androgens.",
+        "dailyTip": "Fenugreek leaves (methi) added to any dish 3 times a week significantly helps PCOS."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Paneer Dosa with Chickpea Curry",
+            "ingredients": ["Dosa batter", "Paneer", "Chickpeas", "Onion", "Tomato", "Spices"],
+            "calories": 440,
+            "benefit": "High protein dosa supports muscle strength and reduces PCOS fatigue.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Seasonal Fruit",
+            "ingredients": ["Papaya or banana or guava"],
+            "calories": 70,
+            "benefit": "Seasonal fruits provide vitamins C and A essential for ovarian cell health.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Sundal, Pumpkin Kootu, Ladies Finger Poriyal, Rice, Kollu Rasam",
+            "ingredients": ["Sundal", "Pumpkin", "Ladies finger", "Rice", "Horse gram", "Tamarind"],
+            "calories": 560,
+            "benefit": "Protein and fibre-rich thali that boosts metabolism.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Mixed Seeds with Curd",
+            "ingredients": ["Pumpkin seeds", "Flax seeds", "Curd"],
+            "calories": 130,
+            "benefit": "Ending the week with seeds+curd locks in the hormonal benefits of the full week.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Cauliflower Rice Pulao with Curd",
+            "ingredients": ["Cauliflower", "Rice (small portion)", "Mixed vegetables", "Whole spices", "Curd"],
+            "calories": 340,
+            "benefit": "Low carb cauliflower-rice pulao is the perfect PCOS week-ending dinner.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1540,
+        "waterReminder": "Great week! Plan water and meal prep for next week.",
+        "dailyTip": "7 consistent days of low-GI eating begins to visibly reduce PCOS bloating and fatigue."
+      }
+    ]
+  }
+}

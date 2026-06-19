@@ -1,0 +1,2075 @@
+{
+  "goal": "weight_loss",
+  "dietType": "non_vegetarian",
+  "plans": {
+    "college_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Chicken Keema Dosa",
+            "ingredients": ["Dosa batter", "Chicken keema", "Onion", "Ginger", "Garlic", "Green chilli"],
+            "calories": 380,
+            "benefit": "High protein chicken keema in a fermented dosa base supports PCOS insulin balance.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Roasted Chana",
+            "ingredients": ["Egg", "Roasted chana", "Lemon"],
+            "calories": 185,
+            "benefit": "Protein + chromium combination prevents the mid-morning blood sugar crash.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Fish Curry and Sambar",
+            "ingredients": ["Brown rice", "Indian mackerel (bangda)", "Onion", "Tomato", "Toor dal"],
+            "calories": 520,
+            "benefit": "Indian mackerel omega-3 reduces PCOS ovarian inflammation far better than imported salmon.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Indian mackerel (bangda)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Tikka Bites (Home-made)",
+            "ingredients": ["Chicken breast", "Curd", "Turmeric", "Chilli powder", "Lemon"],
+            "calories": 180,
+            "benefit": "Grilled chicken snack gives 20g protein with minimal fat for PCOS muscle support.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Rasam with Rice",
+            "ingredients": ["Chicken", "Tomato", "Pepper", "Cumin", "Garlic", "Tamarind", "Rice"],
+            "calories": 370,
+            "benefit": "Chicken rasam is a uniquely Indian protein-rich light dinner ideal for PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1635,
+        "waterReminder": "Carry a water bottle to college. Drink a glass before every meal.",
+        "dailyTip": "Indian mackerel is one of the richest omega-3 sources in the world and costs a fraction of salmon."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg and Chicken Bhurji with Dosa",
+            "ingredients": ["Eggs", "Chicken (minced)", "Onion", "Tomato", "Dosa batter"],
+            "calories": 420,
+            "benefit": "Double protein breakfast of egg and chicken provides all essential amino acids for PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Peanuts with Spearmint Tea",
+            "ingredients": ["Peanuts", "Spearmint tea (no sugar)"],
+            "calories": 155,
+            "benefit": "Spearmint tea clinically reduces PCOS testosterone; peanuts provide healthy fats.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Rice with Chicken Curry",
+            "ingredients": ["Foxtail millet", "Chicken", "Onion", "Tomato", "Coconut", "Spices"],
+            "calories": 510,
+            "benefit": "Foxtail millet low GI + chicken protein creates the ideal PCOS campus lunch.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Quinoa", "swap": "Foxtail millet (thinai)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Vitamin C from guava improves iron absorption from the egg yolk.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Sambar with Rice",
+            "ingredients": ["Tilapia or rohu", "Toor dal", "Tamarind", "Drumstick", "Tomato", "Rice"],
+            "calories": 440,
+            "benefit": "Freshwater fish sambar is affordable, protein-rich and PCOS-anti-inflammatory.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1680,
+        "waterReminder": "Replace one cold drink at the canteen with buttermilk today.",
+        "dailyTip": "Tilapia and rohu are among the most affordable fish in India with excellent PCOS omega-3 profiles."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Chicken Pepper Oats Upma",
+            "ingredients": ["Rolled oats", "Chicken (shredded)", "Onion", "Pepper", "Curry leaves"],
+            "calories": 370,
+            "benefit": "Oats beta-glucan + chicken protein + pepper anti-inflammation = PCOS morning triple.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds"],
+            "calories": 175,
+            "benefit": "Pumpkin seed zinc suppresses ovarian androgen production in PCOS.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Chicken Keerai Masala",
+            "ingredients": ["Rice", "Chicken", "Spinach", "Onion", "Garlic", "Tomato", "Spices"],
+            "calories": 500,
+            "benefit": "Chicken iron + spinach folate + garlic anti-androgen = complete PCOS lunch.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Chana with Cinnamon Tea",
+            "ingredients": ["Roasted chana", "Cinnamon herbal tea"],
+            "calories": 140,
+            "benefit": "Cinnamon is proven to improve PCOS menstrual regularity and insulin resistance.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Mudde with Chicken Rasam",
+            "ingredients": ["Ragi flour", "Chicken", "Tomato", "Pepper", "Cumin", "Garlic"],
+            "calories": 390,
+            "benefit": "Ragi calcium + chicken B6 + rasam thermogenic spices for overnight PCOS recovery.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1575,
+        "waterReminder": "Drink water before entering the canteen — reduces impulse eating.",
+        "dailyTip": "Spinach + chicken together in one meal covers 70% of daily PCOS iron needs."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Bhurji Chapati",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Green chilli", "Whole wheat flour"],
+            "calories": 380,
+            "benefit": "Egg + whole wheat chapati provides complete protein and slow-release energy for PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Chicken Salad (Small)",
+            "ingredients": ["Boiled chicken", "Onion", "Cucumber", "Lemon", "Pepper"],
+            "calories": 150,
+            "benefit": "Lean boiled chicken at mid-morning prevents the PCOS afternoon energy crash.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Prawn Curry",
+            "ingredients": ["Brown rice", "Prawns", "Onion", "Coconut", "Tomato", "Spices"],
+            "calories": 490,
+            "benefit": "Prawns provide iodine essential for thyroid function commonly affected in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Banana",
+            "ingredients": ["Egg", "Banana"],
+            "calories": 175,
+            "benefit": "Post-class protein + potassium reduces PCOS fatigue and cortisol.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Turmeric", "Cumin"],
+            "calories": 420,
+            "benefit": "One-pot chicken khichdi for solo or campus cooking — minimal waste, maximum PCOS nutrition.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1615,
+        "waterReminder": "Drink a glass of water after every class today.",
+        "dailyTip": "Prawns are one of the cheapest seafood options in coastal India with excellent iodine for PCOS thyroid health."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Chicken Chutney",
+            "ingredients": ["Idli batter", "Chicken (minced)", "Coconut", "Red chilli", "Garlic"],
+            "calories": 350,
+            "benefit": "Fermented idli + chicken chutney is the most unique PCOS non-veg breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Curd with Roasted Chana",
+            "ingredients": ["Curd", "Ground flax seeds", "Roasted chana"],
+            "calories": 150,
+            "benefit": "Flax lignans reduce PCOS testosterone; curd probiotics balance gut hormones.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Fish Keerai Curry",
+            "ingredients": ["Rice", "Tilapia or rohu", "Spinach", "Onion", "Tomato", "Spices"],
+            "calories": 490,
+            "benefit": "Fish omega-3 + spinach iron + garlic anti-androgen = complete PCOS nutrition.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Pepper Bites",
+            "ingredients": ["Chicken breast", "Pepper", "Garlic", "Lemon", "Salt"],
+            "calories": 160,
+            "benefit": "Grilled chicken bites are the most affordable high-protein campus snack.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice with Chicken Side",
+            "ingredients": ["Rice", "Curd", "Boiled chicken", "Mustard", "Curry leaves"],
+            "calories": 390,
+            "benefit": "Probiotic curd rice + chicken is the most digestible PCOS night meal.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1540,
+        "waterReminder": "Drink jeera water today — boil 1 tsp cumin in 2 cups of water.",
+        "dailyTip": "Curd rice with chicken is the ultimate PCOS campus dinner — probiotic, protein, and digestible."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Chicken Oats Porridge",
+            "ingredients": ["Rolled oats", "Chicken (minced)", "Onion", "Ginger", "Garlic", "Turmeric"],
+            "calories": 360,
+            "benefit": "Savoury chicken oats porridge is the most filling PCOS breakfast for a long day.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Flax Seeds",
+            "ingredients": ["Egg", "Ground flax seeds", "Curd"],
+            "calories": 165,
+            "benefit": "Flax + egg at mid-morning anchors the week's PCOS hormone management routine.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Millet Rice with Mutton Curry (Light)",
+            "ingredients": ["Foxtail millet", "Mutton (lean)", "Onion", "Tomato", "Spices"],
+            "calories": 540,
+            "benefit": "Mutton is rich in B12 and zinc — both critical for ovarian function in PCOS.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Peanuts and Spearmint Tea",
+            "ingredients": ["Peanuts", "Spearmint tea"],
+            "calories": 145,
+            "benefit": "Weekend spearmint habit significantly lowers PCOS free testosterone over 4 weeks.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Rasam Rice",
+            "ingredients": ["Tilapia", "Tomato rasam", "Pepper", "Cumin", "Garlic", "Rice"],
+            "calories": 380,
+            "benefit": "Fish omega-3 in a thermogenic rasam base is perfect for Saturday PCOS recovery.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1590,
+        "waterReminder": "Weekend hydration goal: 10 glasses. Mint water counts.",
+        "dailyTip": "Mutton once a week provides the B12 and zinc levels that plant foods alone cannot cover for PCOS."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Uttapam with Chicken",
+            "ingredients": ["Dosa batter", "Egg", "Chicken (shredded)", "Carrot", "Onion", "Tomato"],
+            "calories": 400,
+            "benefit": "Egg + chicken uttapam is the most protein-dense South Indian breakfast for PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Seasonal Fruit",
+            "ingredients": ["Egg", "Guava or banana or papaya"],
+            "calories": 155,
+            "benefit": "Rotating seasonal fruits provide varied antioxidants for comprehensive PCOS protection.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Chicken Sambar and Beans Poriyal",
+            "ingredients": ["Rice", "Chicken", "Toor dal", "Drumstick", "Beans", "Coconut"],
+            "calories": 520,
+            "benefit": "Sunday chicken sambar provides complete nutrition and resets PCOS for the week.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Sundal Style",
+            "ingredients": ["Boiled chicken", "Mustard", "Curry leaves", "Coconut", "Lemon"],
+            "calories": 160,
+            "benefit": "A uniquely South Indian protein snack adapted from the traditional sundal format.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi with Curd",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Cumin", "Turmeric", "Curd"],
+            "calories": 420,
+            "benefit": "Light Sunday dinner with ghee butyrate + chicken protein + probiotic curd.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1655,
+        "waterReminder": "Final day — track your week and prepare tomorrow's meal ingredients tonight.",
+        "dailyTip": "One week of non-veg PCOS meals with Indian fish and chicken measurably improves insulin sensitivity."
+      }
+    ],
+    "hostel_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Mess Idli with Boiled Egg",
+            "ingredients": ["Idli (mess)", "Egg", "Sambar", "Chutney"],
+            "calories": 310,
+            "benefit": "Egg added to mess idli doubles the protein without any extra cooking.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana", "Lemon", "Rock salt"],
+            "calories": 110,
+            "benefit": "Chromium in chana prevents the pre-lunch insulin crash common in PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Chicken Curry with Rice",
+            "ingredients": ["Chicken curry (mess)", "Rice", "Salad"],
+            "calories": 520,
+            "benefit": "Mess chicken curry + rice is the most complete PCOS non-veg hostel lunch.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Banana",
+            "ingredients": ["Egg", "Banana"],
+            "calories": 175,
+            "benefit": "Post-class protein + potassium is the simplest PCOS hostel recovery snack.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice with Chicken Bhurji",
+            "ingredients": ["Rice (mess)", "Curd", "Chicken (minced)", "Onion", "Tomato"],
+            "calories": 420,
+            "benefit": "Probiotic curd + chicken protein at dinner is the ideal hostel PCOS night meal.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1535,
+        "waterReminder": "Keep a water bottle beside your bed. Drink before sleeping.",
+        "dailyTip": "Mess chicken curry is PCOS-friendly when you skip the fried items alongside it."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Omelette with Bread",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Green chilli", "Whole wheat bread"],
+            "calories": 340,
+            "benefit": "10-minute room breakfast that provides 20g protein for a full morning of classes.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Peanut Butter Toast",
+            "ingredients": ["Whole wheat bread", "Peanut butter"],
+            "calories": 200,
+            "benefit": "Peanut monounsaturated fats support hormone synthesis.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almond butter", "swap": "Peanut butter"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Fish Curry with Rice",
+            "ingredients": ["Fish curry (mess)", "Rice", "Dal (side)"],
+            "calories": 510,
+            "benefit": "Fish omega-3 at lunch directly reduces PCOS ovarian inflammation.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Any Indian fish (rohu, tilapia, bangda)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Sprouts",
+            "ingredients": ["Egg", "Moong sprouts", "Lemon"],
+            "calories": 165,
+            "benefit": "Sprout zinc + egg folate supports PCOS ovarian cell health.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi (Room-made)",
+            "ingredients": ["Rice", "Moong dal", "Chicken (shredded)", "Ghee", "Turmeric", "Cumin"],
+            "calories": 420,
+            "benefit": "One-pot chicken khichdi is the most PCOS-efficient hostel dinner possible.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1635,
+        "waterReminder": "Fill 1 litre bottle daily — saves canteen money and improves PCOS focus.",
+        "dailyTip": "Any Indian fish at the mess is healthier than any fried non-veg snack at the canteen."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats with Egg (Savoury)",
+            "ingredients": ["Instant oats", "Egg", "Onion", "Pepper", "Salt", "Turmeric"],
+            "calories": 330,
+            "benefit": "Savoury egg oats is the most PCOS-efficient 5-minute hostel breakfast.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Peanuts",
+            "ingredients": ["Peanuts", "Rock salt"],
+            "calories": 130,
+            "benefit": "Peanut resveratrol reduces PCOS ovarian cyst formation.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Egg or Chicken Biryani",
+            "ingredients": ["Biryani (mess)", "Raita"],
+            "calories": 530,
+            "benefit": "Whole spice biryani provides anti-inflammatory compounds while delivering protein.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Vitamin C from guava boosts iron absorption from egg for PCOS anaemia.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Roti with Chicken Bhurji",
+            "ingredients": ["Roti (mess)", "Chicken bhurji (room-made or mess)", "Curd"],
+            "calories": 420,
+            "benefit": "Chicken bhurji roti provides complete protein for overnight PCOS hormonal repair.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1565,
+        "waterReminder": "Fill your bottle after dinner — drink before sleeping.",
+        "dailyTip": "Biryani with raita at the mess is actually PCOS-compatible — the issue is fried sides, not biryani itself."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Bread Chicken Omelette",
+            "ingredients": ["Whole wheat bread", "Eggs", "Chicken (minced)", "Onion", "Tomato"],
+            "calories": 380,
+            "benefit": "Double protein of egg + chicken in one 10-minute breakfast is unmatched for PCOS.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Seed Curd",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Flax lignans are the most evidence-based PCOS anti-androgen food available.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Dal Rice with Egg and Chicken",
+            "ingredients": ["Dal rice (mess)", "Egg", "Chicken (side)"],
+            "calories": 560,
+            "benefit": "Adding egg and chicken to mess dal rice creates a complete PCOS amino acid profile.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds"],
+            "calories": 175,
+            "benefit": "Zinc from pumpkin seeds + selenium from egg protect PCOS ovaries from oxidative damage.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Fried Rice (Light)",
+            "ingredients": ["Leftover rice", "Eggs", "Onion", "Carrot", "Soy sauce (light)", "Pepper"],
+            "calories": 400,
+            "benefit": "Using leftover mess rice with eggs is the most zero-waste PCOS hostel dinner.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1610,
+        "waterReminder": "Set a 2-hour phone reminder to drink water during study sessions.",
+        "dailyTip": "Egg fried rice with vegetables is a legitimate PCOS meal — oil control is all that matters."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Mess Dosa with Egg and Chicken",
+            "ingredients": ["Dosa (mess)", "Egg (side)", "Chicken (side)", "Sambar"],
+            "calories": 420,
+            "benefit": "Fermented dosa base + egg + chicken is the most complete PCOS breakfast available at any mess.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Apple",
+            "ingredients": ["Egg", "Apple"],
+            "calories": 175,
+            "benefit": "Apple quercetin + egg protein reduces PCOS adrenal stress hormones.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Prawn or Fish Curry with Rice",
+            "ingredients": ["Prawn or fish curry (mess)", "Rice", "Salad"],
+            "calories": 510,
+            "benefit": "Seafood iodine + omega-3 at lunch is unmatched for PCOS thyroid and hormone support.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Instant Oats with Egg",
+            "ingredients": ["Instant oats", "Egg", "Pepper", "Salt"],
+            "calories": 190,
+            "benefit": "Savoury oats + egg is a 4-minute PCOS hostel snack that rivals any supplement.",
+            "prepTimeMinutes": 4,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Chapati with Chicken Curry",
+            "ingredients": ["Chapati (mess)", "Chicken curry (mess)", "Curd"],
+            "calories": 460,
+            "benefit": "Chicken + chapati + curd at dinner covers protein, slow carbs and probiotics for PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1755,
+        "waterReminder": "Avoid cold drinks at the canteen — buttermilk or water always wins for PCOS.",
+        "dailyTip": "Seafood at the mess twice a week provides iodine levels that most Indian women with PCOS are deficient in."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Poha with Chicken",
+            "ingredients": ["Poha", "Egg", "Chicken (shredded)", "Onion", "Mustard", "Turmeric"],
+            "calories": 380,
+            "benefit": "Iron-rich poha + egg + chicken creates the most complete PCOS hostel breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Weekend flax + curd anchors the week's PCOS anti-androgen routine.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Biryani with Egg and Raita",
+            "ingredients": ["Non-veg biryani (mess)", "Egg (boiled, side)", "Raita"],
+            "calories": 560,
+            "benefit": "Biryani protein + probiotic raita + extra egg is PCOS-complete for a weekend meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds and Spearmint Tea",
+            "ingredients": ["Egg", "Pumpkin seeds", "Spearmint tea"],
+            "calories": 185,
+            "benefit": "Zinc + spearmint + egg selenium = triple PCOS ovarian protection.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Curd Rice",
+            "ingredients": ["Rice (mess)", "Curd", "Chicken bhurji", "Mustard", "Curry leaves"],
+            "calories": 430,
+            "benefit": "Probiotic curd + chicken protein + fermented base is the best hostel PCOS dinner.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1650,
+        "waterReminder": "Weekend goal: 10 glasses. Mint-infused water is effective and free.",
+        "dailyTip": "Chicken curd rice is the single most PCOS-optimised hostel dinner you can make in a room."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Besan Cheela with Egg and Chicken",
+            "ingredients": ["Besan", "Egg", "Chicken (minced)", "Onion", "Tomato", "Coriander"],
+            "calories": 370,
+            "benefit": "Besan chromium + egg choline + chicken protein = the best PCOS triple breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Jaggery and Chana",
+            "ingredients": ["Egg", "Roasted chana", "Small jaggery piece"],
+            "calories": 205,
+            "benefit": "Iron + protein + chromium at snack time is the best PCOS energy combination.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Pongal with Chicken or Fish Side",
+            "ingredients": ["Pongal (mess)", "Chicken or fish (mess)", "Sambar"],
+            "calories": 510,
+            "benefit": "Pongal's complete rice-lentil protein + non-veg side = full PCOS Sunday coverage.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg White with Seeds",
+            "ingredients": ["Egg whites", "Pumpkin seeds", "Sunflower seeds"],
+            "calories": 140,
+            "benefit": "Low fat, high zinc Sunday snack that locks in the week's PCOS hormonal benefits.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Khichdi with Chicken",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Turmeric", "Cumin"],
+            "calories": 430,
+            "benefit": "Sunday chicken khichdi with ghee is the most restorative PCOS hostel dinner.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1655,
+        "waterReminder": "Final hostel day of week — plan next week's snacks and water habits.",
+        "dailyTip": "One full week of non-veg PCOS hostel meals dramatically improves protein and micronutrient intake."
+      }
+    ],
+    "office_worker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Overnight Oats with Boiled Egg and Chicken",
+            "ingredients": ["Rolled oats", "Curd", "Flax seeds", "Egg", "Boiled chicken shreds"],
+            "calories": 430,
+            "benefit": "Prep tonight — zero-morning-stress breakfast with complete protein for PCOS.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Greek yogurt", "swap": "Homemade curd"},
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Mixed Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds", "Sunflower seeds"],
+            "calories": 175,
+            "benefit": "Desk-ready PCOS snack — zinc seeds + egg selenium protect ovarian function.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chicken Curry Rice Lunchbox with Salad",
+            "ingredients": ["Chicken curry", "Rice", "Cucumber", "Tomato", "Onion salad"],
+            "calories": 540,
+            "benefit": "Packed chicken lunchbox beats any canteen option for PCOS protein and cost.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Peanut Chikki",
+            "ingredients": ["Egg", "Peanut chikki (1 piece)"],
+            "calories": 200,
+            "benefit": "Protein + jaggery iron prevents the post-work binge eating that disrupts PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Curry with Chapati",
+            "ingredients": ["Indian mackerel or tilapia", "Onion", "Tomato", "Coconut", "Whole wheat flour"],
+            "calories": 440,
+            "benefit": "Fish omega-3 at dinner reduces PCOS overnight inflammation and improves sleep quality.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Indian mackerel (bangda)"}
+            ]
+          }
+        },
+        "dailyCalories": 1785,
+        "waterReminder": "Set a 2-hour desk reminder to drink water at work.",
+        "dailyTip": "Batch-cooking chicken on Sunday provides protein for 5 office lunchboxes at minimal cost."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Bhurji Chapati",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Green chilli", "Whole wheat flour"],
+            "calories": 380,
+            "benefit": "Classic 15-minute breakfast that powers through morning meetings with complete protein.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Makhana",
+            "ingredients": ["Makhana", "Rock salt", "Ghee"],
+            "calories": 110,
+            "benefit": "Makhana magnesium reduces the cortisol stress hormone elevated in office PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chicken Chapati Lunchbox with Dal",
+            "ingredients": ["Chicken curry", "Whole wheat chapati", "Toor dal", "Cucumber"],
+            "calories": 530,
+            "benefit": "Chicken + dal + chapati lunchbox is nutritionally complete for PCOS and filling for a long office day.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Spearmint Tea",
+            "ingredients": ["Egg", "Spearmint tea (no sugar)"],
+            "calories": 120,
+            "benefit": "Spearmint tea at 4 PM + egg protein is a clinically proven PCOS intervention.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Light Chicken Rasam Rice",
+            "ingredients": ["Chicken", "Tomato rasam", "Pepper", "Cumin", "Garlic", "Rice"],
+            "calories": 380,
+            "benefit": "Light chicken rasam after office reduces PCOS night-time cortisol and aids digestion.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1520,
+        "waterReminder": "Keep 1-litre bottle at your desk — visibility makes you drink without thinking.",
+        "dailyTip": "10-minute post-lunch office walk lowers post-meal blood sugar better than most supplements."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Dosa with Egg and Chicken",
+            "ingredients": ["Ragi flour", "Rice flour", "Urad dal", "Egg", "Chicken (shredded)", "Onion"],
+            "calories": 400,
+            "benefit": "Ragi calcium + egg protein + chicken amino acids = most complete PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Apple",
+            "ingredients": ["Egg", "Apple"],
+            "calories": 175,
+            "benefit": "Apple quercetin at mid-morning reduces PCOS adrenal stress from work.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Curd Rice with Chicken Bhurji (Lunchbox)",
+            "ingredients": ["Rice", "Curd", "Chicken bhurji", "Pickle", "Mustard"],
+            "calories": 470,
+            "benefit": "Most compact PCOS-optimised office lunch — probiotic + protein in one box.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Pepper Bites",
+            "ingredients": ["Chicken breast", "Pepper", "Garlic", "Lemon", "Salt"],
+            "calories": 160,
+            "benefit": "Pre-batch grilled chicken bites are the best desk-to-commute PCOS protein snack.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Prawn Curry with Rice",
+            "ingredients": ["Prawns", "Coconut", "Onion", "Tomato", "Mustard", "Curry leaves", "Rice"],
+            "calories": 430,
+            "benefit": "Prawn iodine + coconut lauric acid supports thyroid and hormone balance in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1635,
+        "waterReminder": "Drink before you leave the office — commute dehydrates you.",
+        "dailyTip": "Curd rice with chicken bhurji lunchbox takes 5 minutes to prep the night before."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Besan Chilla with Egg and Chicken",
+            "ingredients": ["Besan", "Egg", "Chicken (minced)", "Onion", "Tomato", "Coriander"],
+            "calories": 400,
+            "benefit": "Besan chromium + egg choline + chicken amino acids = best PCOS insulin-control breakfast.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Sprouts",
+            "ingredients": ["Egg", "Moong sprouts", "Lemon", "Salt"],
+            "calories": 165,
+            "benefit": "Sprout zinc + egg folate prevents the PCOS afternoon fatigue at the office.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Fish Curry Chapati Lunchbox",
+            "ingredients": ["Indian mackerel or tilapia", "Whole wheat chapati", "Cucumber salad"],
+            "calories": 490,
+            "benefit": "Fish omega-3 + chapati fibre is the most balanced PCOS office non-veg lunchbox.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Indian mackerel (bangda)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Coconut Water with Egg White",
+            "ingredients": ["Coconut water", "Egg white"],
+            "calories": 80,
+            "benefit": "Post-work rehydration + protein reduces PCOS cortisol after a stressful day.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Cumin", "Turmeric"],
+            "calories": 420,
+            "benefit": "One-pot tired-evening dinner — ghee butyrate + chicken + moong for PCOS repair.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1555,
+        "waterReminder": "Try cucumber-mint infused water at the office today.",
+        "dailyTip": "Indian mackerel is one of the richest omega-3 foods in India and costs less than ₹100 per serving."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Poha with Egg and Chicken",
+            "ingredients": ["Poha", "Egg", "Chicken (shredded)", "Onion", "Peanuts", "Turmeric"],
+            "calories": 400,
+            "benefit": "Iron-rich poha + egg + chicken is the most complete quick PCOS Friday breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Guava Vitamin C boosts egg iron absorption — critical for PCOS fatigue management.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Canteen Chicken Curry Rice",
+            "ingredients": ["Chicken curry (canteen)", "Rice", "Salad"],
+            "calories": 520,
+            "benefit": "Canteen chicken + rice is PCOS-adequate when you skip the fried sides.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg Murmura Chaat",
+            "ingredients": ["Puffed rice", "Egg whites", "Onion", "Tomato", "Lemon"],
+            "calories": 140,
+            "benefit": "Protein-enriched murmura chaat prevents the Friday post-work junk food craving.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Bhurji with Chapati",
+            "ingredients": ["Chicken (minced)", "Eggs", "Onion", "Tomato", "Whole wheat flour"],
+            "calories": 420,
+            "benefit": "Friday chicken bhurji chapati refuels protein stores after the work week.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1635,
+        "waterReminder": "End the work week with 8 glasses minimum today.",
+        "dailyTip": "Bringing your own chicken lunchbox 5 days a week saves ₹500+ monthly vs canteen eating."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Moong Dal Chilla with Egg and Chicken",
+            "ingredients": ["Moong dal", "Egg", "Chicken (minced)", "Onion", "Mint chutney"],
+            "calories": 380,
+            "benefit": "Mint anti-androgen + moong folate + egg + chicken creates a complete PCOS weekend breakfast.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg with Flax Curd",
+            "ingredients": ["Egg", "Curd", "Ground flax seeds"],
+            "calories": 170,
+            "benefit": "Weekend flax + curd + egg anchors the hormone management routine before the next week.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chicken Biryani with Raita",
+            "ingredients": ["Basmati rice", "Chicken", "Whole spices", "Onion", "Curd", "Cucumber"],
+            "calories": 560,
+            "benefit": "Weekend chicken biryani with probiotic raita is a nourishing PCOS rest-day meal.",
+            "prepTimeMinutes": 45,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Spearmint Tea",
+            "ingredients": ["Egg", "Spearmint tea (no sugar)"],
+            "calories": 120,
+            "benefit": "Spearmint tea daily for one month reduces PCOS testosterone by up to 30%.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Curry with Roti",
+            "ingredients": ["Indian mackerel or tilapia", "Onion", "Tomato", "Coconut", "Whole wheat flour"],
+            "calories": 440,
+            "benefit": "Fish omega-3 at Saturday dinner reduces PCOS inflammation accumulated through the work week.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1670,
+        "waterReminder": "Weekend: 10 glasses. Batch-cook chicken for next week's lunchboxes today.",
+        "dailyTip": "Making chicken biryani at home on Saturday saves money and avoids restaurant PCOS-unfriendly oils."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats Dosa with Egg and Chicken Side",
+            "ingredients": ["Rolled oats", "Semolina", "Curd", "Egg", "Chicken (boiled)", "Tomato chutney"],
+            "calories": 400,
+            "benefit": "Oats GI benefit + egg + chicken = the best PCOS Sunday breakfast to start the week.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Seasonal Fruit",
+            "ingredients": ["Egg", "Papaya or guava"],
+            "calories": 155,
+            "benefit": "Rotating fruit antioxidants + egg provides consistent PCOS hormonal protection.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Sambar Rice with Chicken and Sundal",
+            "ingredients": ["Rice", "Sambar", "Chicken curry", "Boiled chickpeas", "Coconut"],
+            "calories": 580,
+            "benefit": "Sunday full meals with chicken is the most complete PCOS nutritional reset.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken and Seeds Sundal",
+            "ingredients": ["Boiled chicken", "Pumpkin seeds", "Mustard", "Curry leaves"],
+            "calories": 175,
+            "benefit": "Sunday non-veg adaptation of traditional sundal locks in full week PCOS protein.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Light Chicken Rasam Rice",
+            "ingredients": ["Rice", "Chicken rasam", "Pepper", "Cumin", "Garlic"],
+            "calories": 370,
+            "benefit": "Light Sunday dinner prepares digestion for Monday and the coming work week.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1680,
+        "waterReminder": "Prep overnight oats and boil chicken for tomorrow. Fill your water bottle.",
+        "dailyTip": "A full week of non-veg PCOS office meals measurably improves insulin sensitivity and energy."
+      }
+    ],
+    "homemaker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Adai Dosa with Chicken Chutney and Egg",
+            "ingredients": ["Mixed lentils", "Rice", "Chicken (minced)", "Coconut", "Egg", "Red chilli"],
+            "calories": 480,
+            "benefit": "Multi-lentil adai + chicken + egg is the most complete PCOS protein breakfast.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Curd with Egg White",
+            "ingredients": ["Curd", "Ground flax seeds", "Egg white"],
+            "calories": 120,
+            "benefit": "Flax anti-androgen + probiotic curd + egg white = unique PCOS homemaker snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Full Tamil Meals with Chicken Curry",
+            "ingredients": ["Rice", "Sambar", "Rasam", "Kootu", "Chicken curry", "Papad"],
+            "calories": 680,
+            "benefit": "Traditional thali + chicken curry is the most nutritionally complete PCOS homemaker meal.",
+            "prepTimeMinutes": 55,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Keerai Stir Fry",
+            "ingredients": ["Chicken (minced)", "Spinach", "Garlic", "Onion"],
+            "calories": 180,
+            "benefit": "Chicken iron + spinach folate + garlic anti-androgen = PCOS evening triple.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Fish Curry",
+            "ingredients": ["Whole wheat flour", "Indian mackerel", "Onion", "Tomato", "Coconut", "Spices"],
+            "calories": 460,
+            "benefit": "Fish omega-3 at dinner reduces overnight PCOS inflammation and improves sleep.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Indian mackerel (bangda)"}
+            ]
+          }
+        },
+        "dailyCalories": 1920,
+        "waterReminder": "Start with warm lemon water before preparing the morning non-veg.",
+        "dailyTip": "Adding chicken to Tamil thali requires only 20 extra minutes but doubles the protein for PCOS."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Mudde with Chicken Keerai",
+            "ingredients": ["Ragi flour", "Chicken", "Spinach", "Garlic", "Onion"],
+            "calories": 400,
+            "benefit": "Ragi low GI + chicken protein + spinach iron = the PCOS anaemia-defying breakfast.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Sprouts",
+            "ingredients": ["Egg", "Moong sprouts", "Coconut", "Lemon"],
+            "calories": 170,
+            "benefit": "Sprout zinc + egg folate maximises PCOS ovarian protection.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Millet Rice with Fish Curry and Vazhaithandu Kootu",
+            "ingredients": ["Foxtail millet", "Indian mackerel", "Banana stem", "Toor dal", "Coconut"],
+            "calories": 620,
+            "benefit": "Millet low GI + fish omega-3 + banana stem diuretic = PCOS triple intervention.",
+            "prepTimeMinutes": 50,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken with Peanut Chikki",
+            "ingredients": ["Boiled chicken pieces", "Peanut chikki"],
+            "calories": 210,
+            "benefit": "Protein + iron + healthy fats combination reduces PCOS afternoon fatigue.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Khichdi with Chicken and Ghee",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Turmeric", "Cumin"],
+            "calories": 460,
+            "benefit": "Ghee butyrate + chicken protein + moong fibre heals PCOS gut overnight.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1860,
+        "waterReminder": "Drink jeera water after lunch — aids digestion and reduces PCOS bloating.",
+        "dailyTip": "Banana stem with fish is one of the most PCOS-powerful South Indian meal pairs."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pesarattu with Egg and Chicken",
+            "ingredients": ["Green moong dal", "Egg", "Chicken (minced)", "Ginger chutney"],
+            "calories": 400,
+            "benefit": "Moong + egg + chicken provides the full spectrum of PCOS essential amino acids.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Amla Curd with Egg White",
+            "ingredients": ["Curd", "Amla", "Egg white", "Rock salt"],
+            "calories": 105,
+            "benefit": "Amla Vitamin C + curd probiotic + egg white = unique PCOS immunity snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Pavakkai Pitlai with Rice and Chicken",
+            "ingredients": ["Bitter gourd", "Toor dal", "Tamarind", "Coconut", "Rice", "Chicken side"],
+            "calories": 580,
+            "benefit": "Bitter gourd + chicken is among the most validated PCOS dietary interventions.",
+            "prepTimeMinutes": 50,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Murungai Keerai Stir Fry",
+            "ingredients": ["Chicken", "Drumstick leaves", "Garlic", "Onion"],
+            "calories": 200,
+            "benefit": "Drumstick leaf iron + chicken B12 at evening snack is optimal for PCOS absorption.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Rasam Rice",
+            "ingredients": ["Indian mackerel", "Tomato rasam", "Rice", "Pepper", "Garlic"],
+            "calories": 400,
+            "benefit": "Fish omega-3 in thermogenic rasam accelerates PCOS fat metabolism overnight.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1685,
+        "waterReminder": "Soak fenugreek overnight — drink the water before breakfast tomorrow.",
+        "dailyTip": "Bitter gourd + chicken twice a week is one of the most evidence-based PCOS meal pairs."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Paratha with Egg and Chicken",
+            "ingredients": ["Whole wheat flour", "Fenugreek leaves", "Egg", "Chicken bhurji"],
+            "calories": 460,
+            "benefit": "Methi diosgenin + egg choline + chicken protein = unmatched PCOS hormone breakfast.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Karamani Sundal with Boiled Egg",
+            "ingredients": ["Cowpea", "Egg", "Coconut", "Mustard"],
+            "calories": 185,
+            "benefit": "Cowpea folate + egg protein supports PCOS ovarian cell division.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Keerai Kootu with Rice, Sambar and Fish Fry",
+            "ingredients": ["Keerai", "Toor dal", "Coconut", "Rice", "Sambar", "Tilapia fry"],
+            "calories": 620,
+            "benefit": "Green iron + dal protein + fish omega-3 = most complete PCOS homemaker lunch.",
+            "prepTimeMinutes": 45,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Banana Flower Chicken Vadai",
+            "ingredients": ["Banana flower", "Chicken (minced)", "Chana dal", "Fennel", "Onion"],
+            "calories": 240,
+            "benefit": "Banana flower cycle-regulating compounds + chicken protein = unique PCOS snack.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Egg and Chicken Dal",
+            "ingredients": ["Whole wheat flour", "Rajma", "Chicken", "Egg", "Tomato", "Spices"],
+            "calories": 520,
+            "benefit": "Rajma + chicken + egg at dinner provides the richest PCOS amino acid profile.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 2025,
+        "waterReminder": "Drink the overnight fenugreek water before breakfast today.",
+        "dailyTip": "Banana flower chicken vadai is a uniquely South Indian PCOS recipe with outstanding benefits."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kollu Dosa with Chicken and Egg",
+            "ingredients": ["Horse gram", "Rice", "Urad dal", "Chicken", "Egg", "Tomato chutney"],
+            "calories": 400,
+            "benefit": "Horse gram thermogenic + chicken + egg = most metabolically active PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Turmeric Milk with Egg",
+            "ingredients": ["Warm milk", "Turmeric", "Black pepper", "Egg"],
+            "calories": 220,
+            "benefit": "Curcumin + egg choline = most anti-inflammatory PCOS mid-morning combination.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kollu Rasam Rice with Chicken Poriyal",
+            "ingredients": ["Horse gram rasam", "Rice", "Chicken (dry)", "Pepper", "Garlic"],
+            "calories": 580,
+            "benefit": "Horse gram + chicken thermogenic pair is the most powerful PCOS metabolism lunch.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds", "Rock salt"],
+            "calories": 175,
+            "benefit": "Pumpkin zinc + egg selenium = best PCOS ovarian oxidative protection snack.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vendakkai Sambar with Chicken and Idli",
+            "ingredients": ["Okra", "Chicken", "Toor dal", "Tamarind", "Idli batter"],
+            "calories": 450,
+            "benefit": "Okra chromium + chicken B12 + idli probiotics = PCOS triple overnight intervention.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1825,
+        "waterReminder": "Drink coriander seed water today for thyroid support.",
+        "dailyTip": "Horse gram and chicken are the most researched thermogenic South Indian PCOS food pair."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kambu Dosa with Egg and Chicken",
+            "ingredients": ["Pearl millet flour", "Rice flour", "Urad dal", "Egg", "Chicken (shredded)"],
+            "calories": 420,
+            "benefit": "Pearl millet magnesium + egg + chicken = highest-magnesium PCOS breakfast possible.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Fresh Coconut",
+            "ingredients": ["Egg", "Fresh coconut"],
+            "calories": 155,
+            "benefit": "Coconut lauric acid + egg protein supports hormone synthesis.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mor Kuzhambu with Rice, Chicken and Beans Poriyal",
+            "ingredients": ["Curd", "Coconut", "Rice", "Chicken curry", "Beans", "Mustard"],
+            "calories": 600,
+            "benefit": "Probiotic mor kuzhambu + chicken protein + beans fibre = complete PCOS meal.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Broad Beans Stir Fry",
+            "ingredients": ["Chicken", "Broad beans", "Coconut", "Mustard"],
+            "calories": 210,
+            "benefit": "Broad bean folate + chicken B12 together support PCOS ovarian function.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Adai with Fish Keerai Curry",
+            "ingredients": ["Ragi flour", "Urad dal", "Tilapia", "Spinach", "Garlic"],
+            "calories": 430,
+            "benefit": "Ragi calcium + fish omega-3 + spinach folate = PCOS triple deficiency solution.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1815,
+        "waterReminder": "Drink fenugreek water before sleep — your PCOS hormones will thank you.",
+        "dailyTip": "Pearl millet dosa + egg + chicken is the highest magnesium PCOS breakfast you can cook at home."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Samai Pongal with Egg and Chicken",
+            "ingredients": ["Little millet", "Moong dal", "Ghee", "Pepper", "Egg", "Chicken (side)"],
+            "calories": 450,
+            "benefit": "Little millet phosphorus + egg choline + chicken protein + ghee butyrate = PCOS Sunday reset.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Papaya with Egg White and Flax",
+            "ingredients": ["Papaya", "Egg white", "Ground flax seeds"],
+            "calories": 125,
+            "benefit": "Papaya enzymes + flax lignans + egg white = PCOS hormonal detox snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Puli Kuzhambu with Rice, Chicken Kootu and Rasam",
+            "ingredients": ["Tamarind", "Small onions", "Rice", "Chicken", "Dal kootu", "Tomato rasam"],
+            "calories": 660,
+            "benefit": "Traditional full Sunday non-veg meals is the most complete weekly PCOS reset.",
+            "prepTimeMinutes": 60,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Kollu Sundal with Chicken",
+            "ingredients": ["Horse gram", "Boiled chicken", "Coconut", "Mustard"],
+            "calories": 190,
+            "benefit": "Weekly horse gram + chicken sundal locks in PCOS thermogenic fat-burning habit.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Venn Pongal with Chicken Sambar",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Pepper", "Cumin", "Chicken", "Sambar"],
+            "calories": 470,
+            "benefit": "Sunday comfort with complete nutrition — ghee + chicken + sambar for PCOS.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1895,
+        "waterReminder": "Great week! Prep fenugreek water for tomorrow and batch-cook chicken for the week.",
+        "dailyTip": "Full Sunday Tamil non-veg meals is the most holistic PCOS dietary tradition."
+      }
+    ],
+    "living_alone": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Chicken Keema Dosa",
+            "ingredients": ["Dosa batter", "Chicken keema", "Onion", "Ginger", "Garlic", "Green chilli"],
+            "calories": 380,
+            "benefit": "High-protein chicken in fermented dosa base supports PCOS insulin balance.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Peanuts and Spearmint Tea",
+            "ingredients": ["Egg", "Peanuts", "Spearmint tea"],
+            "calories": 190,
+            "benefit": "Spearmint reduces PCOS testosterone; peanut fats support hormone synthesis.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almonds", "swap": "Peanuts"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Fish Curry",
+            "ingredients": ["Brown rice", "Indian mackerel", "Onion", "Tomato", "Coconut"],
+            "calories": 520,
+            "benefit": "Indian mackerel omega-3 reduces PCOS ovarian inflammation at a fraction of salmon's cost.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Salmon", "swap": "Indian mackerel (bangda)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Vitamin C from guava improves iron absorption from egg for PCOS anaemia.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Rasam Rice",
+            "ingredients": ["Chicken", "Tomato", "Pepper", "Cumin", "Garlic", "Rice"],
+            "calories": 370,
+            "benefit": "One-pot chicken rasam rice is the most PCOS-efficient solo dinner.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1615,
+        "waterReminder": "Drink 8–10 glasses today. Start with warm lemon water before your first non-veg meal.",
+        "dailyTip": "Indian mackerel is among the richest omega-3 foods in the world and costs under ₹100."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg and Chicken Bhurji Idli",
+            "ingredients": ["Idli batter", "Eggs", "Chicken (minced)", "Onion", "Tomato", "Curry leaves"],
+            "calories": 420,
+            "benefit": "Fermented idli + egg + chicken = the most complete PCOS breakfast for solo cooking.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Flax Curd",
+            "ingredients": ["Egg", "Curd", "Ground flax seeds"],
+            "calories": 165,
+            "benefit": "Flax lignans reduce PCOS testosterone; egg builds hormones; curd repairs gut.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Rice with Chicken Curry",
+            "ingredients": ["Foxtail millet", "Chicken", "Onion", "Tomato", "Coconut", "Spices"],
+            "calories": 510,
+            "benefit": "Foxtail millet low GI + chicken protein = ideal solo PCOS lunch with minimal waste.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Pumpkin Seeds with Spearmint Tea",
+            "ingredients": ["Pumpkin seeds", "Spearmint tea (no sugar)"],
+            "calories": 130,
+            "benefit": "Pumpkin zinc + spearmint anti-androgen = PCOS double hormone management snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Sambar with Rice",
+            "ingredients": ["Tilapia or rohu", "Toor dal", "Tamarind", "Drumstick", "Tomato", "Rice"],
+            "calories": 440,
+            "benefit": "Freshwater fish sambar is affordable, protein-rich and anti-inflammatory for PCOS.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1665,
+        "waterReminder": "Drink water before every meal. Replace one sugary drink with buttermilk.",
+        "dailyTip": "Batch-cooking chicken for 2 days at once halves cooking time while living alone."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Chicken Pepper Oats Upma",
+            "ingredients": ["Rolled oats", "Chicken (shredded)", "Onion", "Pepper", "Curry leaves", "Turmeric"],
+            "calories": 370,
+            "benefit": "One-pot savoury oats + chicken is a 15-minute complete PCOS solo breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Coconut Water",
+            "ingredients": ["Egg", "Coconut water"],
+            "calories": 125,
+            "benefit": "Coconut electrolytes reduce PCOS water retention; egg protein provides satiety.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Chicken Keerai Masala",
+            "ingredients": ["Rice", "Chicken", "Spinach", "Onion", "Garlic", "Tomato", "Spices"],
+            "calories": 500,
+            "benefit": "Chicken iron + spinach folate + garlic anti-androgen creates the solo PCOS meal.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Chana with Cinnamon Tea",
+            "ingredients": ["Roasted chana", "Cinnamon tea"],
+            "calories": 140,
+            "benefit": "Cinnamon improves PCOS menstrual regularity and insulin resistance.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Turmeric", "Cumin"],
+            "calories": 420,
+            "benefit": "One-pot chicken khichdi minimises waste and provides complete PCOS nutrition.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1555,
+        "waterReminder": "Drink a glass of water before preparing each meal today.",
+        "dailyTip": "Savoury oats with chicken is the most PCOS-efficient solo breakfast — one pan, 15 minutes."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Bhurji Chapati",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Green chilli", "Whole wheat flour"],
+            "calories": 380,
+            "benefit": "Egg + whole wheat chapati provides complete protein and slow carbs for PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Chicken Pieces with Lemon",
+            "ingredients": ["Boiled chicken", "Lemon", "Pepper", "Salt"],
+            "calories": 150,
+            "benefit": "Boiled chicken is the leanest PCOS protein snack with zero preparation.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Prawn Curry",
+            "ingredients": ["Brown rice", "Prawns", "Onion", "Coconut", "Tomato", "Mustard"],
+            "calories": 490,
+            "benefit": "Prawn iodine supports thyroid function commonly disrupted in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Flax Curd",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Flax lignans daily for 3 months significantly reduce PCOS testosterone.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice with Chicken Bhurji",
+            "ingredients": ["Rice", "Curd", "Chicken bhurji", "Mustard", "Curry leaves"],
+            "calories": 420,
+            "benefit": "Probiotic curd + chicken protein is the most gut-hormone supportive PCOS dinner.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1535,
+        "waterReminder": "Replace one chai today with warm turmeric-pepper water.",
+        "dailyTip": "Prawns are affordable seafood in most Indian cities with excellent thyroid iodine for PCOS."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Chicken Chutney",
+            "ingredients": ["Idli batter", "Chicken (minced)", "Coconut", "Red chilli", "Garlic"],
+            "calories": 350,
+            "benefit": "Fermented idli + chicken coconut chutney is a uniquely South Indian PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Vitamin C from guava boosts egg iron absorption for PCOS anaemia correction.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Fish Keerai Curry",
+            "ingredients": ["Rice", "Tilapia", "Spinach", "Onion", "Tomato", "Spices"],
+            "calories": 490,
+            "benefit": "Fish omega-3 + spinach iron is a South Indian PCOS lunch that costs under ₹80.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Pepper Bites",
+            "ingredients": ["Chicken breast", "Pepper", "Garlic", "Lemon"],
+            "calories": 160,
+            "benefit": "Pre-grilled chicken bites from batch cooking are the most PCOS-efficient snack.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Sambar with Ragi Adai",
+            "ingredients": ["Chicken", "Toor dal", "Tamarind", "Ragi flour", "Urad dal", "Cumin"],
+            "calories": 420,
+            "benefit": "Ragi calcium + chicken + sambar spices = PCOS triple dinner benefit.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1575,
+        "waterReminder": "Drink jeera water today — aids PCOS digestion and reduces bloating.",
+        "dailyTip": "Tilapia with spinach is the most affordable complete PCOS lunch you can cook alone."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Paratha with Egg and Chicken",
+            "ingredients": ["Whole wheat flour", "Fenugreek leaves", "Egg", "Chicken bhurji"],
+            "calories": 460,
+            "benefit": "Methi diosgenin + egg + chicken is the most complete PCOS hormone-building breakfast.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Mixed Sprouts with Boiled Egg",
+            "ingredients": ["Moong sprouts", "Chickpea sprouts", "Egg", "Lemon"],
+            "calories": 200,
+            "benefit": "Sprout zinc doubles after sprouting; egg folate completes the PCOS micronutrient picture.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Banana Flower Chicken Stir Fry",
+            "ingredients": ["Brown rice", "Banana flower", "Chicken", "Onion", "Spices"],
+            "calories": 510,
+            "benefit": "Banana flower menstrual cycle regulation + chicken protein = PCOS powerhouse lunch.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds and Spearmint Tea",
+            "ingredients": ["Egg", "Pumpkin seeds", "Spearmint tea"],
+            "calories": 185,
+            "benefit": "Zinc + spearmint + egg selenium = triple PCOS ovarian protection.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Fish Curry with Roti",
+            "ingredients": ["Indian mackerel or tilapia", "Onion", "Tomato", "Coconut", "Whole wheat flour"],
+            "calories": 440,
+            "benefit": "Fish omega-3 at Saturday dinner reduces the week's accumulated PCOS inflammation.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1795,
+        "waterReminder": "Mint-infused water today — spearmint reduces PCOS androgens.",
+        "dailyTip": "Banana flower with chicken once a week is one of the most uniquely South Indian PCOS recipes."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Uttapam with Chicken",
+            "ingredients": ["Dosa batter", "Egg", "Chicken (shredded)", "Carrot", "Onion", "Tomato"],
+            "calories": 400,
+            "benefit": "Egg + chicken uttapam is the most protein-dense South Indian PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Chia Curd Pudding with Egg White",
+            "ingredients": ["Curd", "Flax seeds", "Egg white", "Fresh coconut"],
+            "calories": 160,
+            "benefit": "Omega-3 seeds + probiotic curd + egg white = complete PCOS gut-hormone Sunday snack.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Rice with Chicken Sambar and Sundal",
+            "ingredients": ["Rice", "Chicken sambar", "Boiled chickpeas", "Coconut", "Mustard"],
+            "calories": 580,
+            "benefit": "Sunday non-veg full thali resets the week's PCOS nutritional balance.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chicken Seeds Sundal",
+            "ingredients": ["Boiled chicken", "Pumpkin seeds", "Mustard", "Curry leaves", "Coconut"],
+            "calories": 190,
+            "benefit": "Solo-adapted chicken sundal is a South Indian PCOS tradition in a new format.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chicken Khichdi with Curd",
+            "ingredients": ["Rice", "Moong dal", "Chicken", "Ghee", "Cumin", "Turmeric", "Curd"],
+            "calories": 430,
+            "benefit": "Ghee + chicken + curd one-pot Sunday dinner minimises waste and maximises PCOS repair.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1760,
+        "waterReminder": "Final day — track your water this week and batch-cook chicken for tomorrow.",
+        "dailyTip": "A full week of Indian non-veg PCOS meals dramatically improves protein and omega-3 intake."
+      }
+    ]
+  }
+}

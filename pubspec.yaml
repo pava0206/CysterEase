@@ -190,6 +190,9 @@ flutter:
     - assets/images/spicedchicken.jpg
     - assets/images/meatballs.jpg
     - assets/images/whitefish.jpg
+    - assets/data/weight_loss_vegetarian.json
+    - assets/data/weight_loss_eggetarian.json
+    - assets/data/weight_loss_nonvegetarian.json
     # The following image assets were removed from the list because the files
     # do not exist in the repository. Add them back if/when the files are
     # created at the specified paths.

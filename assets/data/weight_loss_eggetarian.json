@@ -1,0 +1,2068 @@
+{
+  "goal": "weight_loss",
+  "dietType": "eggetarian",
+  "plans": {
+    "college_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Scrambled Eggs with Dosa",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Dosa batter", "Curry leaves"],
+            "calories": 355,
+            "benefit": "Eggs provide complete protein and choline for hormonal balance.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Roasted Chana",
+            "ingredients": ["Egg", "Roasted chana", "Lemon", "Salt"],
+            "calories": 185,
+            "benefit": "Egg's vitamin D activates progesterone receptors; chana chromium reduces insulin resistance.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Sambar and Egg Curry",
+            "ingredients": ["Brown rice", "Toor dal", "Drumstick", "Egg", "Onion", "Tomato"],
+            "calories": 490,
+            "benefit": "Drumstick supplies zinc and iron for ovarian health alongside egg protein.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Brown rice", "swap": "Regular rice (smaller portion)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Vitamin C from guava boosts iron absorption from the egg yolk.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Mudde with Keerai and Egg Curry",
+            "ingredients": ["Ragi flour", "Spinach", "Garlic", "Egg", "Light gravy"],
+            "calories": 365,
+            "benefit": "Ragi's low GI with spinach iron and egg B12 combats PCOS anaemia.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1550,
+        "waterReminder": "Carry a water bottle to college. Drink a glass before each class.",
+        "dailyTip": "Eggs eaten daily for 4 weeks measurably improve PCOS cholesterol profile."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Egg Bhurji",
+            "ingredients": ["Idli batter", "Eggs", "Onion", "Tomato", "Sambar"],
+            "calories": 370,
+            "benefit": "Fermented idli feeds gut bacteria; egg bhurji provides complete protein.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Hard-Boiled Egg with Peanuts",
+            "ingredients": ["Egg", "Peanuts", "Spearmint tea"],
+            "calories": 190,
+            "benefit": "Spearmint tea is clinically proven to reduce PCOS testosterone.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Rice with Kootu and Egg",
+            "ingredients": ["Foxtail millet", "Mixed vegetables", "Coconut", "Egg", "Curd"],
+            "calories": 450,
+            "benefit": "Foxtail millet's low GI and iron are critical for PCOS insulin management.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Quinoa", "swap": "Foxtail millet"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Sprouts with Boiled Egg",
+            "ingredients": ["Moong sprouts", "Egg", "Lemon", "Cumin"],
+            "calories": 170,
+            "benefit": "Sprouted moong zinc + egg folate together support ovarian health.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Pesarattu with Egg Omelette",
+            "ingredients": ["Green moong dal", "Rice", "Egg", "Curry leaves", "Ginger"],
+            "calories": 375,
+            "benefit": "Moong folate + egg B6 support progesterone production in PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1555,
+        "waterReminder": "Replace one cold drink at the canteen with buttermilk today.",
+        "dailyTip": "2 eggs per day provides the full daily choline requirement for PCOS hormonal signalling."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats Adai with Scrambled Eggs",
+            "ingredients": ["Rolled oats", "Toor dal", "Urad dal", "Eggs", "Turmeric", "Pepper"],
+            "calories": 340,
+            "benefit": "Turmeric's curcumin reduces PCOS inflammation; oats beta-glucan lowers LDL.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg White with Pumpkin Seeds",
+            "ingredients": ["Egg whites", "Pumpkin seeds"],
+            "calories": 110,
+            "benefit": "Pumpkin seed zinc suppresses ovarian androgen production.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kodo Millet Rice with Brinjal Gothsu and Egg",
+            "ingredients": ["Kodo millet", "Brinjal", "Toor dal", "Egg", "Curd"],
+            "calories": 480,
+            "benefit": "Kodo millet phytochemicals lower cholesterol and blood sugar in PCOS.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Roasted Makhana",
+            "ingredients": ["Egg", "Makhana", "Cinnamon tea"],
+            "calories": 185,
+            "benefit": "Cinnamon improves menstrual regularity and insulin resistance in PCOS.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Egg Masala with Chapati",
+            "ingredients": ["Spinach", "Eggs", "Whole wheat flour", "Onion", "Tomato", "Spices"],
+            "calories": 395,
+            "benefit": "Spinach folate + egg choline support hormonal methylation cycle in PCOS.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1510,
+        "waterReminder": "Drink a glass of water before every canteen visit to reduce impulse eating.",
+        "dailyTip": "Spearmint tea twice daily for one month reduces PCOS testosterone by up to 30%."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Barnyard Millet Pongal with Egg Omelette",
+            "ingredients": ["Barnyard millet", "Moong dal", "Ghee", "Pepper", "Cumin", "Egg", "Onion"],
+            "calories": 360,
+            "benefit": "Barnyard millet is gluten-free; ghee provides fat-soluble vitamins for hormone synthesis.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg and Banana",
+            "ingredients": ["Egg", "Banana"],
+            "calories": 175,
+            "benefit": "Banana potassium + egg protein is a perfect pre-class energy combination.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Bitter Gourd and Egg",
+            "ingredients": ["Brown rice", "Bitter gourd", "Egg", "Drumstick leaves", "Buttermilk"],
+            "calories": 465,
+            "benefit": "Bitter gourd clinically proven to improve insulin sensitivity — the root cause of PCOS weight gain.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Horse Gram Sundal with Egg White",
+            "ingredients": ["Horse gram", "Egg white", "Onion", "Tomato", "Coriander"],
+            "calories": 178,
+            "benefit": "Horse gram is thermogenic; egg white adds fat-free complete protein.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Keerai Stir Fry with Ragi Adai",
+            "ingredients": ["Eggs", "Spinach", "Ragi flour", "Urad dal", "Cumin"],
+            "calories": 355,
+            "benefit": "Ragi calcium + keerai folate + egg B12 address the top 3 PCOS deficiencies.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1533,
+        "waterReminder": "Refill your bottle twice during classes today.",
+        "dailyTip": "Horse gram (kollu) is one of South India's most underused PCOS superfoods."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pearl Millet Dosa with Egg Bhurji",
+            "ingredients": ["Pearl millet flour", "Rice flour", "Eggs", "Carrot", "Curry leaves"],
+            "calories": 350,
+            "benefit": "Pearl millet has highest magnesium of all grains — magnesium deficiency worsens PCOS.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Flax Curd",
+            "ingredients": ["Egg", "Curd", "Ground flax seeds"],
+            "calories": 160,
+            "benefit": "Flax lignans reduce excess oestrogen; egg provides hormone-building protein.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Little Millet Rice with Broad Beans and Egg Masala",
+            "ingredients": ["Little millet", "Broad beans", "Egg", "Tomato rasam", "Curd"],
+            "calories": 465,
+            "benefit": "Little millet phosphorus and B vitamins support PCOS cellular metabolism.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Hard-Boiled Egg with Roasted Makhana",
+            "ingredients": ["Egg", "Makhana"],
+            "calories": 185,
+            "benefit": "Desk-friendly or canteen snack that gives complete protein for the evening.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Okra Sambar with Egg Dosa",
+            "ingredients": ["Okra", "Toor dal", "Tamarind", "Egg", "Dosa batter"],
+            "calories": 372,
+            "benefit": "Okra chromium reduces insulin resistance; egg dosa boosts protein density.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1532,
+        "waterReminder": "Drink water with lemon and a pinch of cinnamon today.",
+        "dailyTip": "Eggs for breakfast vs carbs for breakfast has been clinically shown to reduce PCOS weight faster."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Dosa with Egg White Omelette",
+            "ingredients": ["Fenugreek seeds", "Rice", "Urad dal", "Egg whites", "Spinach", "Pepper"],
+            "calories": 365,
+            "benefit": "Sprouted fenugreek diosgenin mimics progesterone activity naturally.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sprouts Chaat with Egg",
+            "ingredients": ["Moong sprouts", "Chickpea sprouts", "Egg", "Tomato", "Lemon"],
+            "calories": 200,
+            "benefit": "Sprouting doubles zinc; egg's complete protein creates a full amino acid snack.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Banana Flower Egg Stir Fry",
+            "ingredients": ["Brown rice", "Banana flower", "Egg", "Keerai poriyal", "Tomato rasam"],
+            "calories": 475,
+            "benefit": "Banana flower regulates menstrual cycles and provides iron.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Weekend snack that combines complete protein with Vitamin C for PCOS immunity.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Kootu with Dal and Phulka",
+            "ingredients": ["Eggs", "Mixed vegetables", "Toor dal", "Whole wheat flour", "Rasam"],
+            "calories": 380,
+            "benefit": "Egg B12 for nerve health; dal fibre for gut-hormone balance at dinner.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1575,
+        "waterReminder": "Weekend hydration goal: 10 glasses. Mint-infused water counts.",
+        "dailyTip": "Banana flower (vazha poo) once a week is a proven South Indian remedy for irregular PCOS cycles."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Vegetable Egg Uttapam",
+            "ingredients": ["Dosa batter", "Eggs", "Carrot", "Onion", "Tomato", "Coriander", "Sambar"],
+            "calories": 360,
+            "benefit": "Egg-topped uttapam combines fermented carbs with complete protein for hormonal stability.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Chia Curd Pudding with Egg",
+            "ingredients": ["Curd", "Flax or chia seeds", "Egg", "Coconut"],
+            "calories": 190,
+            "benefit": "Omega-3 from seeds + egg DHA maximise anti-inflammatory support for PCOS ovaries.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Bisibelabath with Egg",
+            "ingredients": ["Foxtail millet", "Toor dal", "Mixed vegetables", "Egg", "Cucumber raita"],
+            "calories": 478,
+            "benefit": "One-pot millet + lentil provides complete amino acids; egg adds vitamin D.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Coconut Pieces",
+            "ingredients": ["Egg", "Fresh coconut", "Pumpkin seeds"],
+            "calories": 215,
+            "benefit": "Coconut medium-chain fats support progesterone production.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Pesarattu with Egg Keerai Omelette and Rasam",
+            "ingredients": ["Moong dal", "Eggs", "Spinach", "Horse gram rasam"],
+            "calories": 372,
+            "benefit": "Protein-rich dinner promotes overnight fat burning; horse gram rasam is thermogenic.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1615,
+        "waterReminder": "Final day — track your water intake and notice how full you feel.",
+        "dailyTip": "A week of egg-based PCOS meals measurably improves testosterone-to-oestrogen ratio."
+      }
+    ],
+    "hostel_student": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Mess Idli with Boiled Egg",
+            "ingredients": ["Idli (mess)", "Egg", "Sambar", "Chutney"],
+            "calories": 310,
+            "benefit": "Adding a boiled egg to mess idli doubles the protein content instantly.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Chana",
+            "ingredients": ["Roasted chana"],
+            "calories": 110,
+            "benefit": "Chromium-rich snack that prevents the pre-lunch blood sugar crash.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Dal Rice with Egg Curry",
+            "ingredients": ["Rice", "Dal", "Egg curry (if available)", "Salad"],
+            "calories": 490,
+            "benefit": "Dal-egg combination provides complete protein for PCOS hormone production.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Banana",
+            "ingredients": ["Egg", "Banana"],
+            "calories": 175,
+            "benefit": "Post-class protein + potassium reduces PCOS fatigue and muscle tension.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Curd Rice with Egg Bhurji",
+            "ingredients": ["Rice (mess)", "Curd", "Eggs", "Onion", "Tomato"],
+            "calories": 390,
+            "benefit": "Probiotic curd + egg protein is the most gut-hormone supportive hostel dinner.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1475,
+        "waterReminder": "Keep a water bottle by your bed and drink before sleeping.",
+        "dailyTip": "Carrying boiled eggs from the mess canteen is the cheapest PCOS protein hack."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats with Egg (Room-made)",
+            "ingredients": ["Instant oats", "Egg", "Milk or water", "Banana", "Cinnamon"],
+            "calories": 330,
+            "benefit": "Cinnamon + oats + egg is the most powerful PCOS breakfast trio for insulin control.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Peanut Butter Toast with Egg",
+            "ingredients": ["Whole wheat bread", "Peanut butter", "Egg"],
+            "calories": 290,
+            "benefit": "Peanut butter + egg on toast provides 20g protein for PCOS hormonal stability.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Rajma Rice with Boiled Egg",
+            "ingredients": ["Rajma (mess)", "Rice", "Egg"],
+            "calories": 520,
+            "benefit": "Kidney beans + egg together provide complete protein at the best-value hostel cost.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Sprouts",
+            "ingredients": ["Egg", "Moong sprouts", "Lemon"],
+            "calories": 165,
+            "benefit": "Sprouts zinc + egg folate is a micronutrient pair specifically beneficial for PCOS.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Chapati with Egg Curry",
+            "ingredients": ["Chapati (mess)", "Egg curry (mess)", "Salad"],
+            "calories": 420,
+            "benefit": "High-protein egg curry dinner supports overnight hormonal repair in PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1725,
+        "waterReminder": "Avoid cold drinks at the canteen — have buttermilk or plain water instead.",
+        "dailyTip": "Hostel egg bhurji with vegetables is one of the most PCOS-friendly meals you can make in a room."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Fried Rice (Light, Room-made)",
+            "ingredients": ["Leftover rice", "Egg", "Onion", "Soy sauce (light)", "Carrot"],
+            "calories": 380,
+            "benefit": "Quick room-cooked egg rice provides complete protein for a long class day.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Peanuts",
+            "ingredients": ["Roasted peanuts"],
+            "calories": 130,
+            "benefit": "Peanut resveratrol reduces PCOS ovarian cyst formation.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Sambar Rice with Boiled Egg",
+            "ingredients": ["Rice", "Sambar", "Egg", "Vegetable side"],
+            "calories": 490,
+            "benefit": "Sambar vegetables + egg completes the nutritional profile of a PCOS meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Seasonal Fruit",
+            "ingredients": ["Egg", "Guava or banana"],
+            "calories": 165,
+            "benefit": "Vitamin C from fruit enhances egg iron absorption for PCOS anaemia.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Khichdi with Egg",
+            "ingredients": ["Rice", "Moong dal", "Egg", "Ghee", "Turmeric"],
+            "calories": 390,
+            "benefit": "Egg khichdi is the ultimate one-pot PCOS hostel dinner.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1555,
+        "waterReminder": "Fill your bottle with water after dinner. Drink before sleeping.",
+        "dailyTip": "Egg fried rice is actually PCOS-friendly when made with minimal oil and added vegetables."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Bread Egg Omelette",
+            "ingredients": ["Whole wheat bread", "Egg", "Onion", "Tomato", "Green chilli"],
+            "calories": 320,
+            "benefit": "Egg omelette on bread is a 10-minute PCOS breakfast that beats any canteen option.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Seed Curd",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Flax lignans are the most potent natural PCOS anti-androgen.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Lemon Rice with Egg",
+            "ingredients": ["Lemon rice (mess)", "Peanuts", "Egg"],
+            "calories": 450,
+            "benefit": "Peanuts in lemon rice + egg completes the protein for a light mess meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Mixed Seeds with Egg White",
+            "ingredients": ["Pumpkin seeds", "Sunflower seeds", "Egg white"],
+            "calories": 140,
+            "benefit": "Pumpkin seed zinc reduces testosterone; egg white adds fat-free protein.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Roti with Egg Bhurji",
+            "ingredients": ["Roti (mess)", "Eggs", "Onion", "Tomato", "Coriander"],
+            "calories": 400,
+            "benefit": "Egg bhurji with roti is the most affordable PCOS protein dinner in any hostel.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1405,
+        "waterReminder": "Set a reminder every 2 hours — phone timer works perfectly.",
+        "dailyTip": "Egg whites can be stored boiled in the fridge for 3 days — meal prep is PCOS-friendly."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Mess Dosa with Boiled Egg",
+            "ingredients": ["Dosa (mess)", "Egg", "Sambar", "Chutney"],
+            "calories": 310,
+            "benefit": "Adding egg to mess dosa turns a carb meal into a PCOS-balanced meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Apple",
+            "ingredients": ["Egg", "Apple"],
+            "calories": 175,
+            "benefit": "Quercetin in apple + egg protein is a perfect mid-morning PCOS pair.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Chole Rice with Egg",
+            "ingredients": ["Chole (mess)", "Rice", "Egg", "Salad"],
+            "calories": 520,
+            "benefit": "Chickpea fibre + egg protein creates a complete PCOS meal from mess options.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Instant Oats with Egg",
+            "ingredients": ["Instant oats", "Egg", "Salt", "Pepper"],
+            "calories": 190,
+            "benefit": "Savoury oats with egg is a powerful PCOS snack that takes under 5 minutes.",
+            "prepTimeMinutes": 4,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Dal Chapati with Egg",
+            "ingredients": ["Chapati (mess)", "Dal", "Egg (bhurji or boiled)"],
+            "calories": 440,
+            "benefit": "Dal + egg at dinner covers all essential amino acids for overnight PCOS repair.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1635,
+        "waterReminder": "Carry 1 litre water to class — saves canteen money and improves PCOS focus.",
+        "dailyTip": "Eggs + legumes at the same meal provide the best complete protein for PCOS women."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Egg Poha",
+            "ingredients": ["Poha", "Egg", "Onion", "Mustard", "Curry leaves", "Turmeric"],
+            "calories": 350,
+            "benefit": "Iron from poha + egg protein + turmeric anti-inflammation — a PCOS triple win.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Curd with Flax Seeds",
+            "ingredients": ["Curd", "Ground flax seeds"],
+            "calories": 95,
+            "benefit": "Weekend flax + curd habit anchors the week's PCOS hormone management.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Biryani with Egg",
+            "ingredients": ["Vegetable biryani (mess)", "Egg (boiled)", "Raita"],
+            "calories": 520,
+            "benefit": "Biryani spices + egg + raita probiotics make a complete PCOS weekend meal.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Hard-Boiled Egg with Pumpkin Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds"],
+            "calories": 165,
+            "benefit": "Pumpkin zinc + egg selenium together protect PCOS ovaries from oxidative damage.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Khichdi with Egg Bhurji",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Turmeric", "Eggs", "Onion"],
+            "calories": 420,
+            "benefit": "Ghee butyrate heals gut lining critical for hormone absorption in PCOS.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1550,
+        "waterReminder": "Weekend goal: 10 glasses. Infuse with mint leaves if plain water is boring.",
+        "dailyTip": "Egg poha is one of the most underrated PCOS hostel breakfast options."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Besan Cheela with Egg",
+            "ingredients": ["Besan", "Egg", "Onion", "Tomato", "Green chilli", "Coriander"],
+            "calories": 310,
+            "benefit": "Besan chromium + egg complete protein = the most efficient PCOS breakfast.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Jaggery and Chana",
+            "ingredients": ["Egg", "Roasted chana", "Small jaggery piece"],
+            "calories": 205,
+            "benefit": "Jaggery iron + chana protein + egg choline is the best PCOS energy snack.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mess Pongal with Egg",
+            "ingredients": ["Pongal (mess)", "Egg", "Sambar", "Chutney"],
+            "calories": 450,
+            "benefit": "Rice-lentil pongal + egg covers complete protein for end-of-week recovery.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg White Omelette with Seeds",
+            "ingredients": ["Egg whites", "Pumpkin seeds", "Sunflower seeds"],
+            "calories": 140,
+            "benefit": "Low fat, high zinc end-of-week snack that locks in PCOS hormonal benefits.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Mess Roti with Dal and Egg",
+            "ingredients": ["Roti (mess)", "Dal", "Egg bhurji"],
+            "calories": 430,
+            "benefit": "End the week with a solid protein dinner for overnight PCOS repair.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1535,
+        "waterReminder": "Final hostel day of week — track your progress and plan next week.",
+        "dailyTip": "One full week of egg-enriched meals significantly improves PCOS insulin markers."
+      }
+    ],
+    "office_worker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Overnight Oats with Boiled Egg",
+            "ingredients": ["Rolled oats", "Curd", "Flax seeds", "Banana", "Egg"],
+            "calories": 390,
+            "benefit": "Prep tonight, eat tomorrow — zero morning stress with maximum PCOS nutrition.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Greek yogurt", "swap": "Homemade curd"}
+            ]
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Hard-Boiled Egg with Mixed Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds", "Sunflower seeds"],
+            "calories": 175,
+            "benefit": "Desk-friendly snack — seeds zinc + egg selenium protect PCOS ovaries.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Dal Rice Lunchbox with Egg Curry",
+            "ingredients": ["Toor dal", "Rice", "Egg", "Onion", "Tomato", "Cucumber salad"],
+            "calories": 520,
+            "benefit": "Packed egg curry lunchbox beats any office canteen for PCOS management.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Peanut Chikki",
+            "ingredients": ["Egg", "Peanut chikki (1 piece)"],
+            "calories": 200,
+            "benefit": "Jaggery iron + peanut + egg protein prevents the post-work binge eating.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Egg Curry with Chapati",
+            "ingredients": ["Spinach", "Eggs", "Whole wheat flour", "Onion", "Tomato", "Spices"],
+            "calories": 420,
+            "benefit": "Spinach folate + egg choline at dinner support hormonal methylation overnight.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1705,
+        "waterReminder": "Set a 2-hour desk reminder to drink water at work.",
+        "dailyTip": "Boiling 5 eggs on Sunday evening gives you all week's snack-protein in minutes."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Egg Bhurji",
+            "ingredients": ["Idli batter", "Eggs", "Onion", "Tomato", "Curry leaves"],
+            "calories": 370,
+            "benefit": "Office-perfect breakfast — takes 15 mins and powers through the morning meeting.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Roasted Makhana",
+            "ingredients": ["Makhana", "Rock salt", "Ghee"],
+            "calories": 110,
+            "benefit": "Magnesium in makhana reduces the cortisol stress hormone elevated in office PCOS.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Chapati with Egg Curry Lunchbox",
+            "ingredients": ["Whole wheat chapati", "Egg curry", "Cucumber salad"],
+            "calories": 490,
+            "benefit": "Egg curry chapati lunchbox is the gold standard PCOS office lunch.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Spearmint Tea",
+            "ingredients": ["Egg", "Spearmint tea (no sugar)"],
+            "calories": 120,
+            "benefit": "Spearmint tea + egg protein at 4 PM is a clinically backed PCOS intervention.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Soup with Egg Toast",
+            "ingredients": ["Yellow moong dal", "Egg", "Whole wheat bread", "Ginger", "Cumin"],
+            "calories": 340,
+            "benefit": "Light protein dinner after office reduces PCOS night-time cortisol spikes.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1430,
+        "waterReminder": "Keep 1-litre bottle visible at your desk — you drink it without thinking.",
+        "dailyTip": "10-minute post-lunch walk at office lowers post-meal blood sugar better than medication."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Dosa with Egg Omelette",
+            "ingredients": ["Ragi flour", "Rice flour", "Urad dal", "Egg", "Onion", "Pepper"],
+            "calories": 360,
+            "benefit": "Ragi calcium + egg protein + onion quercetin = complete PCOS office breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Hard-Boiled Egg with Apple",
+            "ingredients": ["Egg", "Apple"],
+            "calories": 175,
+            "benefit": "Apple quercetin mid-morning reduces adrenal stress that worsens PCOS at office.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Curd Rice with Egg (Lunchbox)",
+            "ingredients": ["Rice", "Curd", "Egg (bhurji)", "Pickle", "Curry leaves"],
+            "calories": 430,
+            "benefit": "Curd rice + egg is the most compact, PCOS-friendly office lunch possible.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Roasted Chana with Egg White",
+            "ingredients": ["Roasted chana", "Egg white"],
+            "calories": 140,
+            "benefit": "Chromium-rich chana + fat-free egg white is a PCOS-optimised office snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vegetable Khichdi with Egg",
+            "ingredients": ["Rice", "Moong dal", "Egg", "Carrot", "Beans", "Ghee"],
+            "calories": 390,
+            "benefit": "One-pot tired-evening meal with complete protein for overnight PCOS recovery.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1495,
+        "waterReminder": "Drink before you leave the office — commute dehydrates you.",
+        "dailyTip": "Curd rice + egg lunchbox takes 5 minutes to prepare and is nutritionally excellent for PCOS."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Besan Chilla with Egg",
+            "ingredients": ["Besan", "Egg", "Onion", "Tomato", "Coriander", "Curd"],
+            "calories": 360,
+            "benefit": "Besan chromium + egg protein creates the best PCOS insulin-management breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Sprouts",
+            "ingredients": ["Egg", "Moong sprouts", "Lemon", "Salt"],
+            "calories": 165,
+            "benefit": "Sprout zinc + egg folate at mid-morning prevents the PCOS afternoon fatigue.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Spinach Dal Chapati Lunchbox with Egg",
+            "ingredients": ["Toor dal", "Spinach", "Chapati", "Egg (boiled)", "Cucumber"],
+            "calories": 490,
+            "benefit": "Iron-rich spinach dal + egg B12 = complete PCOS anaemia intervention in a lunchbox.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Coconut Water with Egg White",
+            "ingredients": ["Coconut water", "Egg white"],
+            "calories": 80,
+            "benefit": "Post-work coconut water + egg white rehydrates and reduces PCOS cortisol.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Sambar with Egg Idli",
+            "ingredients": ["Idli batter", "Egg (in batter or side)", "Sambar", "Mixed vegetables"],
+            "calories": 380,
+            "benefit": "Egg-enriched idli after office provides protein for overnight hormonal restoration.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1475,
+        "waterReminder": "Try cucumber-mint infused water at the office today.",
+        "dailyTip": "Spinach dal lunchbox made the night before is the most efficient PCOS office routine."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Poha with Egg",
+            "ingredients": ["Poha", "Egg", "Peanuts", "Onion", "Turmeric", "Mustard", "Lemon"],
+            "calories": 380,
+            "benefit": "Iron-rich poha + egg protein + turmeric makes this the best quick PCOS Friday breakfast.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Guava Vitamin C boosts egg iron absorption — crucial for PCOS fatigue.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Canteen Dal Rice with Boiled Egg",
+            "ingredients": ["Dal", "Rice", "Egg (boiled from home)", "Salad"],
+            "calories": 490,
+            "benefit": "Bringing your own egg to the canteen turns a carb meal into a PCOS-balanced one.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg White Murmura Chaat",
+            "ingredients": ["Puffed rice", "Egg whites", "Onion", "Tomato", "Lemon"],
+            "calories": 140,
+            "benefit": "Protein-enriched murmura chaat prevents the Friday post-work junk food craving.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Bhurji with Chapati",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Capsicum", "Whole wheat flour"],
+            "calories": 380,
+            "benefit": "Quick Friday dinner that replenishes protein after the work week.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1545,
+        "waterReminder": "End the work week strong — 8 glasses minimum today.",
+        "dailyTip": "Saying no to Friday office snacks and eating your egg bhurji dinner is a PCOS win."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Moong Dal Chilla with Egg",
+            "ingredients": ["Moong dal", "Egg", "Onion", "Green chilli", "Coriander", "Mint chutney"],
+            "calories": 340,
+            "benefit": "Mint chutney reduces PCOS androgens; moong + egg provides complete protein.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg with Flax Curd",
+            "ingredients": ["Egg", "Curd", "Ground flax seeds"],
+            "calories": 170,
+            "benefit": "Flax + curd + egg at mid-morning anchors the weekend hormone management routine.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Vegetable Pulao with Egg Raita",
+            "ingredients": ["Basmati rice", "Mixed vegetables", "Egg", "Curd", "Cucumber"],
+            "calories": 500,
+            "benefit": "Weekend pulao with egg raita is a nourishing PCOS rest-day meal.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Spearmint Tea",
+            "ingredients": ["Egg", "Spearmint tea (no sugar)"],
+            "calories": 120,
+            "benefit": "Spearmint tea daily for one month reduces PCOS testosterone by up to 30%.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Egg Masala with Roti",
+            "ingredients": ["Spinach", "Eggs", "Onion", "Tomato", "Spices", "Whole wheat flour"],
+            "calories": 420,
+            "benefit": "Spinach folate + egg calcium + garlic anti-androgen — Saturday PCOS dinner perfection.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1550,
+        "waterReminder": "Weekend goal: 10 glasses. Prepare next week's boiled eggs and overnight oats tonight.",
+        "dailyTip": "Batch-cooking 7 boiled eggs on Sunday saves time and ensures protein every day."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats Dosa with Egg Side",
+            "ingredients": ["Rolled oats", "Semolina", "Curd", "Egg", "Tomato chutney"],
+            "calories": 360,
+            "benefit": "Oats GI benefit + egg protein = the most balanced PCOS Sunday breakfast.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg with Seasonal Fruit",
+            "ingredients": ["Egg", "Papaya or guava"],
+            "calories": 155,
+            "benefit": "Seasonal fruit rotates antioxidants while egg provides consistent PCOS protein.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Sambar Rice with Egg and Sundal",
+            "ingredients": ["Rice", "Sambar", "Egg", "Boiled chickpeas", "Coconut"],
+            "calories": 510,
+            "benefit": "Sunday full meal with egg is a complete PCOS nutritional reset before the week.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg White Sundal",
+            "ingredients": ["Egg whites", "Boiled chickpeas", "Mustard", "Curry leaves"],
+            "calories": 160,
+            "benefit": "Traditional Sunday sundal + egg white locks in a full week of PCOS protein.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Light Egg Rasam Rice",
+            "ingredients": ["Rice", "Tomato rasam", "Egg (boiled)", "Pepper", "Cumin", "Garlic"],
+            "calories": 350,
+            "benefit": "Light Sunday dinner prepares digestion for the full work week ahead.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1535,
+        "waterReminder": "Prepare tomorrow's overnight oats and boil Monday's eggs tonight.",
+        "dailyTip": "One consistent week of eggetarian PCOS meals measurably improves testosterone-to-oestrogen ratio."
+      }
+    ],
+    "homemaker": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Adai Dosa with Egg Omelette and Avial",
+            "ingredients": ["Rice", "Mixed lentils", "Egg", "Mixed vegetables", "Coconut", "Curd"],
+            "calories": 450,
+            "benefit": "Multi-lentil adai + egg provides the most complete PCOS amino acid profile.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Flax Curd with Egg White",
+            "ingredients": ["Curd", "Ground flax seeds", "Egg white"],
+            "calories": 120,
+            "benefit": "Flax lignans + egg white at mid-morning provides anti-androgen + protein double benefit.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Full Tamil Meals with Egg Curry",
+            "ingredients": ["Rice", "Sambar", "Rasam", "Kootu", "Egg curry", "Papad"],
+            "calories": 640,
+            "benefit": "Traditional Tamil thali + egg curry is nutritionally near-perfect for PCOS.",
+            "prepTimeMinutes": 50,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg Keerai Stir Fry (Small Bowl)",
+            "ingredients": ["Egg", "Spinach", "Garlic", "Onion"],
+            "calories": 150,
+            "benefit": "Spinach iron + egg B12 together address PCOS anaemia at the ideal snack time.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Egg Masala",
+            "ingredients": ["Whole wheat flour", "Eggs", "Onion", "Tomato", "Ginger", "Garlic", "Spices"],
+            "calories": 450,
+            "benefit": "Ginger-garlic egg masala is anti-inflammatory and protein-rich for PCOS dinner.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1810,
+        "waterReminder": "Start with warm lemon water this morning before preparing breakfast.",
+        "dailyTip": "Adding egg to Tamil thali requires only 10 minutes but doubles the protein content."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Ragi Mudde with Egg Keerai",
+            "ingredients": ["Ragi flour", "Egg", "Spinach", "Garlic", "Onion"],
+            "calories": 380,
+            "benefit": "Ragi's low GI + egg iron + spinach folate directly address the core PCOS triad.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Sprouts with Boiled Egg",
+            "ingredients": ["Moong sprouts", "Egg", "Coconut", "Mustard"],
+            "calories": 170,
+            "benefit": "Home-sprouted moong zinc + egg folate maximises ovarian protection.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Millet Sambar Rice with Vazhaithandu Kootu and Egg",
+            "ingredients": ["Foxtail millet", "Banana stem", "Toor dal", "Egg", "Sambar powder"],
+            "calories": 590,
+            "benefit": "Banana stem + millet + egg is a triple PCOS intervention in one meal.",
+            "prepTimeMinutes": 45,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg Chikki Style (Egg with Jaggery and Peanuts)",
+            "ingredients": ["Egg", "Jaggery", "Peanuts"],
+            "calories": 185,
+            "benefit": "Iron + protein + magnesium combination that reduces PCOS hormonal fatigue.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Moong Dal Khichdi with Egg and Ghee",
+            "ingredients": ["Rice", "Moong dal", "Egg", "Ghee", "Turmeric", "Cumin"],
+            "calories": 430,
+            "benefit": "Ghee butyrate + egg protein + moong dal fibre heals PCOS gut health overnight.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1755,
+        "waterReminder": "Drink jeera water after lunch — aids digestion and reduces PCOS bloating.",
+        "dailyTip": "Banana stem once a week + egg daily is among the best practical PCOS meal strategies."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pesarattu with Egg Omelette and Ginger Chutney",
+            "ingredients": ["Green moong dal", "Egg", "Ginger", "Green chilli", "Onion"],
+            "calories": 370,
+            "benefit": "Moong dal + egg = 20g complete protein for PCOS hormonal morning repair.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Amla Curd with Egg White",
+            "ingredients": ["Curd", "Amla", "Egg white", "Rock salt"],
+            "calories": 105,
+            "benefit": "Amla Vitamin C + probiotic curd + egg white is a unique PCOS immune booster.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Pavakkai Pitlai with Rice and Egg",
+            "ingredients": ["Bitter gourd", "Toor dal", "Tamarind", "Coconut", "Rice", "Egg"],
+            "calories": 550,
+            "benefit": "Bitter gourd + egg is among the most validated PCOS dietary interventions.",
+            "prepTimeMinutes": 45,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg and Murungai Keerai Adai",
+            "ingredients": ["Drumstick leaves", "Rice", "Lentil batter", "Egg", "Onion"],
+            "calories": 210,
+            "benefit": "Drumstick leaf iron + egg B12 at evening snack is optimal for PCOS absorption.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Rasam Rice with Egg Side",
+            "ingredients": ["Tomato rasam", "Rice", "Egg (boiled or bhurji)", "Pepper", "Garlic"],
+            "calories": 370,
+            "benefit": "Thermogenic rasam spices accelerate PCOS fat metabolism; egg replenishes protein.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1605,
+        "waterReminder": "Soak fenugreek overnight — drink the water on empty stomach tomorrow morning.",
+        "dailyTip": "Bitter gourd and egg twice a week is one of the most evidence-based PCOS meal pairs."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Paratha with Egg and Curd",
+            "ingredients": ["Whole wheat flour", "Fenugreek leaves", "Egg", "Curd"],
+            "calories": 420,
+            "benefit": "Methi diosgenin + egg choline together modulate PCOS hormone production.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Karamani Sundal with Egg White",
+            "ingredients": ["Cowpea", "Egg white", "Coconut", "Mustard"],
+            "calories": 160,
+            "benefit": "Cowpea folate + egg white protein supports ovarian cell division in PCOS.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Keerai Kootu with Rice, Sambar and Egg Curry",
+            "ingredients": ["Keerai", "Toor dal", "Coconut", "Rice", "Sambar", "Egg"],
+            "calories": 580,
+            "benefit": "Iron greens + protein dal + egg = the most complete PCOS homemaker lunch.",
+            "prepTimeMinutes": 40,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Banana Flower Egg Vadai",
+            "ingredients": ["Banana flower", "Egg", "Chana dal", "Fennel", "Onion"],
+            "calories": 210,
+            "benefit": "Banana flower's cycle-regulating compounds + egg protein = a unique PCOS evening food.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Chapati with Egg Dal Makhani",
+            "ingredients": ["Whole wheat flour", "Rajma", "Urad dal", "Egg", "Tomato", "Spices"],
+            "calories": 490,
+            "benefit": "Rajma + urad + egg at dinner provides the richest PCOS amino acid profile.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1860,
+        "waterReminder": "Drink the overnight fenugreek water today before breakfast.",
+        "dailyTip": "Banana flower vadai with egg is a uniquely South Indian PCOS recipe with proven benefits."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kollu Dosa with Egg and Tomato Chutney",
+            "ingredients": ["Horse gram", "Rice", "Urad dal", "Egg", "Tomato", "Garlic"],
+            "calories": 360,
+            "benefit": "Horse gram thermogenic + egg protein creates the most metabolically active PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Turmeric Milk with Boiled Egg",
+            "ingredients": ["Warm milk", "Turmeric", "Black pepper", "Egg"],
+            "calories": 220,
+            "benefit": "Curcumin + egg choline combination is the most anti-inflammatory PCOS snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kollu Rasam Rice with Egg and Poriyal",
+            "ingredients": ["Horse gram", "Tomato rasam", "Rice", "Egg", "Mixed vegetables"],
+            "calories": 560,
+            "benefit": "Horse gram rasam + egg is the most thermogenic PCOS lunch available in South India.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Pumpkin Seeds",
+            "ingredients": ["Egg", "Pumpkin seeds", "Rock salt"],
+            "calories": 175,
+            "benefit": "Pumpkin seed zinc + egg selenium = the best PCOS ovarian protection snack.",
+            "prepTimeMinutes": 0,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Vendakkai Sambar with Egg Idli",
+            "ingredients": ["Okra", "Toor dal", "Tamarind", "Idli batter", "Egg"],
+            "calories": 410,
+            "benefit": "Okra chromium + egg B12 + fermented idli probiotics = PCOS triple intervention.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1725,
+        "waterReminder": "Drink coriander seed water today for thyroid support common in PCOS.",
+        "dailyTip": "Horse gram and egg together are the most researched traditional South Indian PCOS meal pair."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Kambu Dosa with Egg Omelette",
+            "ingredients": ["Pearl millet flour", "Rice flour", "Urad dal", "Egg", "Onion", "Coconut chutney"],
+            "calories": 390,
+            "benefit": "Pearl millet magnesium + egg protein is a PCOS hormonal repair breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg White with Fresh Coconut",
+            "ingredients": ["Egg whites", "Fresh coconut"],
+            "calories": 120,
+            "benefit": "Coconut lauric acid + egg white protein supports hormone synthesis.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Mor Kuzhambu with Rice, Egg and Beans Poriyal",
+            "ingredients": ["Curd", "Coconut", "Rice", "Egg curry", "Beans", "Mustard"],
+            "calories": 560,
+            "benefit": "Probiotic mor kuzhambu + egg protein + beans fibre is a complete PCOS meal.",
+            "prepTimeMinutes": 35,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Broad Beans Sundal with Egg",
+            "ingredients": ["Broad beans", "Egg", "Coconut", "Mustard"],
+            "calories": 185,
+            "benefit": "Broad bean folate + egg B12 together support PCOS ovarian cell health.",
+            "prepTimeMinutes": 8,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Adai with Egg Keerai Masiyal",
+            "ingredients": ["Ragi flour", "Urad dal", "Egg", "Spinach", "Garlic", "Cumin"],
+            "calories": 400,
+            "benefit": "Ragi calcium + egg iron + keerai folate = PCOS triple deficiency solution.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1655,
+        "waterReminder": "Drink fenugreek water before sleep tonight — your PCOS hormones will thank you.",
+        "dailyTip": "Pearl millet dosa + egg is the highest-magnesium PCOS breakfast you can make at home."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Samai Pongal with Egg Side",
+            "ingredients": ["Little millet", "Moong dal", "Ghee", "Pepper", "Cumin", "Egg"],
+            "calories": 400,
+            "benefit": "Little millet phosphorus + egg choline + ghee butyrate = PCOS Sunday reset.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Papaya with Egg White and Flax",
+            "ingredients": ["Papaya", "Egg white", "Ground flax seeds"],
+            "calories": 125,
+            "benefit": "Papaya enzymes + flax lignans + egg protein = PCOS hormonal detox snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Puli Kuzhambu with Rice, Egg Kootu and Rasam",
+            "ingredients": ["Tamarind", "Small onions", "Rice", "Egg", "Dal kootu", "Tomato rasam"],
+            "calories": 620,
+            "benefit": "Traditional full Sunday meals with egg is the complete weekly PCOS nutritional reset.",
+            "prepTimeMinutes": 55,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Kollu Sundal with Egg White",
+            "ingredients": ["Horse gram", "Egg white", "Coconut", "Mustard"],
+            "calories": 160,
+            "benefit": "Weekly horse gram + egg white sundal builds PCOS thermogenic habit.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Venn Pongal with Egg Sambar",
+            "ingredients": ["Rice", "Moong dal", "Ghee", "Pepper", "Cumin", "Egg", "Sambar"],
+            "calories": 440,
+            "benefit": "Sunday venn pongal + egg sambar provides comfort and complete PCOS nutrition.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1745,
+        "waterReminder": "Great week! Prep fenugreek water for tomorrow and plan next week's eggs.",
+        "dailyTip": "Full Tamil meals with egg Sunday tradition is the most complete PCOS dietary system."
+      }
+    ],
+    "living_alone": [
+      {
+        "dayNumber": 1,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "2 Scrambled Eggs with Dosa",
+            "ingredients": ["Eggs", "Onion", "Tomato", "Curry leaves", "Dosa batter"],
+            "calories": 355,
+            "benefit": "Complete protein from eggs + fermented dosa probiotics for PCOS gut-hormone balance.",
+            "prepTimeMinutes": 10,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Moong Sundal with Boiled Egg",
+            "ingredients": ["Moong dal", "Egg", "Coconut", "Lemon"],
+            "calories": 195,
+            "benefit": "Egg vitamin D activates progesterone receptors; moong resistant starch stabilises blood sugar.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Sambar and Egg Curry",
+            "ingredients": ["Brown rice", "Drumstick sambar", "Egg", "Plain curd"],
+            "calories": 490,
+            "benefit": "Banana stem diuretic + drumstick zinc + egg B12 address PCOS water retention and anaemia.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Brown rice", "swap": "Regular rice (smaller portion)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Peanuts",
+            "ingredients": ["Egg", "Peanuts", "Spearmint tea"],
+            "calories": 190,
+            "benefit": "Spearmint tea reduces PCOS free testosterone; peanuts add healthy fats.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Almonds", "swap": "Peanuts"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Ragi Mudde with Keerai and Egg Curry",
+            "ingredients": ["Ragi flour", "Spinach", "Garlic", "Egg", "Clear rasam"],
+            "calories": 365,
+            "benefit": "Ragi's low GI promotes satiety; spinach iron + egg B12 combat PCOS anaemia.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1595,
+        "waterReminder": "Drink 8–10 glasses today. Start with warm water before your first egg.",
+        "dailyTip": "Eggs eaten daily for 4 weeks measurably improve PCOS cholesterol and hormonal markers."
+      },
+      {
+        "dayNumber": 2,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Idli with Egg Bhurji and Flax Seeds",
+            "ingredients": ["Idli batter", "Eggs", "Onion", "Tomato", "Sambar", "Ground flax seeds"],
+            "calories": 370,
+            "benefit": "Fermented idli + egg bhurji + flax lignans is the most complete PCOS breakfast.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Hard-Boiled Egg with Peanuts",
+            "ingredients": ["Egg", "Peanuts", "Spearmint tea"],
+            "calories": 190,
+            "benefit": "Spearmint tea clinically reduces PCOS testosterone; peanut fats support hormone synthesis.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Rice with Kootu and Egg",
+            "ingredients": ["Foxtail millet", "Mixed vegetables", "Coconut", "Egg", "Buttermilk"],
+            "calories": 450,
+            "benefit": "Foxtail millet's iron and low GI are critical for PCOS insulin management.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": [
+              {"original": "Quinoa", "swap": "Foxtail millet (thinai)"}
+            ]
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Chia Curd Pudding with Egg White",
+            "ingredients": ["Curd", "Flax or chia seeds", "Egg white", "Coconut"],
+            "calories": 150,
+            "benefit": "Omega-3 seeds + probiotic curd + egg white = complete PCOS gut-hormone snack.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Pesarattu with Egg Omelette",
+            "ingredients": ["Green moong dal", "Egg", "Curry leaves", "Ginger chutney"],
+            "calories": 375,
+            "benefit": "Moong folate + egg B6 support progesterone production at the most effective time.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1535,
+        "waterReminder": "Replace one sugary drink today with buttermilk or plain water.",
+        "dailyTip": "2 eggs daily for PCOS provides the full daily choline requirement for hormonal signalling."
+      },
+      {
+        "dayNumber": 3,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Oats Adai with Scrambled Eggs",
+            "ingredients": ["Rolled oats", "Toor dal", "Urad dal", "Eggs", "Turmeric", "Pepper"],
+            "calories": 340,
+            "benefit": "Turmeric curcumin eases PCOS inflammation; oats beta-glucan lowers PCOS cholesterol.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg White with Pumpkin Seeds",
+            "ingredients": ["Egg whites", "Pumpkin seeds", "Lemon"],
+            "calories": 110,
+            "benefit": "Pumpkin seed zinc is the most effective natural PCOS androgen suppressant.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Kodo Millet Rice with Brinjal and Egg",
+            "ingredients": ["Kodo millet", "Brinjal", "Toor dal", "Egg", "Curd"],
+            "calories": 480,
+            "benefit": "Kodo millet phytochemicals lower PCOS cholesterol and blood sugar together.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Roasted Makhana and Cinnamon Tea",
+            "ingredients": ["Egg", "Makhana", "Cinnamon tea"],
+            "calories": 185,
+            "benefit": "Cinnamon improves PCOS menstrual regularity and insulin resistance.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Palak Egg Masala with Chapati",
+            "ingredients": ["Spinach", "Eggs", "Whole wheat flour", "Onion", "Tomato", "Spices"],
+            "calories": 395,
+            "benefit": "One-pot dinner with spinach folate + egg choline for overnight PCOS hormone repair.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1510,
+        "waterReminder": "Drink a glass of water before preparing each meal today.",
+        "dailyTip": "Spearmint tea twice daily for one month reduces PCOS testosterone by up to 30%."
+      },
+      {
+        "dayNumber": 4,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Barnyard Millet Pongal with Egg Omelette",
+            "ingredients": ["Barnyard millet", "Moong dal", "Ghee", "Pepper", "Egg", "Onion"],
+            "calories": 360,
+            "benefit": "Gluten-free barnyard millet + ghee provides fat-soluble vitamins for PCOS hormone synthesis.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg with Banana",
+            "ingredients": ["Egg", "Banana"],
+            "calories": 175,
+            "benefit": "Potassium from banana + egg protein is the simplest PCOS morning energy booster.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Bitter Gourd and Egg",
+            "ingredients": ["Brown rice", "Bitter gourd", "Egg", "Drumstick leaves", "Buttermilk"],
+            "calories": 465,
+            "benefit": "Bitter gourd clinically proven to improve insulin sensitivity — the root cause of PCOS.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Horse Gram Sundal with Boiled Egg",
+            "ingredients": ["Horse gram", "Egg", "Onion", "Tomato", "Coriander"],
+            "calories": 178,
+            "benefit": "Horse gram thermogenic + egg protein = PCOS-optimal evening snack for weight loss.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Keerai Stir Fry with Ragi Adai",
+            "ingredients": ["Eggs", "Spinach", "Ragi flour", "Urad dal", "Kollu rasam"],
+            "calories": 355,
+            "benefit": "Light, complete protein dinner for solo cooking that minimises waste.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1533,
+        "waterReminder": "Replace one tea or coffee today with warm turmeric-pepper water.",
+        "dailyTip": "Horse gram and egg together have been eaten in South India for PCOS for centuries."
+      },
+      {
+        "dayNumber": 5,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Pearl Millet Dosa with Egg Bhurji",
+            "ingredients": ["Pearl millet", "Rice flour", "Eggs", "Carrot", "Curry leaves"],
+            "calories": 350,
+            "benefit": "Pearl millet's high magnesium reduces PCOS insulin resistance more than wheat.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Egg with Flax Curd",
+            "ingredients": ["Egg", "Curd", "Ground flax seeds"],
+            "calories": 160,
+            "benefit": "Flax lignans reduce excess oestrogen; egg protein builds PCOS hormones.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Little Millet Rice with Broad Beans Kootu and Egg",
+            "ingredients": ["Little millet", "Broad beans", "Egg", "Tomato rasam", "Curd"],
+            "calories": 465,
+            "benefit": "Little millet B vitamins + broad beans protein + egg complete amino acids.",
+            "prepTimeMinutes": 25,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Guava",
+            "ingredients": ["Egg", "Guava"],
+            "calories": 155,
+            "benefit": "Guava Vitamin C + egg iron = best PCOS anaemia prevention snack.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Blueberries", "swap": "Guava"}
+            ]
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Okra Sambar with Egg Dosa",
+            "ingredients": ["Okra", "Toor dal", "Tamarind", "Egg", "Dosa batter"],
+            "calories": 372,
+            "benefit": "Okra's soluble fibre + chromium reduce insulin resistance; egg dosa boosts protein.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1502,
+        "waterReminder": "Drink jeera water today — aids PCOS digestion and reduces bloating.",
+        "dailyTip": "Cooking for one with eggs creates zero waste — a boiled egg keeps for 3 days."
+      },
+      {
+        "dayNumber": 6,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Methi Sprouted Dosa with Egg White Omelette",
+            "ingredients": ["Fenugreek seeds", "Rice", "Urad dal", "Egg whites", "Spinach"],
+            "calories": 365,
+            "benefit": "Fenugreek diosgenin + turmeric milk combination reduces systemic PCOS inflammation.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Mixed Sprouts Chaat with Boiled Egg",
+            "ingredients": ["Moong sprouts", "Chickpea sprouts", "Egg", "Tomato", "Lemon"],
+            "calories": 200,
+            "benefit": "Sprouting doubles zinc; egg complete protein = the ultimate solo PCOS snack.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Brown Rice with Banana Flower Egg Stir Fry",
+            "ingredients": ["Brown rice", "Banana flower", "Egg", "Manathakkali keerai", "Tomato rasam"],
+            "calories": 475,
+            "benefit": "Banana flower regulates PCOS menstrual cycles; keerai reduces ovarian inflammation.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Medium",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Egg with Pumpkin Seeds and Spearmint Tea",
+            "ingredients": ["Egg", "Pumpkin seeds", "Spearmint tea"],
+            "calories": 175,
+            "benefit": "Pumpkin zinc + spearmint anti-androgen + egg protein = triple PCOS hormone support.",
+            "prepTimeMinutes": 3,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Egg Kootu with Toor Dal and Phulka",
+            "ingredients": ["Eggs", "Mixed vegetables", "Toor dal", "Whole wheat flour", "Clear rasam"],
+            "calories": 380,
+            "benefit": "Egg B12 + dal fibre at dinner = overnight PCOS hormonal repair and gut healing.",
+            "prepTimeMinutes": 20,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1595,
+        "waterReminder": "Mint-infused water today — spearmint reduces PCOS androgens.",
+        "dailyTip": "Banana flower with egg once a week is the most uniquely South Indian PCOS recipe."
+      },
+      {
+        "dayNumber": 7,
+        "meals": {
+          "breakfast": {
+            "mealType": "breakfast",
+            "mealName": "Vegetable Egg Uttapam",
+            "ingredients": ["Dosa batter", "Eggs", "Carrot", "Onion", "Tomato", "Sambar"],
+            "calories": 360,
+            "benefit": "Egg-topped uttapam combines fermented carbs with complete protein for PCOS stability.",
+            "prepTimeMinutes": 12,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "midMorningSnack": {
+            "mealType": "midMorningSnack",
+            "mealName": "Chia Curd Pudding with Egg",
+            "ingredients": ["Curd", "Flax seeds", "Egg", "Fresh coconut"],
+            "calories": 190,
+            "benefit": "Omega-3 seeds + curd probiotics + egg DHA maximise PCOS anti-inflammatory support.",
+            "prepTimeMinutes": 5,
+            "difficulty": "Easy",
+            "affordableSwaps": [
+              {"original": "Chia seeds", "swap": "Ground flax seeds"}
+            ]
+          },
+          "lunch": {
+            "mealType": "lunch",
+            "mealName": "Foxtail Millet Bisibelabath with Egg",
+            "ingredients": ["Foxtail millet", "Toor dal", "Mixed vegetables", "Egg", "Cucumber raita"],
+            "calories": 478,
+            "benefit": "One-pot millet-lentil meal provides complete amino acids; egg adds vitamin D.",
+            "prepTimeMinutes": 30,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "eveningSnack": {
+            "mealType": "eveningSnack",
+            "mealName": "Boiled Egg with Coconut and Pumpkin Seeds",
+            "ingredients": ["Egg", "Fresh coconut", "Pumpkin seeds"],
+            "calories": 215,
+            "benefit": "End-of-week coconut medium-chain fats + egg + seeds locks in PCOS hormonal gains.",
+            "prepTimeMinutes": 2,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          },
+          "dinner": {
+            "mealType": "dinner",
+            "mealName": "Pesarattu with Egg Keerai Omelette and Kollu Rasam",
+            "ingredients": ["Moong dal", "Eggs", "Spinach", "Horse gram rasam"],
+            "calories": 372,
+            "benefit": "Light protein-rich Sunday dinner promotes overnight fat burning in PCOS.",
+            "prepTimeMinutes": 15,
+            "difficulty": "Easy",
+            "affordableSwaps": []
+          }
+        },
+        "dailyCalories": 1615,
+        "waterReminder": "Final day — track your water intake this week and celebrate consistency.",
+        "dailyTip": "One full week of eggetarian PCOS meals measurably improves testosterone-to-oestrogen ratio."
+      }
+    ]
+  }
+}

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'weight_loss_veg.dart';
-import 'weight_loss_egg.dart';
-import 'weight_loss_nonveg.dart';
+import 'goal_selection.dart';
 
 class WeightOptionsPage extends StatelessWidget {
   const WeightOptionsPage({super.key});
@@ -12,7 +10,7 @@ class WeightOptionsPage extends StatelessWidget {
       backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
         title: const Text(
-          "Weight Loss Meal Plan",
+          "Diet Planner",
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.deepPurple,
@@ -24,7 +22,7 @@ class WeightOptionsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header image + title
+
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(20),
@@ -46,23 +44,27 @@ class WeightOptionsPage extends StatelessWidget {
                     height: 160,
                     fit: BoxFit.contain,
                     errorBuilder: (_, __, ___) => Icon(
-                      Icons.monitor_weight_outlined,
+                      Icons.restaurant_menu,
                       size: 80,
                       color: Colors.deepPurple.shade200,
                     ),
                   ),
+
                   const SizedBox(height: 16),
+
                   const Text(
-                    "Weight Loss",
+                    "PCOS Diet Planner",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
                       color: Colors.deepPurple,
                     ),
                   ),
+
                   const SizedBox(height: 8),
+
                   const Text(
-                    "Reduce fat naturally with balanced PCOD-friendly meals.",
+                    "Choose your health goal and receive a personalised meal plan based on your lifestyle and food preference.",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
@@ -76,22 +78,27 @@ class WeightOptionsPage extends StatelessWidget {
 
             const SizedBox(height: 24),
 
-            // 7-Day label
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
                 color: Colors.deepPurple.shade50,
                 borderRadius: BorderRadius.circular(14),
-                border: Border.all(color: Colors.deepPurple.shade200),
+                border: Border.all(
+                  color: Colors.deepPurple.shade200,
+                ),
               ),
               child: const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment:
+                    MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.calendar_month, color: Colors.deepPurple),
+                  Icon(
+                    Icons.calendar_month,
+                    color: Colors.deepPurple,
+                  ),
                   SizedBox(width: 10),
                   Text(
-                    "7-Day Diet Meal Plan",
+                    "Personalised Diet Planner",
                     style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 16,
@@ -104,9 +111,8 @@ class WeightOptionsPage extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Section title
             const Text(
-              "Choose your diet type",
+              "Start Your Journey",
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w700,
@@ -115,41 +121,127 @@ class WeightOptionsPage extends StatelessWidget {
             ),
 
             const SizedBox(height: 14),
+                        _dietButton(
+              context,
+              label: "Start Personalized Diet Plan",
+              icon: Icons.restaurant_menu_rounded,
+              subtitle:
+                  "Choose your goal, lifestyle and food preference",
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const GoalSelectionPage(),
+                  ),
+                );
+              },
+            ),
 
-            // Diet buttons
-            _dietButton(
-              context,
-              label: "Vegetarian",
-              icon: Icons.eco,
-              subtitle: "Plant-based meals rich in iron & fiber",
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const WeightLossVegPage()),
+            const SizedBox(height: 16),
+
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(14),
+                border: Border.all(
+                  color: Colors.deepPurple.shade100,
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.deepPurple.withOpacity(0.07),
+                    blurRadius: 8,
+                    offset: const Offset(0, 3),
+                  ),
+                ],
+              ),
+              child: Column(
+                crossAxisAlignment:
+                    CrossAxisAlignment.start,
+                children: [
+
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.auto_awesome,
+                        color: Colors.deepPurple,
+                      ),
+                      SizedBox(width: 8),
+                      Text(
+                        "Coming Soon",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.deepPurple,
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  SizedBox(height: 12),
+
+                  Text(
+                    "Smart Meal Finder",
+                    style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                      fontSize: 15,
+                    ),
+                  ),
+
+                  SizedBox(height: 6),
+
+                  Text(
+                    "Have only a few ingredients at home? Enter what you have and CysterEase will suggest the best PCOS-friendly meals.",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      height: 1.4,
+                    ),
+                  ),
+
+                  SizedBox(height: 14),
+
+                  FilledButton.icon(
+                    onPressed: null,
+                    icon: Icon(Icons.lock_outline),
+                    label: Text("Available Soon"),
+                  ),
+                ],
               ),
             ),
-            const SizedBox(height: 12),
-            _dietButton(
-              context,
-              label: "Eggetarian",
-              icon: Icons.egg,
-              subtitle: "Egg-powered protein with Tamil superfoods",
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const WeightLossEggPage()),
+
+            const SizedBox(height: 20),
+
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: Colors.deepPurple.shade50,
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Row(
+                crossAxisAlignment:
+                    CrossAxisAlignment.start,
+                children: [
+                  Icon(
+                    Icons.lightbulb_outline,
+                    color: Colors.deepPurple,
+                  ),
+
+                  SizedBox(width: 10),
+
+                  Expanded(
+                    child: Text(
+                      "Your meal plans are customised based on your health goal, lifestyle and food preference to make healthy eating practical and affordable.",
+                      style: TextStyle(
+                        height: 1.5,
+                        color: Colors.black87,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
-            const SizedBox(height: 12),
-            _dietButton(
-              context,
-              label: "Non-Vegetarian",
-              icon: Icons.restaurant,
-              subtitle: "High-protein chicken, fish & seafood meals",
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const WeightLossNonvegPage()),
-              ),
-            ),
-          ],
+                      ],
         ),
       ),
     );
@@ -166,11 +258,16 @@ class WeightOptionsPage extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: double.infinity,
-        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 18,
+          vertical: 16,
+        ),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: Colors.deepPurple.shade100),
+          border: Border.all(
+            color: Colors.deepPurple.shade100,
+          ),
           boxShadow: [
             BoxShadow(
               color: Colors.deepPurple.withOpacity(0.07),
@@ -187,12 +284,19 @@ class WeightOptionsPage extends StatelessWidget {
                 color: Colors.deepPurple.shade50,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Icon(icon, color: Colors.deepPurple, size: 22),
+              child: Icon(
+                icon,
+                color: Colors.deepPurple,
+                size: 22,
+              ),
             ),
+
             const SizedBox(width: 14),
+
             Expanded(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment:
+                    CrossAxisAlignment.start,
                 children: [
                   Text(
                     label,
@@ -202,7 +306,9 @@ class WeightOptionsPage extends StatelessWidget {
                       color: Colors.deepPurple,
                     ),
                   ),
+
                   const SizedBox(height: 3),
+
                   Text(
                     subtitle,
                     style: TextStyle(
@@ -213,8 +319,12 @@ class WeightOptionsPage extends StatelessWidget {
                 ],
               ),
             ),
-            Icon(Icons.arrow_forward_ios_rounded,
-                size: 14, color: Colors.deepPurple.shade300),
+
+            Icon(
+              Icons.arrow_forward_ios_rounded,
+              size: 14,
+              color: Colors.deepPurple.shade300,
+            ),
           ],
         ),
       ),
